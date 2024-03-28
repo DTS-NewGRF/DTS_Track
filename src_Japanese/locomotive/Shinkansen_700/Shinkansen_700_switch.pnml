@@ -1,0 +1,42 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_Shinkansen_700_8car, position_in_vehid_chain % 8) {
+    1:set_700_RS_panto_wagon;
+    2:set_700_RS_wagon;
+    3:set_700_RS_wagon;
+    4:set_700_RS_wagon;
+    5:set_700_RS_wagon;
+    6:set_700_RS_panto_wagon_r;
+    7:set_700_RS_engineT;
+    set_700_RS_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_Shinkansen_700_16car, position_in_vehid_chain % 16) {
+    1:set_700_wagon;
+    2:set_700_wagon;
+    3:set_700_wagon;
+    4:set_700_panto_wagon;
+    5:set_700_wagon;
+    6:set_700_wagon;
+    7:set_700_wagon;
+    8:set_700_wagon;
+    9:set_700_wagon;
+    10:set_700_wagon;
+    11:set_700_panto_wagon_r;
+    12:set_700_wagon;
+    13:set_700_wagon;
+    14:set_700_wagon;
+    15:set_700_engineT;
+    set_700_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_700_8car, extra_callback_info1) {
+    1..7: Shinkansen_700_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Shinkansen_700_16car, extra_callback_info1) {
+    1..15: Shinkansen_700_16Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

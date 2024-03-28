@@ -1,0 +1,301 @@
+/*--------------------------------------------------------------------
+YTRO 100
+--------------------------------------------------------------------*/
+// Graphics
+#include "Korail_3rd_graphic.pnml"
+
+// Switch
+#include "Korail_3rd_switch.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_3rd, 2219){
+    property {
+        name:                           string(STR_Group_Korail_3rd_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          1600 kW;
+        variant_group:                  Korail;
+        }
+
+    graphics {
+        purchase:                       sw_Korail_3rd_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_3rd_ST_4car, 2222){
+    property {
+        name:                           string(STR_Korail_3rd_ST_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2011, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_3rd;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          1600 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 122;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_3rd_ST_4car_reversed;
+        articulated_part:               sw_articulated_Korail_3rd_ST_4car;
+        purchase:                       sw_Korail_3rd_purchase;
+        speed:                          sw_Korail_3rd_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Korail_3rd_4car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_3rd_G1_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 4량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_3rd_G2_4car, 2223){
+    property {
+        name:                           string(STR_Korail_3rd_G2_4Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2021, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_3rd;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          1680 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 117;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_3rd_G2_4car_reversed;
+        articulated_part:               sw_articulated_Korail_3rd_G2_4car;
+        purchase:                       sw_Korail_3rd_G2_purchase;
+        speed:                          sw_Korail_3rd_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        sound_effect:                   sw_Korail_3rd_G2_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 6량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_3rd_6car, 2224){
+    property {
+        name:                           string(STR_Korail_3rd_6Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2011, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_3rd;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          2400 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 125;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_3rd_6car_reversed;
+        articulated_part:               sw_articulated_Korail_3rd_6car;
+        purchase:                       sw_Korail_3rd_purchase;
+        speed:                          sw_Korail_3rd_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Korail_3rd_6car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_3rd_G1_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 8량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_3rd_8car, 2225){
+    property {
+        name:                           string(STR_Korail_3rd_8Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2006, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_3rd;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          3200 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 127;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_3rd_8car_reversed;
+        articulated_part:               sw_articulated_Korail_3rd_8car;
+        purchase:                       sw_Korail_3rd_purchase;
+        speed:                          sw_Korail_3rd_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Korail_3rd_8car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_3rd_G1_sound;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차정보 10량
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Korail_3rd_10car, 2226){
+    property {
+        name:                           string(STR_Korail_3rd_10Car_NAME);
+        climates_available:             ALL_CLIMATES;
+        introduction_date:              date(2005, 1, 1);
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  Korail_3rd;
+        
+        //spec
+        speed:                          120km/h;
+        power:                          4000 kW;
+        weight:                         20 ton;
+        tractive_effort_coefficient:    0.3;
+        air_drag_coefficient:           0.01;
+        
+        //Model
+        model_life:                     VEHICLE_NEVER_EXPIRES;
+        vehicle_life:                   30;
+        retire_early:                   0;
+        reliability_decay:              0;
+        
+        //Cargo
+        cargo_capacity:                 127;
+        refittable_cargo_classes:       NO_CARGO_CLASS;
+        non_refittable_cargo_classes:   NO_CARGO_CLASS;
+        cargo_allow_refit:              [PASS];
+        cargo_disallow_refit:           [];
+        
+        //Costs
+        refit_cost:                     0;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        
+        //Flags
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         35 ton;
+        }
+
+    graphics {
+        default:                        sw_Korail_3rd_10car_reversed;
+        articulated_part:               sw_articulated_Korail_3rd_10car;
+        purchase:                       sw_Korail_3rd_purchase;
+        speed:                          sw_Korail_3rd_speed;
+        loading_speed:                  25;
+        cost_factor:                    10;
+        running_cost_factor:            150;
+        cargo_subtype_text:             sw_Korail_3rd_10car_cargo_subtype_text;
+        sound_effect:                   sw_Korail_3rd_G1_sound;
+        }
+        }

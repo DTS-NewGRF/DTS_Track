@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_Al_Boraq_10car, position_in_vehid_chain % 10) {
+    1:set_Al_Boraq_wagon_start;
+    2:set_Al_Boraq_wagon_nomal;
+    3:set_Al_Boraq_wagon_nomal;
+    4:set_Al_Boraq_wagon_nomal;
+    5:set_Al_Boraq_wagon_bar;
+    6:set_Al_Boraq_wagon_special;
+    7:set_Al_Boraq_wagon_special;
+    8:set_Al_Boraq_wagon_end;
+    9:set_Al_Boraq_engineT;
+    set_Al_Boraq_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Al_Boraq_10car, extra_callback_info1) {
+    1..9: Al_Boraq_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_Al_Boraq_speed, Use_max_virtual_speed) {
+    1: return High_Speed_Train;
+    return 320;
+    }

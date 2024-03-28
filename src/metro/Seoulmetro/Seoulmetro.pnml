@@ -1,0 +1,38 @@
+/*--------------------------------------------------------------------
+서울교통공사
+--------------------------------------------------------------------*/
+// Graphics
+#include "Seoulmetro_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹 서울교통공사
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Seoulmetro, 2373){
+    property {
+        name:                           string(STR_Group_Seoulmetro_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2592 kW;
+        }
+
+    graphics {
+        purchase:                       sw_Seoulmetro_purchase;
+        }
+        }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "Chopper/GEC/GEC.pnml"
+#include "Chopper/MELCO/MELCO.pnml"
+#include "Chopper/Wide_Range_GEC/Wide_Range_GEC.pnml"
+#include "Rheostatic/Rheostatic_S1000/Seoulmetro_First/Seoulmetro_First.pnml"
+#include "Rheostatic/Rheostatic_S1000/Seoulmetro_Rheostatic/Seoulmetro_Rheostatic.pnml"
+#include "Rheostatic/Rheostatic_S2000/Rheostatic_S2000.pnml"
+#include "Seoulmetro_1st/Seoulmetro_1st.pnml"
+#include "Seoulmetro_2nd/Seoulmetro_2nd.pnml"
+#include "Seoulmetro_3rd/Seoulmetro_3rd.pnml"
+#include "Seoulmetro_4th/Seoulmetro_4th.pnml"
+#include "Seoulmetro_5th/Seoulmetro_5th.pnml"

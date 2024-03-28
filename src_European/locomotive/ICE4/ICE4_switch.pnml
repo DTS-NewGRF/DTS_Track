@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+
+switch(FEAT_TRAINS, SELF, sw_ICE4_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_ICE4_green);   // 그린
+    return string(STR_REFIT_LIVERY_ICE4_red);      // 레드
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE4_engineH, cargo_subtype) {
+    1: set_ICE4_G_engineH;
+    set_ICE4_R_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE4_engineT, cargo_subtype) {
+    1: set_ICE4_G_engineT;
+    set_ICE4_R_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE4_panto_wagon_cargo_subtype, cargo_subtype) {
+    1: set_ICE4_G_wagon_panto; // 그린
+    set_ICE4_R_wagon_panto;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE4_wagon, cargo_subtype) {
+    1: set_ICE4_G_wagon; // 그린
+    set_ICE4_R_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE4_wagon_rest, cargo_subtype) {
+    1: set_ICE4_G_wagon_rest; // 그린
+    set_ICE4_R_wagon_rest;
+}
+
+switch (FEAT_TRAINS, SELF, sw_ICE4_7car, position_in_vehid_chain % 7) {
+    1:sw_ICE4_wagon;
+    2:sw_ICE4_panto_wagon_cargo_subtype;
+    3:sw_ICE4_wagon;
+    4:sw_ICE4_panto_wagon_cargo_subtype;
+    5:sw_ICE4_wagon_rest;
+    6:sw_ICE4_engineT;
+    sw_ICE4_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_ICE4_12car, position_in_vehid_chain % 12) {
+    1:sw_ICE4_wagon;
+    2:sw_ICE4_wagon;
+    3:sw_ICE4_panto_wagon_cargo_subtype;
+    4:sw_ICE4_wagon;
+    5:sw_ICE4_wagon;
+    6:sw_ICE4_wagon;
+    7:sw_ICE4_panto_wagon_cargo_subtype;
+    8:sw_ICE4_wagon_rest;
+    9:sw_ICE4_wagon;
+    10:sw_ICE4_wagon;
+    11:sw_ICE4_engineT;
+    sw_ICE4_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_ICE4_7car, extra_callback_info1) {
+    1..6: ICE4_7Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_ICE4_12car, extra_callback_info1) {
+    1..11: ICE4_12Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    } 
+
+switch(FEAT_TRAINS, SELF, sw_ICE4_wagon_7Car_attach, vehicle_type_id) {
+    ICE4_7Car:               return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_ICE4_speed, Use_max_virtual_speed) {
+    1: return Semi_High_SPEED_Train;
+    return 250;
+    }

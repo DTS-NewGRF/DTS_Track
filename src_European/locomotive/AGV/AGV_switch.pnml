@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_AGV_11car, position_in_vehid_chain % 11) {
+    1:set_AGV_wagon;
+    2:set_AGV_wagon;
+    3:set_AGV_wagon_panto_wagon;
+    4:set_AGV_wagon;
+    5:set_AGV_wagon;
+    6:set_AGV_panto_wagon_r;
+    7:set_AGV_wagon;
+    8:set_AGV_wagon;
+    9:set_AGV_wagon;
+    10:set_AGV_engineT;
+    set_AGV_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_AGV_11car, extra_callback_info1) {
+    1..10: AGV_11Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_AGV_speed, Use_max_virtual_speed) {
+    1: return High_Speed_Train;
+    return 300;
+    }

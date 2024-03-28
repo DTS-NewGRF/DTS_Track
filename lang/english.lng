@@ -1,0 +1,179 @@
+##grflangid 0x01
+
+# GRF name and description
+STR_GRF_NAME                                      :Korean Track Set 1.4.0
+STR_GRF_DESC                                      :Korean Track Set adds train and metro tracks in South Korea. Highly recommended to use with Korean Train Set or Korean Train Set Plus. It is NOT guaranteed compatibility with the other train sets or track sets.
+STR_GRF_URL                                       :https://github.com/SerpensNebula/Korean-Tracks
+
+# Parameters - Speed Limit
+STR_PARA_NAME_SPEED_NARROW_762                    :Speed limit on 762mm narrow gauge tracks (km/h)
+STR_PARA_DESC_SPEED_NARROW_762                    :Set speed limit on 762mm narrow gauge tracks. The default value is 70. 0 is unlimited.
+STR_PARA_NAME_SPEED_LOW_SPEED                     :Speed limit on low speed tracks (km/h)
+STR_PARA_DESC_SPEED_LOW_SPEED                     :Set speed limit on low speed tracks. The default value is 121. 0 is unlimited.
+STR_PARA_NAME_SPEED_MAIN_LINE                     :Speed limit on standard speed tracks (km/h)
+STR_PARA_DESC_SPEED_MAIN_LINE                     :Set speed limit on standard speed tracks. The default value is 180. 0 is unlimited.
+STR_PARA_NAME_SPEED_SEMI_HIGH_SPEED               :Speed limit on semi high speed tracks (km/h)
+STR_PARA_DESC_SPEED_SEMI_HIGH_SPEED               :Set speed limit on semi high speed tracks. The default value is 261. 0 is unlimited.
+STR_PARA_NAME_SPEED_HIGH_SPEED                    :Speed limit on high speed Tracks (km/h)
+STR_PARA_DESC_SPEED_HIGH_SPEED                    :Set speed limit on high speed Tracks. The default value is 430. 0 is unlimited.
+STR_PARA_NAME_SPEED_METRO                         :Speed limit on metro tracks (km/h)
+STR_PARA_DESC_SPEED_METRO                         :Set speed limit on metro tracks. The default value is 180. 0 is unlimited.
+STR_PARA_NAME_SPEED_LIGHT                         :Speed limit on light rail tracks (km/h)
+STR_PARA_DESC_SPEED_LIGHT                         :Set speed limit on third rail track. The default value is 121. 0 is unlimited.
+
+# Parameters - Construction Cost
+STR_PARA_NAME_CONST_COST_NARROW_762               :Construction cost variable of 762mm narrow gauge track
+STR_PARA_DESC_CONST_COST_NARROW_762               :Set construction cost variable of 762mm narrow gauge track. The default value is 4.
+STR_PARA_NAME_CONST_COST_LOW_SPEED                :Construction cost variable of low speed track
+STR_PARA_DESC_CONST_COST_LOW_SPEED                :Set construction cost variable of low speed track. The default value is 8.
+STR_PARA_NAME_CONST_COST_LOW_SPEED_ELEC           :Construction cost variable of low speed track (electrified)
+STR_PARA_DESC_CONST_COST_LOW_SPEED_ELEC           :Set construction cost variable of low speed track (electrified). The default value is 10.
+STR_PARA_NAME_CONST_COST_LOW_SPEED_URBAN          :Construction cost variable of low speed track (urban, electrified)
+STR_PARA_DESC_CONST_COST_LOW_SPEED_URBAN          :Set construction cost variable of low speed track (urban, electrified). The default value is 14.
+STR_PARA_NAME_CONST_COST_MAIN_LINE                :Construction cost variable of standard speed track 
+STR_PARA_DESC_CONST_COST_MAIN_LINE                :Set construction cost variable of standard speed track. The default value is 12.
+STR_PARA_NAME_CONST_COST_MAIN_LINE_ELEC           :Construction cost variable of standard speed track (electrified)
+STR_PARA_DESC_CONST_COST_MAIN_LINE_ELEC           :Set construction cost variable of standard speed track (electrified). The default value is 16.
+STR_PARA_NAME_CONST_COST_MAIN_LINE_URBAN          :Construction cost variable of standard speed track (urban, electrified) 
+STR_PARA_DESC_CONST_COST_MAIN_LINE_URBAN          :Set construction cost variable of standard speed track (urban, electrified). The default value is 18.
+STR_PARA_NAME_CONST_COST_SEMI_HIGH_SPEED          :Construction cost variable of semi high speed track
+STR_PARA_DESC_CONST_COST_SEMI_HIGH_SPEED          :Set construction cost variable of semi high speed track. The default value is 48.
+STR_PARA_NAME_CONST_COST_HIGH_SPEED               :Construction cost variable of high speed track
+STR_PARA_DESC_CONST_COST_HIGH_SPEED               :Set construction cost variable of high speed track. The default value is 96.
+STR_PARA_NAME_CONST_COST_METRO                    :Construction cost variable of metro track
+STR_PARA_DESC_CONST_COST_METRO                    :Set construction cost variable of metro track. The default value is 18.
+STR_PARA_NAME_CONST_COST_LIGHT                    :Construction cost variable of light rail tracks
+STR_PARA_DESC_CONST_COST_LIGHT                    :Set construction cost variable of third rail track. The default value is 16.
+
+# Parameters - Maintenance Cost
+STR_PARA_NAME_MAINT_COST_NARROW_762               :Maintenance cost variable of 762mm narrow gauge track
+STR_PARA_DESC_MAINT_COST_NARROW_762               :Set maintenance cost variable of 762mm narrow gauge track. The default value is 12.
+STR_PARA_NAME_MAINT_COST_LOW_SPEED                :Maintenance cost variable of low speed track
+STR_PARA_DESC_MAINT_COST_LOW_SPEED                :Set maintenance cost variable of low speed track. The default value is 16.
+STR_PARA_NAME_MAINT_COST_LOW_SPEED_ELEC           :Maintenance cost variable of low speed track (electrified)
+STR_PARA_DESC_MAINT_COST_LOW_SPEED_ELEC           :Set maintenance cost variable of low speed track (electrified). The default value is 18.
+STR_PARA_NAME_MAINT_COST_LOW_SPEED_URBAN          :Maintenance cost variable of low speed track (urban, electrified)
+STR_PARA_DESC_MAINT_COST_LOW_SPEED_URBAN          :Set maintenance cost variable of low speed track (urban, electrified). The default value is 18.
+STR_PARA_NAME_MAINT_COST_MAIN_LINE                :Maintenance cost variable of standard speed track 
+STR_PARA_DESC_MAINT_COST_MAIN_LINE                :Set maintenance cost variable of standard speed track. The default value is 18.
+STR_PARA_NAME_MAINT_COST_MAIN_LINE_ELEC           :Maintenance cost variable of standard speed track (electrified)
+STR_PARA_DESC_MAINT_COST_MAIN_LINE_ELEC           :Set maintenance cost variable of standard speed track (electrified). The default value is 20.
+STR_PARA_NAME_MAINT_COST_MAIN_LINE_URBAN          :Maintenance cost variable of standard speed track (urban, electrified) 
+STR_PARA_DESC_MAINT_COST_MAIN_LINE_URBAN          :Set maintenance cost variable of standard speed track (urban, electrified). The default value is 20.
+STR_PARA_NAME_MAINT_COST_SEMI_HIGH_SPEED          :Maintenance cost variable of semi high speed track
+STR_PARA_DESC_MAINT_COST_SEMI_HIGH_SPEED          :Set maintenance cost variable of semi high speed track. The default value is 22.
+STR_PARA_NAME_MAINT_COST_HIGH_SPEED               :Maintenance cost variable of high speed track
+STR_PARA_DESC_MAINT_COST_HIGH_SPEED               :Set maintenance cost variable of high speed track. The default value is 24.
+STR_PARA_NAME_MAINT_COST_METRO                    :Maintenance cost variable of metro track
+STR_PARA_DESC_MAINT_COST_METRO                    :Set maintenance cost variable of metro track. The default value is 20.
+STR_PARA_NAME_MAINT_COST_LIGHT                    :Maintenance cost variable of light rail tracks
+STR_PARA_DESC_MAINT_COST_LIGHT                    :Set maintenance cost variable of third rail track. The default value is 18.
+
+# Narrow gauge
+STR_NARROW_762_NAME                               :762mm Narrow Gauge Tracks
+STR_NARROW_762_DROPDOWN_MENU                      :762mm Narrow Gauge Track Construction
+STR_NARROW_762_TOOLBAR_CAPTION                    :762mm Narrow Gauge Track Construction
+STR_NARROW_762_BUILD_VEHICLE_CAPTION              :New 762mm Narrow Gauge Vehicles
+STR_NARROW_762_NEW_ENGINE                         :762mm Narrow Gauge Vehicle
+STR_NARROW_762_AUTOREPLACE                        :762mm Narrow Gauge Vehicles
+
+# Low Speed // 120
+STR_LOW_SPEED_TRACK_NAME                          :Low Speed Tracks
+STR_LOW_SPEED_TRACK_DROPDOWN_MENU                 :Low Speed Track Construction
+STR_LOW_SPEED_TRACK_TOOLBAR_CAPTION               :Low Speed Track Construction
+STR_LOW_SPEED_BUILD_VEHICLE_CAPTION               :New Low Speed Vehicles
+STR_LOW_SPEED_NEW_ENGINE                          :Low Speed Vehicle
+STR_LOW_SPEED_AUTOREPLACE                         :Low Speed Vehicles
+
+# Electrified Low Speed // 120
+STR_LOW_SPEED_ELEC_TRACK_NAME                     :Low Speed Tracks (Electrified)
+STR_LOW_SPEED_ELEC_TRACK_DROPDOWN_MENU            :Low Speed Track Construction (Electrified)
+STR_LOW_SPEED_ELEC_TRACK_TOOLBAR_CAPTION          :Low Speed Track Construction (Electrified)
+STR_LOW_SPEED_ELEC_BUILD_VEHICLE_CAPTION          :New Electrified Low Speed Vehicles
+STR_LOW_SPEED_ELEC_NEW_ENGINE                     :Electrified Low Speed Vehicle
+STR_LOW_SPEED_ELEC_AUTOREPLACE                    :Electrified Low Speed Vehicles
+
+# Urban Electrified Low Speed // 120
+STR_LOW_SPEED_URBAN_TRACK_NAME                    :Low Speed Tracks (Urban, Electrified)
+STR_LOW_SPEED_URBAN_TRACK_DROPDOWN_MENU           :Low Speed Track Construction (Urban, Electrified)
+STR_LOW_SPEED_URBAN_TRACK_TOOLBAR_CAPTION         :Low Speed Track Construction (Urban, Electrified)
+STR_LOW_SPEED_URBAN_BUILD_VEHICLE_CAPTION         :New Electrified Low Speed Vehicles
+STR_LOW_SPEED_URBAN_NEW_ENGINE                    :Electrified Low Speed Vehicle
+STR_LOW_SPEED_URBAN_AUTOREPLACE                   :Electrified Low Speed Vehicle
+
+# Standard Speed // 180
+STR_MAIN_LINE_TRACK_NAME                          :Standard Speed Tracks
+STR_MAIN_LINE_TRACK_DROPDOWN_MENU                 :Standard Speed Track Construction
+STR_MAIN_LINE_TRACK_TOOLBAR_CAPTION               :Standard Speed Track Construction
+STR_MAIN_LINE_BUILD_VEHICLE_CAPTION               :New Standard Speed Vehicles
+STR_MAIN_LINE_NEW_ENGINE                          :Standard Speed Vehicle
+STR_MAIN_LINE_AUTOREPLACE                         :Standard Speed Vehicles
+
+# Electrified Standard Speed // 180
+STR_MAIN_LINE_ELEC_TRACK_NAME                     :Standard Speed Tracks (Electrified)
+STR_MAIN_LINE_ELEC_TRACK_DROPDOWN_MENU            :Standard Speed Track Construction (Electrified)
+STR_MAIN_LINE_ELEC_TRACK_TOOLBAR_CAPTION          :Standard Speed Track Construction (Electrified)
+STR_MAIN_LINE_ELEC_BUILD_VEHICLE_CAPTION          :New Electrified Standard Speed Vehicles
+STR_MAIN_LINE_ELEC_NEW_ENGINE                     :Electrified Standard Speed Vehicle
+STR_MAIN_LINE_ELEC_AUTOREPLACE                    :Electrified Standard Speed Vehicles
+
+# Urban Electrified Standard Speed // 180
+STR_MAIN_LINE_URBAN_TRACK_NAME                    :Standard Speed Tracks (Urban, Electrified)
+STR_MAIN_LINE_URBAN_TRACK_DROPDOWN_MENU           :Standard Speed Track Construction (Urban, Electrified)
+STR_MAIN_LINE_URBAN_TRACK_TOOLBAR_CAPTION         :Standard Speed Track Construction (Urban, Electrified)
+STR_MAIN_LINE_URBAN_BUILD_VEHICLE_CAPTION         :New Electrified Standard Speed Vehicles
+STR_MAIN_LINE_URBAN_NEW_ENGINE                    :Electrified Standard Speed Vehicle
+STR_MAIN_LINE_URBAN_AUTOREPLACE                   :Electrified Standard Speed Vehicles
+
+# Semi High Speed // 260
+STR_SEMI_HIGH_SPEED_TRACK_NAME                    :Semi High Speed Tracks
+STR_SEMI_HIGH_SPEED_TRACK_DROPDOWN_MENU           :Semi High Speed Track Construction
+STR_SEMI_HIGH_SPEED_TRACK_TOOLBAR_CAPTION         :Semi High Speed Track Construction
+STR_SEMI_HIGH_SPEED_BUILD_VEHICLE_CAPTION         :New Semi High Speed Vehicles
+STR_SEMI_HIGH_SPEED_NEW_ENGINE                    :Semi High Speed Vehicle
+STR_SEMI_HIGH_SPEED_AUTOREPLACE                   :Semi High Speed Vehicles
+
+# High Speed // 430
+STR_HIGH_SPEED_TRACK_NAME                         :High Speed Tracks
+STR_HIGH_SPEED_TRACK_DROPDOWN_MENU                :High Speed Track Construction
+STR_HIGH_SPEED_TRACK_TOOLBAR_CAPTION              :High Speed Track Construction
+STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION              :New High Speed Vehicles
+STR_HIGH_SPEED_NEW_ENGINE                         :High Speed Vehicle
+STR_HIGH_SPEED_AUTOREPLACE                        :High Speed Vehicles
+
+# Metro
+STR_TRACK_METRO_NAME                              :Metro Tracks
+STR_TRACK_METRO_DROPDOWN_MENU                     :Metro Track Construction
+STR_TRACK_METRO_TOOLBAR_CAPTION                   :Metro Track Construction
+STR_TRACK_METRO_BUILD_VEHICLE_CAPTION             :New Metro Vehicles
+STR_TRACK_METRO_NEW_ENGINE                        :Metro Vehicle
+STR_TRACK_METRO_AUTOREPLACE                       :Metro Vehicles
+
+# Third Rail
+STR_TRACK_THIRD_NAME                              :Light Rail (Third Rail) Tracks
+STR_TRACK_THIRD_DROPDOWN_MENU                     :Light Rail (Third Rail) Track Construction
+STR_TRACK_THIRD_TOOLBAR_CAPTION                   :Light Rail (Third Rail) Track Construction
+STR_TRACK_THIRD_BUILD_VEHICLE_CAPTION             :New Light Rail (Third Rail) Vehicles
+STR_TRACK_THIRD_NEW_ENGINE                        :Light Rail (Third Rail) Vehicle
+STR_TRACK_THIRD_AUTOREPLACE                       :Light Rail (Third Rail) Vehicles
+
+# Railbed
+STR_TRACK_RAILBED_NAME                            :Railbed
+STR_TRACK_RAILBED_DROPDOWN_MENU                   :Railbed Construction
+STR_TRACK_RAILBED_TOOLBAR_CAPTION                 :Railbed Construction
+STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION           :.
+STR_TRACK_RAILBED_NEW_ENGINE                      :.
+STR_TRACK_RAILBED_AUTOREPLACE                     :.
+
+# Objects
+STR_OBJECT_DEPOTS_NAME                            :[KTR] Train Depot
+STR_OBJECT_DEPOT_NARROW_762_NAME                  :762mm Narrow Gauge Train Depot
+STR_OBJECT_DEPOT_LOW_SPEED_NAME                   :Low Speed Train Depot
+STR_OBJECT_DEPOT_STANDARD_SPEED_NAME              :Standard Speed Train Depot
+STR_OBJECT_DEPOT_STANDARD_SPEED_DESC              :Korail Susaek Train Depot (Seoul)
+STR_OBJECT_DEPOT_STANDARD_SPEED_URBAN_NAME        :Standard Speed Train Depot (Urban)
+STR_OBJECT_DEPOT_SEMI_HIGH_SPEED_NAME             :Semi High Speed Train Depot
+STR_OBJECT_DEPOT_HIGH_SPEED_NAME                  :High Speed Train Depot
+STR_OBJECT_DEPOT_HIGH_SPEED_DESC                  :Korail Goyang Train Depot (Goyang, Gyeonggi-Do)
+STR_OBJECT_DEPOT_METRO_NAME                       :Metro Train Depot
+STR_OBJECT_DEPOT_METRO_DESC                       :Seoul Metro Chang-dong Train Depot (Seoul)

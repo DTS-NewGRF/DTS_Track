@@ -1,0 +1,29 @@
+/*------------------------------------------------------------------------------
+ * DTS-Track
+ * https://github.com/DTS-NewGRF/DTS_Track
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+ NewGRF 기본 정보
+------------------------------------------------------------------------------*/
+grf {
+    grfid :                            "DTST";
+    name :                             string(STR_GRF_NAME_WITH_VER);
+    desc :                             string(STR_GRF_DESC);
+    url :                              string(STR_GRF_URL);
+    version :                          20240328;
+    min_compatible_version :           0;
+	
+	// Parameters 매개변수
+}
+
+// 화물테이블
+
+// Railtypetable
+
+// Load templates
+
+// Load trains
+
+// Load Objects
+
+// Load Waypoint

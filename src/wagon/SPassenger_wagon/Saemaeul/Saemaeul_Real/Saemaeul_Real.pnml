@@ -1,5 +1,0 @@
-/*--------------------------------------------------------------------
-새마을호 객차 리스트
---------------------------------------------------------------------*/
-#include "Saemaeul_Real_Normal_Special/Saemaeul_Real_Normal_Special.pnml"
-#include "Saemaeul_Real_Service/Saemaeul_Real_Service.pnml"

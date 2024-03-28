@@ -6,55 +6,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        신규 사항을 추가해주셔서 감사합니다!
+        변경사항을 추가해주셔서 감사합니다!
   - type: textarea
     attributes:
       label: 필수 스프라이트
       description: 필수 스프라이트를 올려주세요.
-  - type: textarea
-    attributes:
-      label: 32bpp 스프라이트
-      description: 32bpp 스프라이트를 올려주세요.
-      placeholder: '주의점. 기본스프라이트가 없으면 본 32bpp는 적용되지 않는것이 기본입니다. 신규선로시 꼭 기본 스프라이트를 우선적으로 작업해주세요.'
-  - type: checkboxes
-    attributes:
-      label: '실존 & 가상선로'
-      description: '실존 & 가상여부를 체크해주세요.'
-      options:
-      - label: '실존'
-      - label: '가상'
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: 설명
-      description: 설명사항을 적어주세요.  
-  - type: input
-    attributes:
-      label: GRF내 선로 이름 한국어
-      description: GRF내 선로 이름을 한국어로 적어주세요.
-      placeholder: 선로이름
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: GRF내 선로 이름 영문
-      description: GRF내 선로 이름을 영어로 적어주세요.
-      placeholder: Track Name
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: 선로속도
-      description: 선로의 속도를 정해주세요 게임내 속도 매겨변수를 정의하는 것입니다.
-      validations:
-      required: true
-  - type: input
-    attributes:
-      label: 도입년도
-      description: 등장년도를 적어주세요.
-      placeholder: '2023'
-    validations:
-      required: true
+      description: 설명사항을 적어주세요.
   - type: textarea
     attributes:
-      label: 적용스팩 세부사항
-      description: 적용스팩에 대한 추가적 사항을 상세히 적어주세요.
+      label: 적용내용
+      description: 변경될 사항을 적어주세요.
+    validations:
+      required: true

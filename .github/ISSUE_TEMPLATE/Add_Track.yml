@@ -1,12 +1,8 @@
 name: "[추가사항]"
-description: 새로운 선로를 추가하고 싶으십니까?
+description: 선로를 추가하시겠습니까?
 title: "[선로추가]"
-labels: "Add track"
+labels: "Add Track"
 body:
-  - type: markdown
-    attributes:
-      value: |
-        새로운 선로을 추가해주셔서 감사합니다!
   - type: textarea
     attributes:
       label: 필수 스프라이트
@@ -15,7 +11,7 @@ body:
     attributes:
       label: 32bpp 스프라이트
       description: 32bpp 스프라이트를 올려주세요.
-      placeholder: '주의점. 기본스프라이트가 없으면 본 32bpp는 적용되지 않는것이 기본입니다. 신규차량시 꼭 기본 스프라이트를 우선적으로 작업해주세요.'
+      placeholder: '주의점. 기본스프라이트가 없으면 본 32bpp는 적용되지 않는것이 기본입니다. 신규선로시 꼭 기본 스프라이트를 우선적으로 작업해주세요.'
   - type: checkboxes
     attributes:
       label: '실존 & 가상선로'
@@ -29,16 +25,16 @@ body:
       description: 설명사항을 적어주세요.  
   - type: input
     attributes:
-      label: GRF내 열차 이름 한국어
-      description: GRF내 열차 이름을 한국어로 적어주세요.
-      placeholder: 열차이름
+      label: GRF내 선로 이름 한국어
+      description: GRF내 선로 이름을 한국어로 적어주세요.
+      placeholder: 선로이름
     validations:
       required: true
   - type: input
     attributes:
-      label: GRF내 열차 이름 영문
-      description: GRF내 열차 이름을 영어로 적어주세요.
-      placeholder: Train Name
+      label: GRF내 선로 이름 영문
+      description: GRF내 선로 이름을 영어로 적어주세요.
+      placeholder: Track Name
     validations:
       required: true
   - type: input

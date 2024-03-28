@@ -17,8 +17,6 @@ body:
     attributes:
       label: 32bpp 스프라이트
       description: 32bpp 스프라이트를 올려주세요.
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: 설명

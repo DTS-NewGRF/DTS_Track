@@ -1,0 +1,8 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// Graphic for terrain
+switch(FEAT_RAILTYPES, SELF, sw_RAILBED_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_RAILBED_underlay;
+    set_RAILBED_underlay;
+}

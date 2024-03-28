@@ -1,0 +1,20 @@
+/*--------------------------------------------------------------------
+선로
+--------------------------------------------------------------------*/
+// 기존선
+#include "Low_Line/Low_Line.pnml"
+
+// 메인선로
+#include "Main_Line/Main_Line.pnml"
+
+// 준고속선로
+#include "Semi_High_Speed/Semi_High_Speed.pnml"
+
+// 고속선로
+#include "High_Speed/High_Speed.pnml"
+
+// 지하철선로
+#include "Metro/Metro.pnml"
+
+// 노반
+#include "RailBed/RailBed.pnml"

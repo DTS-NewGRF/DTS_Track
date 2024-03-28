@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------------
+지하철 선로
+--------------------------------------------------------------------*/
+// Graphics
+#include "Metro_graphic.pnml"
+
+// Switch
+#include "Metro_switch.pnml"
+
+/*--------------------------------------------------------------------
+선로정보
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_METRO, 09) {
+    property {
+        label:                          "KMTR";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_METRO_NAME);
+        menu_text:                      string(STR_TRACK_METRO_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_METRO_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_METRO_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_METRO_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_METRO_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    120km/h;
+        construction_cost:              18;
+        maintenance_cost:               20;
+        sort_order:                     09;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
+        alternative_railtype_list:      ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR"];
+        compatible_railtype_list:       ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR"];
+        powered_railtype_list:          ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR"];
+    }
+
+    graphics {
+        gui:                            set_METRO_gui;
+        track_overlay:                  sw_METRO_overlay;
+        underlay:                       sw_METRO_underlay;
+        tunnels:                        sw_METRO_tunnel_underlay;
+        tunnel_overlay:                 sw_METRO_tunnel_overlay;
+        depots:                         sw_METRO_depot;
+        bridge_surfaces:                set_METRO_bridge;
+        level_crossings:                sw_set_METRO_level_crossing;
+        catenary_wire:                  set_METRO_wire;
+        catenary_pylons:                set_METRO_pylons;
+        fences:                         set_METRO_fences;
+    }
+}

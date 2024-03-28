@@ -1,0 +1,25 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// Graphic for terrain
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_track_tunnel_underlay;
+    TILETYPE_DESERT:                    set_HIGH_SPEED_track_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_HIGH_SPEED_track_tunnel_underlay_rain;
+    set_HIGH_SPEED_track_tunnel_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_track_overlay;          
+    set_HIGH_SPEED_track_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_track_underlay;
+    set_HIGH_SPEED_track_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_depot, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_track_depot;
+    set_HIGH_SPEED_track_depot;
+}

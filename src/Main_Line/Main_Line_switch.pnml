@@ -1,0 +1,80 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// Level crossing status
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_track_level_crossing, level_crossing_status) {
+    LEVEL_CROSSING_CLOSED:              set_MAIN_LINE_track_crossing_close;
+    LEVEL_CROSSING_OPEN:              
+    set_MAIN_LINE_track_crossing_open;
+}
+
+// Graphic for terrain
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_track_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_MAIN_LINE_track_tunnel_underlay;
+    TILETYPE_DESERT:                    set_MAIN_LINE_track_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_MAIN_LINE_track_tunnel_underlay_rain;
+    set_MAIN_LINE_track_tunnel_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_track_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_MAIN_LINE_track_overlay;
+    set_MAIN_LINE_track_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_track_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_MAIN_LINE_track_underlay;
+    set_MAIN_LINE_track_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_track_depot, terrain_type) {
+    TILETYPE_NORMAL:                    set_MAIN_LINE_track_depot;
+    set_MAIN_LINE_track_depot;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_track_bridge, terrain_type) {
+    TILETYPE_NORMAL:                    set_MAIN_LINE_track_bridge;
+    set_MAIN_LINE_track_bridge;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_set_MAIN_LINE_track_level_crossing, terrain_type) {
+    TILETYPE_NORMAL:                    sw_MAIN_LINE_track_level_crossing;
+    sw_MAIN_LINE_track_level_crossing;
+}
+
+// Level crossing status
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_URBAN_track_level_crossing, level_crossing_status) {
+    LEVEL_CROSSING_CLOSED:              set_MAIN_LINE_URBAN_track_crossing_close;
+    LEVEL_CROSSING_OPEN:              
+    set_MAIN_LINE_URBAN_track_crossing_open;
+}
+
+// Graphic for terrain
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_URBAN_track_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_MAIN_LINE_track_overlay;
+    set_MAIN_LINE_track_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_URBAN_track_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_MAIN_LINE_URBAN_track_underlay;
+    set_MAIN_LINE_URBAN_track_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_URBAN_track_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_MAIN_LINE_URBAN_track_tunnel_underlay;
+    set_MAIN_LINE_URBAN_track_tunnel_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_URBAN_track_depot, terrain_type) {
+    TILETYPE_NORMAL:                    set_MAIN_LINE_URBAN_track_depot;
+    set_MAIN_LINE_URBAN_track_depot;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_MAIN_LINE_URBAN_track_tunnel_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_MAIN_LINE_URBAN_track_tunnel_overlay;
+    set_MAIN_LINE_URBAN_track_tunnel_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_set_MAIN_LINE_URBAN_track_level_crossing, terrain_type) {
+    TILETYPE_NORMAL:                    sw_MAIN_LINE_URBAN_track_level_crossing;
+    sw_MAIN_LINE_URBAN_track_level_crossing;
+}

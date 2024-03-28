@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------------
+매개변수
+--------------------------------------------------------------------*/
+param {
+    para_speed_SEMI_HIGH_SPEED {
+        type:       int;
+        name:       string(STR_PARA_NAME_SPEED_SEMI_HIGH_SPEED);
+        desc:       string(STR_PARA_DESC_SPEED_SEMI_HIGH_SPEED);
+        min_value:  250;
+        max_value:  290;
+        def_value:  261;
+        }
+    }
+
+param  {
+    para_speed_HIGH_SPEED {
+        type:       int;
+        name:       string(STR_PARA_NAME_SPEED_HIGH_SPEED);
+        desc:       string(STR_PARA_DESC_SPEED_HIGH_SPEED);
+        min_value:  300;
+        max_value:  600;
+        def_value:  331;
+    }
+}

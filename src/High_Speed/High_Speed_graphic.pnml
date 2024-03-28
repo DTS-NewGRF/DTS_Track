@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------------
+그래픽
+--------------------------------------------------------------------*/
+// GUI
+spriteset(set_HIGH_SPEED_gui, "src/High_Speed/High_Speed.png") {
+    tmpl_gui (0, 0) 
+}
+
+// Tracks overlay
+spriteset(set_HIGH_SPEED_track_overlay, "src/High_Speed/High_Speed.png") {
+    tmpl_overlay (0, 40)
+}
+
+// Tracks underlay
+spriteset(set_HIGH_SPEED_track_underlay, "src/High_Speed/High_Speed.png") {
+    tmpl_underlay (0, 80)
+}
+
+// Tunnels
+spriteset(set_HIGH_SPEED_track_tunnel_underlay, "src/High_Speed/High_Speed.png") {
+    tmpl_tunnel_underlay (0, 120)
+} 
+
+spriteset(set_HIGH_SPEED_track_tunnel_underlay_desert, "src/High_Speed/High_Speed.png") {
+    tmpl_tunnel_underlay (0, 170)
+} 
+
+spriteset(set_HIGH_SPEED_track_tunnel_underlay_rain, "src/High_Speed/High_Speed.png") {
+    tmpl_tunnel_underlay (0, 220)
+}
+
+// Catenary Wire
+spriteset(set_HIGH_SPEED_track_wire, "src/High_Speed/High_Speed.png") {
+    tmpl_catenary_wire (0, 400)
+}
+
+// Catenary Pylons
+spriteset(set_HIGH_SPEED_track_pylons, "src/High_Speed/High_Speed.png") {
+    tmpl_catenary_pylons (0, 545)
+}
+
+// Depot
+spriteset(set_HIGH_SPEED_track_depot, "src/High_Speed/High_Speed.png") {
+    tmpl_depot (0, 320)
+}
+
+// Fences
+spriteset(set_HIGH_SPEED_fences, "src/High_Speed/High_Speed_Fence.png") {
+    tmpl_fence (0, 100)
+}
+
+// Bridge surfaces
+spriteset(set_HIGH_SPEED_track_bridge, "src/High_Speed/High_Speed.png") {
+    tmpl_bridge_surface (700, 270)
+}

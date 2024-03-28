@@ -14,16 +14,12 @@ grf {
     min_compatible_version :           0;
 	
 	// Parameters 매개변수
-}
+    #include "src/parameter.pnml"
 
-// 화물테이블
+    }
 
-// Railtypetable
+// Load Templates
+#include "src/Template_list.pnml"
 
-// Load templates
-
-// Load trains
-
-// Load Objects
-
-// Load Waypoint
+// Load Track
+#include "src/Track_list.pnml"

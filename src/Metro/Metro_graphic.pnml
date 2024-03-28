@@ -1,0 +1,64 @@
+/*--------------------------------------------------------------------
+그래픽
+--------------------------------------------------------------------*/
+// GUI
+    spriteset(set_METRO_gui, "src/Metro/Metro.png") {
+        tmpl_gui (0, 0) 
+    }
+
+// Tracks overlay
+    spriteset(set_METRO_overlay, "src/Metro/Metro.png") {
+        tmpl_overlay (0, 40)
+    }
+
+// Tracks underlay
+    spriteset(set_METRO_underlay, "src/Metro/Metro.png") {
+        tmpl_underlay (0, 80)
+    }
+
+// Tunnels
+    spriteset(set_METRO_tunnel_underlay, "src/Metro/Metro.png") {
+        tmpl_tunnel_underlay (0, 120)
+    }
+
+// Catenary Wire
+    spriteset(set_METRO_wire, "src/Metro/Metro.png") {
+        tmpl_catenary_wire (0, 400)
+    }
+    
+// Catenary Pylons
+    spriteset(set_METRO_pylons, "src/Metro/Metro.png") {
+        tmpl_catenary_pylons (0, 545)
+    }
+    
+// Depot
+    spriteset(set_METRO_depot, "src/Metro/Metro.png") {
+        tmpl_depot (0, 320)
+    }
+
+    spriteset(set_METRO_depot02, "src/Metro/Metro.png") {
+        tmpl_depot (419, 320)
+    }
+
+// Fences
+    spriteset(set_METRO_fences, "src/Metro/Metro_Fence.png") {
+        tmpl_fence (0, 100)
+    }
+
+// Tunnel overlay
+    spriteset(set_METRO_tunnel_overlay, "src/Metro/Metro.png") {
+        tmpl_tunnel_overlay (280, 170)
+    }
+
+// Bridge surfaces
+    spriteset(set_METRO_bridge, "src/Metro/Metro.png") {
+        tmpl_bridge_surface (700, 270)
+    }
+
+// Level crossing
+    spriteset(set_METRO_level_crossing_close, "src/Metro/Metro.png") {
+        tmpl_level_crossing_type_1_close (700, 120)
+    }
+    spriteset(set_METRO_level_crossing_open, "src/Metro/Metro.png") {
+        tmpl_level_crossing_type_1_open (700, 120)
+    }

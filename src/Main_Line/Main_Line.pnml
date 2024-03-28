@@ -1,0 +1,124 @@
+/*--------------------------------------------------------------------
+지하철 선로
+--------------------------------------------------------------------*/
+// Graphics
+#include "Main_Line_graphic.pnml"
+
+// Switch
+#include "Main_Line_switch.pnml"
+
+/*--------------------------------------------------------------------
+선로정보
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_MAIN_LINE, 04) {
+    property {
+        label:                          "KDS_";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_MAIN_LINE_TRACK_NAME);
+        menu_text:                      string(STR_MAIN_LINE_TRACK_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_MAIN_LINE_TRACK_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_MAIN_LINE_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_MAIN_LINE_NEW_ENGINE);
+        autoreplace_text:               string(STR_MAIN_LINE_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    180 km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask();
+        alternative_railtype_list:      ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        compatible_railtype_list:       ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        powered_railtype_list:          ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR"];
+    }
+
+    graphics {
+        gui:                            set_MAIN_LINE_gui;
+        track_overlay:                  sw_MAIN_LINE_track_overlay;
+        underlay:                       sw_MAIN_LINE_track_underlay;
+        tunnels:                        sw_MAIN_LINE_track_tunnel_underlay;
+        depots:                         sw_MAIN_LINE_track_depot;
+        bridge_surfaces:                sw_MAIN_LINE_track_bridge;
+        level_crossings:                sw_set_MAIN_LINE_track_level_crossing;
+        fences:                         set_MAIN_LINE_fences;
+    }
+}
+
+item(FEAT_RAILTYPES, track_MAIN_LINE_ELEC, 05) {
+    property {
+        label:                          "ELRL";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_MAIN_LINE_ELEC_TRACK_NAME);
+        menu_text:                      string(STR_MAIN_LINE_ELEC_TRACK_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_MAIN_LINE_ELEC_TRACK_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_MAIN_LINE_ELEC_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_MAIN_LINE_ELEC_NEW_ENGINE);
+        autoreplace_text:               string(STR_MAIN_LINE_ELEC_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    180 km/h;
+        construction_cost:              16;
+        maintenance_cost:               20;
+        sort_order:                     05;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+    }
+
+    graphics {
+        gui:                            set_MAIN_LINE_ELEC_gui;
+        track_overlay:                  sw_MAIN_LINE_track_overlay;
+        underlay:                       sw_MAIN_LINE_track_underlay;
+        tunnels:                        sw_MAIN_LINE_track_tunnel_underlay;
+        depots:                         sw_MAIN_LINE_track_depot;
+        bridge_surfaces:                sw_MAIN_LINE_track_bridge;
+        level_crossings:                sw_set_MAIN_LINE_track_level_crossing;
+        catenary_wire:                  set_MAIN_LINE_ELEC_track_wire;
+        catenary_pylons:                set_MAIN_LINE_ELEC_track_pylons;
+        fences:                         set_MAIN_LINE_fences;
+    }
+}
+
+item(FEAT_RAILTYPES, track_MAIN_LINE_URBAN, 06) {
+    property {
+        label:                          "KDSU";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_MAIN_LINE_URBAN_TRACK_NAME);
+        menu_text:                      string(STR_MAIN_LINE_URBAN_TRACK_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_MAIN_LINE_URBAN_TRACK_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_MAIN_LINE_URBAN_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_MAIN_LINE_URBAN_NEW_ENGINE);
+        autoreplace_text:               string(STR_MAIN_LINE_URBAN_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    180 km/h;
+        construction_cost:              18;
+        maintenance_cost:               20;
+        sort_order:                     06;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+    }
+
+    graphics {
+        gui:                            set_MAIN_LINE_URBAN_gui;
+        track_overlay:                  sw_MAIN_LINE_URBAN_track_overlay;
+        underlay:                       sw_MAIN_LINE_URBAN_track_underlay;
+        tunnels:                        sw_MAIN_LINE_URBAN_track_tunnel_underlay;
+        tunnel_overlay:                 sw_MAIN_LINE_URBAN_track_tunnel_overlay;
+        depots:                         sw_MAIN_LINE_URBAN_track_depot;
+        bridge_surfaces:                set_MAIN_LINE_track_bridge;
+        level_crossings:                sw_set_MAIN_LINE_URBAN_track_level_crossing;
+        catenary_wire:                  set_MAIN_LINE_ELEC_track_wire;
+        catenary_pylons:                set_MAIN_LINE_ELEC_track_pylons;
+        fences:                         set_MAIN_LINE_URBAN_fences;
+    }
+}

@@ -5,3 +5,88 @@
 STR_GRF_NAME_WITH_VER                                  :다양성 선로 세트 {VERSION}
 STR_GRF_DESC                                           :다양성 선로 세트 입니다
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS_Track/releases
+
+# Parameters - Speed Limit
+STR_PARA_NAME_SPEED_SEMI_HIGH_SPEED                    :속도제한 - 준고속선 선로 (km/h)
+STR_PARA_DESC_SPEED_SEMI_HIGH_SPEED                    :준고속선 선로의 제한속도를 설정합니다. 기본값은 261 입니다.
+STR_PARA_NAME_SPEED_HIGH_SPEED                         :속도제한 - 고속선 선로 (km/h)
+STR_PARA_DESC_SPEED_HIGH_SPEED                         :고속선 선로의 제한속도를 설정합니다. 기본값은 331 입니다.
+
+# Low Speed // 120
+STR_LOW_SPEED_TRACK_NAME                               :기존선 선로
+STR_LOW_SPEED_TRACK_DROPDOWN_MENU                      :기존선 선로 건설
+STR_LOW_SPEED_TRACK_TOOLBAR_CAPTION                    :기존선 선로 건설
+STR_LOW_SPEED_BUILD_VEHICLE_CAPTION                    :새 일반선 차량
+STR_LOW_SPEED_NEW_ENGINE                               :일반선 차량
+STR_LOW_SPEED_AUTOREPLACE                              :일반선 차량
+
+# Electrified Low Speed // 120
+STR_LOW_SPEED_ELEC_TRACK_NAME                          :기존선 전기선로
+STR_LOW_SPEED_ELEC_TRACK_DROPDOWN_MENU                 :기존선 전기선로 건설
+STR_LOW_SPEED_ELEC_TRACK_TOOLBAR_CAPTION               :기존선 전기선로 건설
+STR_LOW_SPEED_ELEC_BUILD_VEHICLE_CAPTION               :새 일반선 전기 차량
+STR_LOW_SPEED_ELEC_NEW_ENGINE                          :일반선 전기 차량
+STR_LOW_SPEED_ELEC_AUTOREPLACE                         :일반선 전기 차량
+
+# Urban Electrified Low Speed // 120
+STR_LOW_SPEED_URBAN_TRACK_NAME                         :기존선 도심전기선로
+STR_LOW_SPEED_URBAN_TRACK_DROPDOWN_MENU                :기존선 도심전기선로 건설
+STR_LOW_SPEED_URBAN_TRACK_TOOLBAR_CAPTION              :기존선 도심전기선로 건설
+STR_LOW_SPEED_URBAN_BUILD_VEHICLE_CAPTION              :새 일반선 전기 차량
+STR_LOW_SPEED_URBAN_NEW_ENGINE                         :일반선 전기 차량
+STR_LOW_SPEED_URBAN_AUTOREPLACE                        :일반선 전기 차량
+
+# Standard Speed // 180
+STR_MAIN_LINE_TRACK_NAME                               :비전철화 선로
+STR_MAIN_LINE_TRACK_DROPDOWN_MENU                      :비전철화 선로 건설
+STR_MAIN_LINE_TRACK_TOOLBAR_CAPTION                    :비전철화 선로 건설
+STR_MAIN_LINE_BUILD_VEHICLE_CAPTION                    :새 비전철화 차량
+STR_MAIN_LINE_NEW_ENGINE                               :비전철화 차량
+STR_MAIN_LINE_AUTOREPLACE                              :비전철화 차량
+
+# Electrified Standard Speed // 180
+STR_MAIN_LINE_ELEC_TRACK_NAME                          :전철화 선로
+STR_MAIN_LINE_ELEC_TRACK_DROPDOWN_MENU                 :전철화 선로 건설
+STR_MAIN_LINE_ELEC_TRACK_TOOLBAR_CAPTION               :전철화 선로 건설
+STR_MAIN_LINE_ELEC_BUILD_VEHICLE_CAPTION               :새 전철화 차량
+STR_MAIN_LINE_ELEC_NEW_ENGINE                          :전철화 차량
+STR_MAIN_LINE_ELEC_AUTOREPLACE                         :전철화 차량
+
+STR_MAIN_LINE_URBAN_TRACK_NAME                         :전철화 도심전기선로
+STR_MAIN_LINE_URBAN_TRACK_DROPDOWN_MENU                :전철화 도심전기선로 건설
+STR_MAIN_LINE_URBAN_TRACK_TOOLBAR_CAPTION              :전철화 도심전기선로 건설
+STR_MAIN_LINE_URBAN_BUILD_VEHICLE_CAPTION              :새 전철화 전기 차량
+STR_MAIN_LINE_URBAN_NEW_ENGINE                         :전철화 전기 차량
+STR_MAIN_LINE_URBAN_AUTOREPLACE                        :전철화 전기 차량
+
+# Semi High Speed // 260
+STR_SEMI_HIGH_SPEED_TRACK_NAME                         :준고속선 선로
+STR_SEMI_HIGH_SPEED_TRACK_DROPDOWN_MENU                :준고속선 선로 건설
+STR_SEMI_HIGH_SPEED_TRACK_TOOLBAR_CAPTION              :준고속선 선로 건설
+STR_SEMI_HIGH_SPEED_BUILD_VEHICLE_CAPTION              :새 준고속선 차량
+STR_SEMI_HIGH_SPEED_NEW_ENGINE                         :준고속선 차량
+STR_SEMI_HIGH_SPEED_AUTOREPLACE                        :준고속선 차량
+
+# High Speed // 430
+STR_HIGH_SPEED_TRACK_NAME                              :고속선 선로
+STR_HIGH_SPEED_TRACK_DROPDOWN_MENU                     :고속선 선로 건설
+STR_HIGH_SPEED_TRACK_TOOLBAR_CAPTION                   :고속선 선로 건설
+STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION                   :새 고속선 차량
+STR_HIGH_SPEED_NEW_ENGINE                              :고속선 차량
+STR_HIGH_SPEED_AUTOREPLACE                             :고속선 차량
+
+# Metro
+STR_TRACK_METRO_NAME                                   :지하철 선로
+STR_TRACK_METRO_DROPDOWN_MENU                          :지하철 선로 건설
+STR_TRACK_METRO_TOOLBAR_CAPTION                        :지하철 선로 건설
+STR_TRACK_METRO_BUILD_VEHICLE_CAPTION                  :새 지하철 차량
+STR_TRACK_METRO_NEW_ENGINE                             :지하철 차량
+STR_TRACK_METRO_AUTOREPLACE                            :지하철 차량
+
+# Railbed
+STR_TRACK_RAILBED_NAME                                 :노반
+STR_TRACK_RAILBED_DROPDOWN_MENU                        :노반 건설
+STR_TRACK_RAILBED_TOOLBAR_CAPTION                      :노반 건설
+STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION                :.
+STR_TRACK_RAILBED_NEW_ENGINE                           :.
+STR_TRACK_RAILBED_AUTOREPLACE                          :.

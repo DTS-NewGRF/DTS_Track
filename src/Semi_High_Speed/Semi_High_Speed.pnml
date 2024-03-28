@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------------
+지하철 선로
+--------------------------------------------------------------------*/
+// Graphics
+#include "Semi_High_Speed_graphic.pnml"
+
+// Switch
+#include "Semi_High_Speed_switch.pnml"
+
+/*--------------------------------------------------------------------
+선로정보
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_SEMI_HIGH_SPEED, 07) {
+    property {
+        label:                          "KSSU";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_SEMI_HIGH_SPEED_TRACK_NAME);
+        menu_text:                      string(STR_SEMI_HIGH_SPEED_TRACK_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_SEMI_HIGH_SPEED_TRACK_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_SEMI_HIGH_SPEED_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_SEMI_HIGH_SPEED_NEW_ENGINE);
+        autoreplace_text:               string(STR_SEMI_HIGH_SPEED_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_MAGLEV;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    para_speed_SEMI_HIGH_SPEED km/h;
+        construction_cost:              48;
+        maintenance_cost:               22;
+        sort_order:                     07;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+    }
+
+    graphics {
+        gui:                            set_SEMI_HIGH_SPEED_gui;
+        track_overlay:                  sw_SEMI_HIGH_SPEED_track_overlay;
+        underlay:                       sw_SEMI_HIGH_SPEED_track_underlay;
+        tunnels:                        sw_SEMI_HIGH_SPEED_track_tunnel_underlay;
+        depots:                         sw_SEMI_HIGH_SPEED_track_depot;
+        bridge_surfaces:                set_SEMI_HIGH_SPEED_track_bridge;
+        catenary_wire:                  set_SEMI_HIGH_SPEED_track_wire;
+        catenary_pylons:                set_SEMI_HIGH_SPEED_track_pylons;
+        fences:                         set_SEMI_HIGH_SPEED_fences;
+    }
+}

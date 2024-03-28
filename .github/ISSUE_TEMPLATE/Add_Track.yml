@@ -3,6 +3,10 @@ description: 선로를 추가하시겠습니까?
 title: "[선로추가]"
 labels: "Add Track"
 body:
+  - type: markdown
+    attributes:
+      value: |
+        신규 사항을 추가해주셔서 감사합니다!
   - type: textarea
     attributes:
       label: 필수 스프라이트

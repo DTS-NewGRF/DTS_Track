@@ -1,7 +1,7 @@
 name: "[추가사항]"
 description: 선로를 추가하시겠습니까?
 title: "[선로추가]"
-labels: "Add Track"
+labels: "Add track"
 body:
   - type: markdown
     attributes:

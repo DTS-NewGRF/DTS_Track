@@ -2,6 +2,17 @@
 매개변수
 --------------------------------------------------------------------*/
 param {
+    para_speed_MAIN_LINE {
+        type:       int;
+        name:       string(STR_PARA_NAME_SPEED_MAIN_LINE);
+        desc:       string(STR_PARA_DESC_SPEED_MAIN_LINE);
+        min_value:  151;
+        max_value:  181;
+        def_value:  181;
+    }
+}
+
+param {
     para_speed_SEMI_HIGH_SPEED {
         type:       int;
         name:       string(STR_PARA_NAME_SPEED_SEMI_HIGH_SPEED);

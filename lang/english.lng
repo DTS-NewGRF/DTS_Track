@@ -7,10 +7,12 @@ STR_GRF_DESC                                           :Diversity Track Set
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS_Track/releases
 
 # Parameters - Speed Limit
+STR_PARA_NAME_SPEED_MAIN_LINE                          :Speed limit on standard speed tracks (km/h)
+STR_PARA_DESC_SPEED_MAIN_LINE                          :Set speed limit on standard speed tracks. The default value is 180. (151~181km/h)
 STR_PARA_NAME_SPEED_SEMI_HIGH_SPEED                    :Speed limit on semi high speed tracks (km/h)
-STR_PARA_DESC_SPEED_SEMI_HIGH_SPEED                    :Set speed limit on semi high speed tracks. The default value is 261.
+STR_PARA_DESC_SPEED_SEMI_HIGH_SPEED                    :Set speed limit on semi high speed tracks. The default value is 261. (251~290km/h)
 STR_PARA_NAME_SPEED_HIGH_SPEED                         :Speed limit on high speed Tracks (km/h)
-STR_PARA_DESC_SPEED_HIGH_SPEED                         :Set speed limit on high speed Tracks. The default value is 331.
+STR_PARA_DESC_SPEED_HIGH_SPEED                         :Set speed limit on high speed Tracks. The default value is 331. (300~600km/h)
 
 # Low Speed // 120
 STR_LOW_SPEED_TRACK_NAME                               :Low Speed Tracks

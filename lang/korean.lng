@@ -7,10 +7,12 @@ STR_GRF_DESC                                           :다양성 선로 세트 
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS_Track/releases
 
 # Parameters - Speed Limit
+STR_PARA_NAME_SPEED_MAIN_LINE                          :속도제한 - 개량선 선로 (km/h)
+STR_PARA_DESC_SPEED_MAIN_LINE                          :개량선 선로와 전기선로와 도심전기선로의 제한속도를 설정합니다. 기본값은 180 입니다. (151~181km/h)
 STR_PARA_NAME_SPEED_SEMI_HIGH_SPEED                    :속도제한 - 준고속선 선로 (km/h)
-STR_PARA_DESC_SPEED_SEMI_HIGH_SPEED                    :준고속선 선로의 제한속도를 설정합니다. 기본값은 261 입니다.
+STR_PARA_DESC_SPEED_SEMI_HIGH_SPEED                    :준고속선 선로의 제한속도를 설정합니다. 기본값은 261 입니다. (250~290km/h)
 STR_PARA_NAME_SPEED_HIGH_SPEED                         :속도제한 - 고속선 선로 (km/h)
-STR_PARA_DESC_SPEED_HIGH_SPEED                         :고속선 선로의 제한속도를 설정합니다. 기본값은 331 입니다.
+STR_PARA_DESC_SPEED_HIGH_SPEED                         :고속선 선로의 제한속도를 설정합니다. 기본값은 331 입니다. (300~600km/h)
 
 # Low Speed // 120
 STR_LOW_SPEED_TRACK_NAME                               :기존선 선로

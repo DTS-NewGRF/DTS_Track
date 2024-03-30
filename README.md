@@ -1,4 +1,5 @@
 # Diversity Track Set 다양성 선로세트 /DTS_Track
+![DTS_Track_board](https://github.com/DTS-NewGRF/DTS_Track/blob/main/docs/DTS_Track_board.png)
 **다양성 선로세트**는 <br>
 2024년 3월 28일 DTS 오브젝트 차량기지를 호환하기 위해 제작되었습니다.<br>
 

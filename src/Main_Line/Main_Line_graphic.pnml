@@ -3,7 +3,7 @@
 --------------------------------------------------------------------*/
 // STANDARD SPEED
 // GUI
-spriteset(set_MAIN_LINE_gui, "src/Main_Line/Main_Line.png") {
+spriteset(set_MAIN_LINE_gui, "src/Graphics/GUI.png") {
     tmpl_gui (0, 0) 
 }
 
@@ -36,8 +36,8 @@ spriteset(set_MAIN_LINE_fences, "src/Main_Line/Main_Line_Fence.png") {
 }
 
 // Depot
-spriteset(set_MAIN_LINE_track_depot, "src/Main_Line/Main_Line.png") {
-    tmpl_depot (0, 320)
+spriteset(set_MAIN_LINE_track_depot, "src/Graphics/Depots_Main_Line.png") {
+    tmpl_depot (0, 0)
 }
 
 // Bridge surfaces
@@ -56,8 +56,8 @@ spriteset(set_MAIN_LINE_track_crossing_open, "src/Main_Line/Main_Line.png") {
 
 // STANDARD SPEED ELECTRIFIED
 // GUI
-spriteset(set_MAIN_LINE_ELEC_gui, "src/Main_Line/Main_Line.png") {
-    tmpl_gui (0, 400) 
+spriteset(set_MAIN_LINE_ELEC_gui, "src/Graphics/GUI.png") {
+    tmpl_gui (0, 0) 
 }
 
 // Catenary Wire
@@ -72,8 +72,8 @@ spriteset(set_MAIN_LINE_ELEC_track_pylons, "src/Main_Line/Main_Line.png") {
 
 // STANDARD SPEED URBAN ELECTRIFIED
 // GUI
-spriteset(set_MAIN_LINE_URBAN_gui, "src/Main_Line/Main_Line.png") {
-    tmpl_gui (0, 640) 
+spriteset(set_MAIN_LINE_URBAN_gui, "src/Graphics/GUI.png") {
+    tmpl_gui (0, 0) 
 }
 
 // Tracks underlay
@@ -87,8 +87,8 @@ spriteset(set_MAIN_LINE_URBAN_track_tunnel_underlay, "src/Main_Line/Main_Line.pn
 }
 
 // Depot
-spriteset(set_MAIN_LINE_URBAN_track_depot, "src/Main_Line/Main_Line.png") {
-    tmpl_depot (0, 960)
+spriteset(set_MAIN_LINE_URBAN_track_depot, "src/Graphics/Depots_Main_Line_URBAN.png") {
+    tmpl_depot (0, 0)
 }
 
 // Fences

@@ -2,7 +2,7 @@
 그래픽
 --------------------------------------------------------------------*/
 // GUI
-spriteset(set_RAILBED_gui, "src/RailBed/RailBed.png") {
+spriteset(set_RAILBED_gui, "src/Graphics/GUI_RailBed.png") {
     tmpl_gui (0, 0) 
 }
 

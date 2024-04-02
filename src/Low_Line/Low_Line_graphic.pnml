@@ -3,7 +3,7 @@
 --------------------------------------------------------------------*/
 // LOW SPEED
 // GUI
-spriteset(set_LOW_SPEED_gui, "src/Low_Line/Low_Line.png") {
+spriteset(set_LOW_SPEED_gui, "src/Graphics/GUI.png") {
     tmpl_gui (0, 0) 
 }
 
@@ -31,8 +31,8 @@ spriteset(set_LOW_SPEED_track_tunnel_underlay_rain, "src/Low_Line/Low_Line.png")
 }
 
 // Depot
-spriteset(set_LOW_SPEED_track_depot, "src/Low_Line/Low_Line.png") {
-    tmpl_depot (0, 320)
+spriteset(set_LOW_SPEED_track_depot, "src/Graphics/Depots_Low_Line.png") {
+    tmpl_depot (0, 0)
 }
 
 // Bridge surfaces
@@ -51,8 +51,8 @@ spriteset(set_LOW_SPEED_track_crossing_open, "src/Low_Line/Low_Line.png") {
 
 // LOW SPEED ELECTRIFIED
 // GUI
-spriteset(set_LOW_SPEED_ELEC_gui, "src/Low_Line/Low_Line.png") {
-    tmpl_gui (0, 390) 
+spriteset(set_LOW_SPEED_ELEC_gui, "src/Graphics/GUI.png") {
+    tmpl_gui (0, 0) 
 }
 
 // Catenary Wire
@@ -67,8 +67,8 @@ spriteset(set_LOW_SPEED_ELEC_track_pylons, "src/Low_Line/Low_Line.png") {
 
 // LOW SPEED URBAN ELECTRIFIED
 // GUI
-spriteset(set_LOW_SPEED_URBAN_gui, "src/Low_Line/Low_Line.png") {
-    tmpl_gui (0, 620) 
+spriteset(set_LOW_SPEED_URBAN_gui, "src/Graphics/GUI.png") {
+    tmpl_gui (0, 0) 
 }
 
 // Tracks overlay
@@ -92,8 +92,8 @@ spriteset(set_LOW_SPEED_URBAN_fences, "src/Low_Line/Low_Line_Fence.png") {
 }
 
 // Depot
-spriteset(set_LOW_SPEED_URBAN_track_depot, "src/Low_Line/Low_Line.png") {
-    tmpl_depot (0, 940)
+spriteset(set_LOW_SPEED_URBAN_track_depot, "src/Graphics/Depots_Low_Line_URBAN.png") {
+    tmpl_depot (0, 0)
 }
 
 // Bridge surfaces

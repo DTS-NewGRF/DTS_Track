@@ -2,7 +2,7 @@
 그래픽
 --------------------------------------------------------------------*/
 // GUI
-spriteset(set_HIGH_SPEED_gui, "src/High_Speed/High_Speed.png") {
+spriteset(set_HIGH_SPEED_gui, "src/Graphics/GUI.png") {
     tmpl_gui (0, 0) 
 }
 
@@ -40,8 +40,8 @@ spriteset(set_HIGH_SPEED_track_pylons, "src/High_Speed/High_Speed.png") {
 }
 
 // Depot
-spriteset(set_HIGH_SPEED_track_depot, "src/High_Speed/High_Speed.png") {
-    tmpl_depot (0, 320)
+spriteset(set_HIGH_SPEED_track_depot, "src/Graphics/Depots_High_Speed.png") {
+    tmpl_depot (0, 0)
 }
 
 // Fences

@@ -2,7 +2,7 @@
 그래픽
 --------------------------------------------------------------------*/
 // GUI
-spriteset(set_METRO_gui, "src/Graphics/GUI.png") {
+spriteset(set_METRO_gui, "src/Graphics/GUI_Metro.png") {
     tmpl_gui (0, 0) 
 }
 

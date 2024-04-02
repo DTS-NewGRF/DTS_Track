@@ -2,7 +2,7 @@
 그래픽
 --------------------------------------------------------------------*/
 // GUI
-spriteset(set_HIGH_SPEED_gui, "src/Graphics/GUI.png") {
+spriteset(set_HIGH_SPEED_gui, "src/Graphics/GUI_High_Speed.png") {
     tmpl_gui (0, 0) 
 }
 

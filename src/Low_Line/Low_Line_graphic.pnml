@@ -1,9 +1,12 @@
 /*--------------------------------------------------------------------
 그래픽
 --------------------------------------------------------------------*/
-// LOW SPEED
 // GUI
-spriteset(set_LOW_SPEED_gui, "src/Graphics/GUI.png") {
+spriteset(set_LOW_SPEED_gui, "src/Graphics/GUI_Low_Line.png") {
+    tmpl_gui (0, 0) 
+}
+
+spriteset(set_LOW_SPEED_ELEC_gui, "src/Graphics/GUI_Low_Line_Elec.png") {
     tmpl_gui (0, 0) 
 }
 
@@ -50,11 +53,6 @@ spriteset(set_LOW_SPEED_track_crossing_open, "src/Low_Line/Low_Line.png") {
 }
 
 // LOW SPEED ELECTRIFIED
-// GUI
-spriteset(set_LOW_SPEED_ELEC_gui, "src/Graphics/GUI.png") {
-    tmpl_gui (0, 0) 
-}
-
 // Catenary Wire
 spriteset(set_LOW_SPEED_ELEC_track_wire, "src/Low_Line/Low_Line.png") {
     tmpl_catenary_wire (0, 430)
@@ -66,11 +64,6 @@ spriteset(set_LOW_SPEED_ELEC_track_pylons, "src/Low_Line/Low_Line.png") {
 }
 
 // LOW SPEED URBAN ELECTRIFIED
-// GUI
-spriteset(set_LOW_SPEED_URBAN_gui, "src/Graphics/GUI.png") {
-    tmpl_gui (0, 0) 
-}
-
 // Tracks overlay
 spriteset(set_LOW_SPEED_URBAN_track_overlay, "src/Low_Line/Low_Line.png") {
     tmpl_overlay (0, 660)

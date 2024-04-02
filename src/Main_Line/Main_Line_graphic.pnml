@@ -1,9 +1,8 @@
 /*--------------------------------------------------------------------
 그래픽
 --------------------------------------------------------------------*/
-// STANDARD SPEED
 // GUI
-spriteset(set_MAIN_LINE_gui, "src/Graphics/GUI.png") {
+spriteset(set_MAIN_LINE_gui, "src/Graphics/GUI_Main_Line.png") {
     tmpl_gui (0, 0) 
 }
 
@@ -55,11 +54,6 @@ spriteset(set_MAIN_LINE_track_crossing_open, "src/Main_Line/Main_Line.png") {
 }
 
 // STANDARD SPEED ELECTRIFIED
-// GUI
-spriteset(set_MAIN_LINE_ELEC_gui, "src/Graphics/GUI.png") {
-    tmpl_gui (0, 0) 
-}
-
 // Catenary Wire
 spriteset(set_MAIN_LINE_ELEC_track_wire, "src/Main_Line/Main_Line.png") {
     tmpl_catenary_wire (0, 445)
@@ -71,11 +65,6 @@ spriteset(set_MAIN_LINE_ELEC_track_pylons, "src/Main_Line/Main_Line.png") {
 }
 
 // STANDARD SPEED URBAN ELECTRIFIED
-// GUI
-spriteset(set_MAIN_LINE_URBAN_gui, "src/Graphics/GUI.png") {
-    tmpl_gui (0, 0) 
-}
-
 // Tracks underlay
 spriteset(set_MAIN_LINE_URBAN_track_underlay, "src/Main_Line/Main_Line.png") {
     tmpl_underlay (0, 720)

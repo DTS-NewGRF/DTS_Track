@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// Graphic for terrain 3LIM
+switch(FEAT_RAILTYPES, SELF, sw_3LIM_track_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_3LIM_track_tunnel_underlay;
+    TILETYPE_DESERT:                    set_3LIM_track_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_3LIM_track_tunnel_underlay_rain;
+    TILETYPE_SNOW:                      set_3LIM_track_tunnel_underlay_snow;
+    set_3LIM_track_tunnel_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_3LIM_track_tunnel_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_3LIM_track_tunnel_overlay;
+    TILETYPE_SNOW:                      set_3LIM_track_tunnel_overlay_snow;
+    set_3LIM_track_tunnel_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_3LIM_track_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_3LIM_track_overlay;
+    TILETYPE_SNOW:                      set_3LIM_track_overlay_snow;
+    set_3LIM_track_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_3LIM_track_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_3LIM_track_underlay;
+    TILETYPE_SNOW:                      set_3LIM_track_underlay_snow;
+    set_3LIM_track_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_3LIM_track_depot, terrain_type) {
+    TILETYPE_NORMAL:                    set_3RDR_track_depot;
+    TILETYPE_SNOW:                      set_3RDR_track_depot_snow;
+    set_MAIN_LINE_track_depot;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_3LIM_track_bridge, terrain_type) {
+    TILETYPE_NORMAL:                    set_3LIM_track_bridge;
+    set_3LIM_track_bridge;
+}

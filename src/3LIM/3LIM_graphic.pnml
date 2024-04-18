@@ -1,0 +1,69 @@
+/*--------------------------------------------------------------------
+그래픽
+--------------------------------------------------------------------*/
+// GUI
+spriteset(set_3LIM_gui, "src/Graphics/GUI/GUI_3LIM.png") {
+    tmpl_gui (0, 0) 
+}
+
+// Tracks overlay
+spriteset(set_3LIM_track_overlay, "src/Graphics/Track/3LIM.png") {
+    tmpl_overlay (0, 0)
+}
+
+spriteset(set_3LIM_track_overlay_snow, "src/Graphics/Track/3LIM_Snow.png") {
+    tmpl_overlay (0, 0)
+}
+
+// Tracks underlay
+spriteset(set_3LIM_track_underlay, "src/Graphics/Track/3LIM.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_3LIM_track_underlay_snow, "src/Graphics/Track/3LIM_Snow.png") {
+    tmpl_underlay (0, 44)
+}
+
+// Tunnels
+spriteset(set_3LIM_track_tunnel_underlay, "src/Graphics/Track/3LIM.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
+spriteset(set_3LIM_track_tunnel_underlay_desert, "src/Graphics/Track/3LIM.png") {
+    tmpl_tunnel_underlay (0, 140)
+}
+
+spriteset(set_3LIM_track_tunnel_underlay_rain, "src/Graphics/Track/3LIM.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
+spriteset(set_3LIM_track_tunnel_underlay_snow, "src/Graphics/Track/3LIM.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
+spriteset(set_3LIM_track_tunnel_overlay, "src/Graphics/Track/3LIM.png") {
+    tmpl_tunnel_overlay (0, 296)
+}
+
+spriteset(set_3LIM_track_tunnel_overlay_snow, "src/Graphics/Track/3LIM_Snow.png") {
+    tmpl_tunnel_overlay (0, 88)
+}
+
+// Bridge surfaces
+spriteset(set_3LIM_track_bridge, "src/Graphics/Track/3LIM.png") {
+    tmpl_bridge_surface (0, 348)
+}
+
+// Depot
+spriteset(set_3LIM_track_depot, "src/Graphics/Depots/Depots_3LIM.png") {
+    tmpl_depot (0, 0)
+}
+
+spriteset(set_3LIM_track_depot_snow, "src/Graphics/Depots/Depots_3LIM_Snow.png") {
+    tmpl_depot (0, 0)
+}
+
+// Fences
+spriteset(set_3LIM_fences, "src/Graphics/Fence.png") {
+    tmpl_fence (0, 88)
+}

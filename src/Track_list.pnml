@@ -18,3 +18,12 @@
 
 // 노반
 #include "RailBed/RailBed.pnml"
+
+// 3궤조
+#include "3RDR/3RDR.pnml"
+
+// 3궤조 LIM
+#include "3LIM/3LIM.pnml"
+
+// 고무차륜
+#include "LAGT/LAGT.pnml"

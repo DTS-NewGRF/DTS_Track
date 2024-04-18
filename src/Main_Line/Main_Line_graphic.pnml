@@ -2,99 +2,96 @@
 그래픽
 --------------------------------------------------------------------*/
 // GUI
-spriteset(set_MAIN_LINE_gui, "src/Graphics/GUI_Main_Line.png") {
+spriteset(set_MAIN_LINE_gui, "src/Graphics/GUI/GUI_Main_Line.png") {
+    tmpl_gui (0, 0) 
+}
+
+spriteset(set_MAIN_LINE_Elec_gui, "src/Graphics/GUI/GUI_Main_Line_Elec.png") {
     tmpl_gui (0, 0) 
 }
 
 // Tracks overlay
-spriteset(set_MAIN_LINE_track_overlay, "src/Main_Line/Main_Line.png") {
-    tmpl_overlay (0, 40)
+spriteset(set_MAIN_LINE_track_overlay, "src/Graphics/Track/Main_Line.png") {
+    tmpl_overlay (0, 0)
 }
 
 // Tracks underlay
-spriteset(set_MAIN_LINE_track_underlay, "src/Main_Line/Main_Line.png") {
-    tmpl_underlay (0, 80)
+spriteset(set_MAIN_LINE_track_underlay, "src/Graphics/Track/Main_Line.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_MAIN_LINE_URBAN_track_underlay, "src/Graphics/Track/Main_Line_URBAN.png") {
+    tmpl_underlay (0, 44)
 }
 
 // Tunnels
-spriteset(set_MAIN_LINE_track_tunnel_underlay, "src/Main_Line/Main_Line.png") {
-    tmpl_tunnel_underlay (0, 120)
+spriteset(set_MAIN_LINE_track_tunnel_underlay, "src/Graphics/Track/Main_Line.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
+spriteset(set_MAIN_LINE_URBAN_track_tunnel_underlay, "src/Graphics/Track/Main_Line_URBAN.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
+spriteset(set_MAIN_LINE_track_tunnel_underlay_desert, "src/Graphics/Track/Main_Line.png") {
+    tmpl_tunnel_underlay (0, 140)
 } 
 
-spriteset(set_MAIN_LINE_track_tunnel_underlay_desert, "src/Main_Line/Main_Line.png") {
-    tmpl_tunnel_underlay (0, 170)
-} 
-
-spriteset(set_MAIN_LINE_track_tunnel_underlay_rain, "src/Main_Line/Main_Line.png") {
-    tmpl_tunnel_underlay (0, 220)
-}
-
-// Fences
-spriteset(set_MAIN_LINE_fences, "src/Main_Line/Main_Line_Fence.png") {
-    tmpl_fence (0, 0)
-}
-
-// Depot
-spriteset(set_MAIN_LINE_track_depot, "src/Graphics/Depots_Main_Line.png") {
-    tmpl_depot (0, 0)
-}
-
-// Bridge surfaces
-spriteset(set_MAIN_LINE_track_bridge, "src/Main_Line/Main_Line.png") {
-    tmpl_bridge_surface (700, 270)
-}
-
-// Level crossing
-spriteset(set_MAIN_LINE_track_crossing_close, "src/Main_Line/Main_Line.png") {
-    tmpl_level_crossing_type_1_close (700, 120)
-}
-
-spriteset(set_MAIN_LINE_track_crossing_open, "src/Main_Line/Main_Line.png") {
-    tmpl_level_crossing_type_1_open (700, 120)
-}
-
-// STANDARD SPEED ELECTRIFIED
-// Catenary Wire
-spriteset(set_MAIN_LINE_ELEC_track_wire, "src/Main_Line/Main_Line.png") {
-    tmpl_catenary_wire (0, 445)
-}
-
-// Catenary Pylons
-spriteset(set_MAIN_LINE_ELEC_track_pylons, "src/Main_Line/Main_Line.png") {
-    tmpl_catenary_pylons (0, 590)
-}
-
-// STANDARD SPEED URBAN ELECTRIFIED
-// Tracks underlay
-spriteset(set_MAIN_LINE_URBAN_track_underlay, "src/Main_Line/Main_Line.png") {
-    tmpl_underlay (0, 720)
-}
-
-// Tunnels
-spriteset(set_MAIN_LINE_URBAN_track_tunnel_underlay, "src/Main_Line/Main_Line.png") {
-    tmpl_tunnel_underlay (0, 760)
-}
-
-// Depot
-spriteset(set_MAIN_LINE_URBAN_track_depot, "src/Graphics/Depots_Main_Line_URBAN.png") {
-    tmpl_depot (0, 0)
-}
-
-// Fences
-spriteset(set_MAIN_LINE_URBAN_fences, "src/Main_Line/Main_Line_Fence.png") {
-    tmpl_fence (0, 50)
+spriteset(set_MAIN_LINE_track_tunnel_underlay_rain, "src/Graphics/Track/Main_Line.png") {
+    tmpl_tunnel_underlay (0, 192)
 }
 
 // Tunnel overlay
-spriteset(set_MAIN_LINE_URBAN_track_tunnel_overlay, "src/Main_Line/Main_Line.png") {
-    tmpl_tunnel_overlay (280, 810)
+spriteset(set_MAIN_LINE_URBAN_track_tunnel_overlay, "src/Graphics/Track/Main_Line_URBAN.png") {
+    tmpl_tunnel_overlay (0, 296)
+}
+
+// Bridge surfaces
+spriteset(set_MAIN_LINE_track_bridge, "src/Graphics/Track/Main_Line.png") {
+    tmpl_bridge_surface (0, 296)
 }
 
 // Level crossing
-spriteset(set_MAIN_LINE_URBAN_track_crossing_close, "src/Main_Line/Main_Line.png") {
-    tmpl_level_crossing_type_1_close (700, 760)
+spriteset(set_MAIN_LINE_track_crossing_close, "src/Graphics/Track/Main_Line.png") {
+    tmpl_level_crossing_type_close (0, 340)
 }
 
-spriteset(set_MAIN_LINE_URBAN_track_crossing_open, "src/Main_Line/Main_Line.png") {
-    tmpl_level_crossing_type_1_open (700, 760)
+spriteset(set_MAIN_LINE_URBAN_track_crossing_close, "src/Graphics/Track/Main_Line_URBAN.png") {
+    tmpl_level_crossing_type_close (0, 348)
+}
+
+spriteset(set_MAIN_LINE_track_crossing_open, "src/Graphics/Track/Main_Line.png") {
+    tmpl_level_crossing_type_open (0, 340)
+}
+
+spriteset(set_MAIN_LINE_URBAN_track_crossing_open, "src/Graphics/Track/Main_Line_URBAN.png") {
+    tmpl_level_crossing_type_open (0, 348)
+}
+
+// Depot
+spriteset(set_MAIN_LINE_track_depot, "src/Graphics/Depots/Depots_Main_Line.png") {
+    tmpl_depot (0, 0)
+}
+
+spriteset(set_MAIN_LINE_URBAN_track_depot, "src/Graphics/Depots/Depots_Main_Line_URBAN.png") {
+    tmpl_depot (0, 0)
+}
+
+// Fences
+spriteset(set_MAIN_LINE_fences, "src/Graphics/Fence.png") {
+    tmpl_fence (0, 0)
+}
+
+spriteset(set_MAIN_LINE_URBAN_fences, "src/Graphics/Fence.png") {
+    tmpl_fence (0, 44)
+}
+
+// Catenary Wire
+spriteset(set_MAIN_LINE_ELEC_track_wire, "src/Graphics/Catenary_Wire.png") {
+    tmpl_catenary_wire (0, 0)
+}
+
+// Catenary Pylons
+spriteset(set_MAIN_LINE_ELEC_track_pylons, "src/Graphics/Catenary_Pylons.png") {
+    tmpl_catenary_pylons (0, 0)
 }

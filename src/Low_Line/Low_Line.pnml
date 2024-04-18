@@ -107,7 +107,7 @@ item(FEAT_RAILTYPES, track_LOW_SPEED_URBAN, 03) {
     }
 
     graphics {
-        gui:                            set_LOW_SPEED_gui;
+        gui:                            set_LOW_SPEED_ELEC_gui;
         track_overlay:                  sw_LOW_SPEED_URBAN_track_overlay;
         underlay:                       sw_LOW_SPEED_URBAN_track_underlay;
         tunnels:                        sw_LOW_SPEED_URBAN_track_tunnel_underlay;

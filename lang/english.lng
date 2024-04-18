@@ -93,3 +93,35 @@ STR_TRACK_RAILBED_TOOLBAR_CAPTION                      :Railbed Construction
 STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION                :.
 STR_TRACK_RAILBED_NEW_ENGINE                           :.
 STR_TRACK_RAILBED_AUTOREPLACE                          :.
+
+# 3RDR
+STR_TRACK_3RDR_NAME                                    :Third rail current collector
+STR_TRACK_3RDR_DROPDOWN_MENU                           :Third rail current collector Construction
+STR_TRACK_3RDR_TOOLBAR_CAPTION                         :Third rail current collector Construction
+STR_TRACK_3RDR_BUILD_VEHICLE_CAPTION                   :New Third rail current collector Vehicle
+STR_TRACK_3RDR_NEW_ENGINE                              :Third rail current collector Vehicle
+STR_TRACK_3RDR_AUTOREPLACE                             :Third rail current collector Vehicle
+
+# M3RL
+STR_TRACK_M3RL_NAME                                    :Third rail metro current collector
+STR_TRACK_M3RL_DROPDOWN_MENU                           :Third rail metrocurrent collector Construction
+STR_TRACK_M3RL_TOOLBAR_CAPTION                         :Third rail metro current collector Construction
+STR_TRACK_M3RL_BUILD_VEHICLE_CAPTION                   :New Third rail metro current collector Vehicle
+STR_TRACK_M3RL_NEW_ENGINE                              :Third rail metro current collector Vehicle
+STR_TRACK_M3RL_AUTOREPLACE                             :Third rail metro current collector Vehicle
+
+# 3LIM
+STR_TRACK_3LIM_NAME                                    :LIM Third rail current collector
+STR_TRACK_3LIM_DROPDOWN_MENU                           :LIM Third rail current collector Construction
+STR_TRACK_3LIM_TOOLBAR_CAPTION                         :LIM Third rail current collector Construction
+STR_TRACK_3LIM_BUILD_VEHICLE_CAPTION                   :New LIM Third rail current Vehicle
+STR_TRACK_3LIM_NEW_ENGINE                              :LIM Third rail current Vehicle
+STR_TRACK_3LIM_AUTOREPLACE                             :LIM Third rail current Vehicle
+
+# LAGT
+STR_TRACK_LAGT_NAME                                    :AGT Track
+STR_TRACK_LAGT_DROPDOWN_MENU                           :AGT Track Construction
+STR_TRACK_LAGT_TOOLBAR_CAPTION                         :AGT Track Construction
+STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :New AGT Track Vehicle
+STR_TRACK_LAGT_NEW_ENGINE                              :AGT Track Vehicle
+STR_TRACK_LAGT_AUTOREPLACE                             :AGT Track Vehicle

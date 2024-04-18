@@ -2,12 +2,12 @@
 그래픽
 --------------------------------------------------------------------*/
 // GUI
-spriteset(set_RAILBED_gui, "src/Graphics/GUI_RailBed.png") {
+spriteset(set_RAILBED_gui, "src/Graphics/GUI/GUI_RailBed.png") {
     tmpl_gui (0, 0) 
 }
 
 // Tracks overlay (Blank)
-spriteset(set_RAILBED_overlay, "src/RailBed/RailBed.png") {
+spriteset(set_RAILBED_overlay, "src/Graphics/Track/RailBed.png") {
     [   0,    0,    1,    1,    0,    0]
     [   0,    0,    1,    1,    0,    0]
     [   0,    0,    1,    1,    0,    0]
@@ -21,26 +21,26 @@ spriteset(set_RAILBED_overlay, "src/RailBed/RailBed.png") {
 }
 
 // Tracks underlay
-spriteset(set_RAILBED_underlay, "src/RailBed/RailBed.png") {
-    [   0,   40,   64,   31,  -31,    0]   // ↗↙
-    [  70,   40,   64,   31,  -31,    0]   // ↖↘
-    [ 140,   40,   64,   31,  -31,    0]   // ↔U
-    [ 210,   40,   64,   31,  -31,    0]   // ↔D
-    [ 280,   40,   64,   31,  -31,    0]   // ↕R
-    [ 350,   40,   64,   31,  -31,    0]   // ↕L
-    [ 420,   40,   64,   39,  -31,   -8]   // ↗ slope up
-    [ 490,   40,   64,   23,  -31,    0]   // ↘ slope up 
-    [ 560,   40,   64,   23,  -31,    0]   // ↙ slope up
-    [ 630,   40,   64,   39,  -31,   -8]   // ↖ slope up
-    [   0,   40,   64,   31,  -31,    0]   // +
-    [  70,   40,   64,   31,  -31,    0]   // combi SW
-    [  70,   40,   64,   31,  -31,    0]   // combi NE
-    [   0,   40,   64,   31,  -31,    0]   // combi SE
-    [   0,   40,   64,   31,  -31,    0]   // combi NW
-    [   0,   40,   64,   31,  -31,    0]   // combi all
+spriteset(set_RAILBED_underlay, "src/Graphics/Track/RailBed.png") {
+    [   0,   0,   64,   31,  -31,    0]   // ↗↙
+    [  70,   0,   64,   31,  -31,    0]   // ↖↘
+    [ 140,   0,   64,   31,  -31,    0]   // ↔U
+    [ 210,   0,   64,   31,  -31,    0]   // ↔D
+    [ 280,   0,   64,   31,  -31,    0]   // ↕R
+    [ 350,   0,   64,   31,  -31,    0]   // ↕L
+    [ 420,   0,   64,   39,  -31,   -8]   // ↗ slope up
+    [ 490,   0,   64,   23,  -31,    0]   // ↘ slope up 
+    [ 560,   0,   64,   23,  -31,    0]   // ↙ slope up
+    [ 630,   0,   64,   39,  -31,   -8]   // ↖ slope up
+    [   0,   0,   64,   31,  -31,    0]   // +
+    [  70,   0,   64,   31,  -31,    0]   // combi SW
+    [  70,   0,   64,   31,  -31,    0]   // combi NE
+    [   0,   0,   64,   31,  -31,    0]   // combi SE
+    [   0,   0,   64,   31,  -31,    0]   // combi NW
+    [   0,   0,   64,   31,  -31,    0]   // combi all
 }
 
 // Fences
-spriteset(set_RAILBED_fences, "src/RailBed/RailBed_Fence.png") {
-    tmpl_fence (0, 100)
+spriteset(set_RAILBED_fences, "src/Graphics/Fence.png") {
+    tmpl_fence (0, 88)
 }

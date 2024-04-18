@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+그래픽
+--------------------------------------------------------------------*/
+// GUI
+spriteset(set_AGT_gui, "src/Graphics/GUI/GUI_LAGT.png") {
+    tmpl_gui (0, 0) 
+}
+
+// Tracks underlay
+spriteset(set_AGT_track_underlay, "src/Graphics/Track/LAGT.png") {
+    tmpl_underlay (0, 0)
+}
+
+// Tunnels
+spriteset(set_AGT_track_tunnel_underlay, "src/Graphics/Track/LAGT.png") {
+    tmpl_tunnel_underlay (0, 44)
+}
+
+spriteset(set_AGT_track_tunnel_underlay_desert, "src/Graphics/Track/LAGT.png") {
+    tmpl_tunnel_underlay (0, 96)
+}
+
+spriteset(set_AGT_track_tunnel_underlay_rain, "src/Graphics/Track/LAGT.png") {
+    tmpl_tunnel_underlay (0, 148)
+}
+
+spriteset(set_AGT_track_tunnel_underlay_snow, "src/Graphics/Track/LAGT.png") {
+    tmpl_tunnel_underlay (0, 200)
+}
+
+// Bridge surfaces
+spriteset(set_AGT_track_bridge, "src/Graphics/Track/LAGT.png") {
+    tmpl_bridge_surface (0, 252)
+}
+
+// Depot
+spriteset(set_AGT_track_depot, "src/Graphics/Depots/Depots_LAGT.png") {
+    tmpl_depot (0, 0)
+}
+
+// Fences
+spriteset(set_AGT_fences, "src/Graphics/Fence.png") {
+    tmpl_fence (0, 88)
+}

@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------------
+3궤조
+--------------------------------------------------------------------*/
+// Graphics
+#include "3RDR_graphic.pnml"
+
+// Switch
+#include "3RDR_switch.pnml"
+
+/*--------------------------------------------------------------------
+선로정보
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_3RDR, 11) {
+    property {
+        label:                          "3RDR";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_3RDR_NAME);
+        menu_text:                      string(STR_TRACK_3RDR_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_3RDR_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_3RDR_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_3RDR_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_3RDR_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    160 km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask();
+        alternative_railtype_list:      ["RAIL","3RDR"];
+        compatible_railtype_list:       ["RAIL","3RDR"];
+        powered_railtype_list:          ["RAIL","3RDR"];
+    }
+
+    graphics {
+        gui:                            set_3RDR_gui;
+        track_overlay:                  sw_3RDR_track_overlay;
+        underlay:                       sw_3RDR_track_underlay;
+        tunnels:                        sw_3RDR_track_tunnel_underlay;
+        depots:                         sw_3RDR_track_depot;
+        bridge_surfaces:                sw_3RDR_track_bridge;
+        level_crossings:                sw_3RDR_track_level_crossing;
+        fences:                         set_3RDR_fences;
+    }
+}
+
+item(FEAT_RAILTYPES, track_M3RL, 12) {
+    property {
+        label:                          "M3RL";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_M3RL_NAME);
+        menu_text:                      string(STR_TRACK_M3RL_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_M3RL_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_M3RL_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_M3RL_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_M3RL_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    120 km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask();
+        alternative_railtype_list:      ["RAIL","3RDR","M3RL"];
+        compatible_railtype_list:       ["RAIL","3RDR","M3RL"];
+        powered_railtype_list:          ["RAIL","3RDR","M3RL"];
+    }
+
+    graphics {
+        gui:                            set_M3RL_gui;
+        track_overlay:                  sw_M3RL_track_overlay;
+        underlay:                       sw_M3RL_track_underlay;
+        tunnels:                        sw_M3RL_track_tunnel_underlay;
+        tunnel_overlay:                 sw_M3RL_track_tunnel_overlay;
+        depots:                         sw_M3RL_track_depot;
+        bridge_surfaces:                sw_M3RL_track_bridge;
+        fences:                         set_M3RL_fences;
+    }
+}

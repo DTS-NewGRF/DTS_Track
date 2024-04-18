@@ -1,0 +1,26 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// Graphic for terrain AGT
+switch(FEAT_RAILTYPES, SELF, sw_AGT_track_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_AGT_track_tunnel_underlay;
+    TILETYPE_DESERT:                    set_AGT_track_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_AGT_track_tunnel_underlay_rain;
+    TILETYPE_SNOW:                      set_AGT_track_tunnel_underlay_snow;
+    set_AGT_track_tunnel_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_AGT_track_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_AGT_track_underlay;
+    set_AGT_track_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_AGT_track_depot, terrain_type) {
+    TILETYPE_NORMAL:                    set_AGT_track_depot;
+    set_AGT_track_depot;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_AGT_track_bridge, terrain_type) {
+    TILETYPE_NORMAL:                    set_AGT_track_bridge;
+    set_AGT_track_bridge;
+}

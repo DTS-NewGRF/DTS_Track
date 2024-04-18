@@ -92,3 +92,35 @@ STR_TRACK_RAILBED_TOOLBAR_CAPTION                      :노반 건설
 STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION                :.
 STR_TRACK_RAILBED_NEW_ENGINE                           :.
 STR_TRACK_RAILBED_AUTOREPLACE                          :.
+
+# 3RDR
+STR_TRACK_3RDR_NAME                                    :일반선 3궤조 전기선로
+STR_TRACK_3RDR_DROPDOWN_MENU                           :일반선 3궤조 전기선로 건설
+STR_TRACK_3RDR_TOOLBAR_CAPTION                         :일반선 3궤조 전기선로 건설
+STR_TRACK_3RDR_BUILD_VEHICLE_CAPTION                   :새 일반선 3궤조 전기선로 차량
+STR_TRACK_3RDR_NEW_ENGINE                              :일반선 3궤조 전기선로 차량
+STR_TRACK_3RDR_AUTOREPLACE                             :일반선 3궤조 전기선로 차량
+
+# M3RL
+STR_TRACK_M3RL_NAME                                    :도시철도 3궤조 전기선로
+STR_TRACK_M3RL_DROPDOWN_MENU                           :도시철도 3궤조 전기선로 건설
+STR_TRACK_M3RL_TOOLBAR_CAPTION                         :도시철도 3궤조 전기선로 건설
+STR_TRACK_M3RL_BUILD_VEHICLE_CAPTION                   :새 도시철도 3궤조 전기선로 차량
+STR_TRACK_M3RL_NEW_ENGINE                              :도시철도 3궤조 전기선로 차량
+STR_TRACK_M3RL_AUTOREPLACE                             :도시철도 3궤조 전기선로 차량
+
+# 3LIM
+STR_TRACK_3LIM_NAME                                    :LIM 3궤조 전기선로
+STR_TRACK_3LIM_DROPDOWN_MENU                           :LIM 3궤조 전기선로 건설
+STR_TRACK_3LIM_TOOLBAR_CAPTION                         :LIM 3궤조 전기선로 건설
+STR_TRACK_3LIM_BUILD_VEHICLE_CAPTION                   :새 LIM 3궤조 전기선로 차량
+STR_TRACK_3LIM_NEW_ENGINE                              :LIM 3궤조 전기선로 차량
+STR_TRACK_3LIM_AUTOREPLACE                             :LIM 3궤조 전기선로 차량
+
+# LAGT
+STR_TRACK_LAGT_NAME                                    :고무차륜 선로
+STR_TRACK_LAGT_DROPDOWN_MENU                           :고무차륜 선로건설
+STR_TRACK_LAGT_TOOLBAR_CAPTION                         :고무차륜 선로건설
+STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :새 고무차륜 선로 차량
+STR_TRACK_LAGT_NEW_ENGINE                              :고무차륜 선로 차량
+STR_TRACK_LAGT_AUTOREPLACE                             :고무차륜 선로 차량

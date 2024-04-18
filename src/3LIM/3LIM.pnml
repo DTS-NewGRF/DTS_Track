@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------------
+3궤조 LIM
+--------------------------------------------------------------------*/
+// Graphics
+#include "3LIM_graphic.pnml"
+
+// Switch
+#include "3LIM_switch.pnml"
+
+/*--------------------------------------------------------------------
+선로정보
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_3LIM, 13) {
+    property {
+        label:                          "3LIM";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_3LIM_NAME);
+        menu_text:                      string(STR_TRACK_3LIM_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_3LIM_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_3LIM_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_3LIM_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_3LIM_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    120 km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask();
+        alternative_railtype_list:      ["3LIM"];
+        compatible_railtype_list:       ["3LIM"];
+        powered_railtype_list:          ["3LIM"];
+    }
+
+    graphics {
+        gui:                            set_3LIM_gui;
+        track_overlay:                  sw_3LIM_track_overlay;
+        underlay:                       sw_3LIM_track_underlay;
+        tunnels:                        sw_3LIM_track_tunnel_underlay;
+        tunnel_overlay:                 sw_3LIM_track_tunnel_overlay;
+        depots:                         sw_3LIM_track_depot;
+        bridge_surfaces:                sw_3LIM_track_bridge;
+        fences:                         set_3LIM_fences;
+    }
+}

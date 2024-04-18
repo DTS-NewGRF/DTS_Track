@@ -71,7 +71,7 @@ item(FEAT_RAILTYPES, track_MAIN_LINE_ELEC, 05) {
     }
 
     graphics {
-        gui:                            set_MAIN_LINE_gui;
+        gui:                            set_MAIN_LINE_Elec_gui;
         track_overlay:                  sw_MAIN_LINE_track_overlay;
         underlay:                       sw_MAIN_LINE_track_underlay;
         tunnels:                        sw_MAIN_LINE_track_tunnel_underlay;
@@ -109,7 +109,7 @@ item(FEAT_RAILTYPES, track_MAIN_LINE_URBAN, 06) {
     }
 
     graphics {
-        gui:                            set_MAIN_LINE_gui;
+        gui:                            set_MAIN_LINE_Elec_gui;
         track_overlay:                  sw_MAIN_LINE_URBAN_track_overlay;
         underlay:                       sw_MAIN_LINE_URBAN_track_underlay;
         tunnels:                        sw_MAIN_LINE_URBAN_track_tunnel_underlay;

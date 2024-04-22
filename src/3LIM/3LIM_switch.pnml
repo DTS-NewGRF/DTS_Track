@@ -29,8 +29,8 @@ switch(FEAT_RAILTYPES, SELF, sw_3LIM_track_underlay, terrain_type) {
 }
 
 switch(FEAT_RAILTYPES, SELF, sw_3LIM_track_depot, terrain_type) {
-    TILETYPE_NORMAL:                    set_3RDR_track_depot;
-    TILETYPE_SNOW:                      set_3RDR_track_depot_snow;
+    TILETYPE_NORMAL:                    set_3LIM_track_depot;
+    TILETYPE_SNOW:                      set_3LIM_track_depot_snow;
     set_MAIN_LINE_track_depot;
 }
 

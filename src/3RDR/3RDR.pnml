@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_3RDR, 11) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["RAIL","3RDR"];
-        compatible_railtype_list:       ["RAIL","3RDR"];
-        powered_railtype_list:          ["RAIL","3RDR"];
+        alternative_railtype_list:      ["RAIL","3RDR","M3RL"];
+        compatible_railtype_list:       ["RAIL","3RDR","M3RL"];
+        powered_railtype_list:          ["RAIL","3RDR","M3RL"];
     }
 
     graphics {

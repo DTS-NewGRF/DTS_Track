@@ -124,3 +124,13 @@ STR_TRACK_LAGT_TOOLBAR_CAPTION                         :고무차륜 선로건�
 STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :새 고무차륜 선로 차량
 STR_TRACK_LAGT_NEW_ENGINE                              :고무차륜 선로 차량
 STR_TRACK_LAGT_AUTOREPLACE                             :고무차륜 선로 차량
+
+# Waypoint's name
+STR_Waypoint_Wash                                      :세차장
+STR_Waypoint_WashA                                     :세차장 A
+STR_Waypoint_WashB                                     :세차장 B
+STR_Waypoint_WashC                                     :세차장 C
+STR_Waypoint_WashD                                     :세차장 D
+STR_Waypoint_WashE                                     :세차장 E
+STR_Waypoint_WashF                                     :세차장 F
+STR_Waypoint_WashG                                     :세차장 G

@@ -27,3 +27,6 @@
 
 // 고무차륜
 #include "LAGT/LAGT.pnml"
+
+// 경유지
+#include "Waypoint/Train_wash.pnml"

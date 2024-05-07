@@ -125,3 +125,13 @@ STR_TRACK_LAGT_TOOLBAR_CAPTION                         :AGT Track Construction
 STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :New AGT Track Vehicle
 STR_TRACK_LAGT_NEW_ENGINE                              :AGT Track Vehicle
 STR_TRACK_LAGT_AUTOREPLACE                             :AGT Track Vehicle
+
+# Waypoint's name
+STR_Waypoint_Wash                                      :[DTS_Track] Train Wash
+STR_Waypoint_WashA                                     :[DTS_Track] Train Wash A
+STR_Waypoint_WashB                                     :[DTS_Track] Train Wash B
+STR_Waypoint_WashC                                     :[DTS_Track] Train Wash C
+STR_Waypoint_WashD                                     :[DTS_Track] Train Wash D
+STR_Waypoint_WashE                                     :[DTS_Track] Train Wash E
+STR_Waypoint_WashF                                     :[DTS_Track] Train Wash F
+STR_Waypoint_WashG                                     :[DTS_Track] Train Wash G

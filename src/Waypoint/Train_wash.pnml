@@ -1,0 +1,123 @@
+/*--------------------------------------------------------------------
+경유지
+--------------------------------------------------------------------*/
+// Graphics
+#include "Train_wash_graphic.pnml"
+
+// Switch
+#include "Train_wash_switch.pnml"
+
+/*--------------------------------------------------------------------
+경유지 정보
+--------------------------------------------------------------------*/
+// 세차장 A
+item(FEAT_STATIONS, Waypoint_Train_Wash_A, 2012) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint_WashA);
+        name:                   string(STR_Waypoint_WashA);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Train_Wash_A_X(0), set_Train_Wash_A_Y(0)];
+        purchase: set_Train_Wash_A;
+        
+    }
+}
+
+// 세차장 B
+item(FEAT_STATIONS, Waypoint_Train_Wash_B, 2013) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint_WashB);
+        name:                   string(STR_Waypoint_WashB);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Train_Wash_B_X(0), set_Train_Wash_B_Y(0)];
+        purchase: set_Train_Wash_B;
+        
+    }
+}
+
+// 세차장 C
+item(FEAT_STATIONS, Waypoint_Train_Wash_C, 2014) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint_WashC);
+        name:                   string(STR_Waypoint_WashC);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Train_Wash_C_X(0), set_Train_Wash_C_Y(0)];
+        purchase: set_Train_Wash_C;
+        
+    }
+}
+
+// 세차장 D
+item(FEAT_STATIONS, Waypoint_Train_Wash_D, 2015) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint_WashD);
+        name:                   string(STR_Waypoint_WashD);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Train_Wash_D_X(0), set_Train_Wash_D_Y(0)];
+        purchase: set_Train_Wash_D;
+        
+    }
+}
+
+// 세차장 E
+item(FEAT_STATIONS, Waypoint_Train_Wash_E, 2016) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint_WashE);
+        name:                   string(STR_Waypoint_WashE);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Train_Wash_E_X(0), set_Train_Wash_E_Y(0)];
+        purchase: set_Train_Wash_E;
+        
+    }
+}
+
+// 세차장 F
+item(FEAT_STATIONS, Waypoint_Train_Wash_F, 2017) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint_WashF);
+        name:                   string(STR_Waypoint_WashF);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Train_Wash_F_X(0), set_Train_Wash_F_Y(0)];
+        purchase: set_Train_Wash_F;
+        
+    }
+}
+
+// 세차장 G
+item(FEAT_STATIONS, Waypoint_Train_Wash_G, 2018) {
+    property {
+        class:                  "WAYP";
+        classname:              string(STR_Waypoint_WashG);
+        name:                   string(STR_Waypoint_WashG);
+        draw_pylon_tiles:       0;
+    }
+    
+    graphics {
+        sprite_layouts: [set_Train_Wash_G_X(0), set_Train_Wash_G_Y(0)];
+        purchase: set_Train_Wash_G;
+        
+    }
+}

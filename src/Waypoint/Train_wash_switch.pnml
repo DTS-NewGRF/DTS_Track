@@ -1,0 +1,179 @@
+/*--------------------------------------------------------------------
+switch
+--------------------------------------------------------------------*/
+// 세차장 A
+spritelayout set_Train_Wash_A_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Train_Wash_A(0); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Train_Wash_A_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Train_Wash_A(1); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+// 세차장 B
+spritelayout set_Train_Wash_B_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Train_Wash_B(0); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Train_Wash_B_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Train_Wash_B(1); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+// 세차장 C
+spritelayout set_Train_Wash_C_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Train_Wash_C(0); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Train_Wash_C_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Train_Wash_C(1); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+// 세차장 D
+spritelayout set_Train_Wash_D_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Train_Wash_D(0); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Train_Wash_D_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Train_Wash_D(1); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+// 세차장 E
+spritelayout set_Train_Wash_E_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Train_Wash_E(0); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Train_Wash_E_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Train_Wash_E(1); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+// 세차장 F
+spritelayout set_Train_Wash_F_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Train_Wash_F(0); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Train_Wash_F_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Train_Wash_F(1); // second sprite in active spriteset
+        zextent: 1;
+        yextent: 1;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+// 세차장 G
+spritelayout set_Train_Wash_G_X(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_X;
+    }
+    building {
+        sprite: set_Train_Wash_G(0); // second sprite in active spriteset
+        xextent: 5;
+        yextent: 30;
+        zextent: 12;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}
+
+spritelayout set_Train_Wash_G_Y(a) {
+    ground {
+        sprite: GROUNDSPRITE_RAIL_Y;
+    }
+    building {
+        sprite: set_Train_Wash_G(1); // second sprite in active spriteset
+        xextent: 30;
+        yextent: 5;
+        zextent: 12;
+        recolour_mode: RECOLOUR_NONE;
+    }
+}

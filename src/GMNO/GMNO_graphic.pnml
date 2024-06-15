@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+그래픽
+--------------------------------------------------------------------*/
+// GUI
+spriteset(set_GMNO_gui, "src/Graphics/GUI/GUI_GMNO.png") {
+    tmpl_gui (0, 0) 
+}
+
+// Tracks overlay
+spriteset(set_GMNO_track_overlay, "src/Graphics/Track/GMNO.png") {
+    tmpl_overlay (0, 0)
+}
+
+// Tracks underlay
+spriteset(set_GMNO_track_underlay, "src/Graphics/Track/GMNO.png") {
+    tmpl_underlay (0, 44)
+}
+
+// Tunnels
+spriteset(set_GMNO_track_tunnel_underlay, "src/Graphics/Track/GMNO.png") {
+    tmpl_tunnel_underlay (0, 87)
+}
+
+spriteset(set_GMNO_track_tunnel_underlay_desert, "src/Graphics/Track/GMNO.png") {
+    tmpl_tunnel_underlay (0, 139)
+}
+
+spriteset(set_GMNO_track_tunnel_underlay_rain, "src/Graphics/Track/GMNO.png") {
+    tmpl_tunnel_underlay (0, 191)
+}
+
+spriteset(set_GMNO_track_tunnel_underlay_snow, "src/Graphics/Track/GMNO.png") {
+    tmpl_tunnel_underlay (0, 243)
+}
+
+// Bridge surfaces
+spriteset(set_GMNO_track_bridge, "src/Graphics/Track/GMNO.png") {
+    tmpl_bridge_surface (0, 295)
+}
+
+// Depot
+spriteset(set_GMNO_track_depot, "src/Graphics/Depots/Depots_GMNO.png") {
+    tmpl_depot (0, 0)
+}

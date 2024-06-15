@@ -1,0 +1,45 @@
+/*--------------------------------------------------------------------
+과좌식 모노레일
+--------------------------------------------------------------------*/
+// Graphics
+#include "GMNO_graphic.pnml"
+
+// Switch
+#include "GMNO_switch.pnml"
+
+/*--------------------------------------------------------------------
+선로정보
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_GMNO, 15) {
+    property {
+        label:                          "GMNO";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_GMNO_NAME);
+        menu_text:                      string(STR_TRACK_GMNO_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_GMNO_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_GMNO_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_GMNO_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_GMNO_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    80 km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask();
+        alternative_railtype_list:      ["GMNO"];
+        compatible_railtype_list:       ["GMNO"];
+        powered_railtype_list:          ["GMNO"];
+    }
+
+    graphics {
+        gui:                            set_GMNO_gui;
+        track_overlay:                  sw_GMNO_track_overlay;
+        underlay:                       sw_GMNO_track_underlay;
+        tunnels:                        sw_GMNO_track_tunnel_underlay;
+        depots:                         sw_GMNO_track_depot;
+        bridge_surfaces:                sw_GMNO_track_bridge;
+    }
+}

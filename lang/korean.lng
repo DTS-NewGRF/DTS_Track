@@ -125,6 +125,14 @@ STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :새 고무차륜 선로 
 STR_TRACK_LAGT_NEW_ENGINE                              :고무차륜 선로 차량
 STR_TRACK_LAGT_AUTOREPLACE                             :고무차륜 선로 차량
 
+# GMNO
+STR_TRACK_GMNO_NAME                                    :과좌식 모노레일
+STR_TRACK_GMNO_DROPDOWN_MENU                           :과좌식 모노레일 건설
+STR_TRACK_GMNO_TOOLBAR_CAPTION                         :과좌식 모노레일 건설
+STR_TRACK_GMNO_BUILD_VEHICLE_CAPTION                   :새 과좌식 모노레일 차량
+STR_TRACK_GMNO_NEW_ENGINE                              :과좌식 모노레일 차량
+STR_TRACK_GMNO_AUTOREPLACE                             :과좌식 모노레일 차량
+
 # Waypoint's name
 STR_Waypoint_Wash                                      :세차장
 STR_Waypoint_WashA                                     :세차장 A

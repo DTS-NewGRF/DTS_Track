@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// Graphic for terrain GMNO
+switch(FEAT_RAILTYPES, SELF, sw_GMNO_track_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_GMNO_track_tunnel_underlay;
+    TILETYPE_DESERT:                    set_GMNO_track_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_GMNO_track_tunnel_underlay_rain;
+    TILETYPE_SNOW:                      set_GMNO_track_tunnel_underlay_snow;
+    set_GMNO_track_tunnel_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_GMNO_track_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_GMNO_track_overlay;
+    set_GMNO_track_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_GMNO_track_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_GMNO_track_underlay;
+    set_GMNO_track_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_GMNO_track_depot, terrain_type) {
+    TILETYPE_NORMAL:                    set_GMNO_track_depot;
+    set_GMNO_track_depot;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_GMNO_track_bridge, terrain_type) {
+    TILETYPE_NORMAL:                    set_GMNO_track_bridge;
+    set_GMNO_track_bridge;
+}

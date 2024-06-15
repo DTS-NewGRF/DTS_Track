@@ -126,6 +126,14 @@ STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :New AGT Track Vehicle
 STR_TRACK_LAGT_NEW_ENGINE                              :AGT Track Vehicle
 STR_TRACK_LAGT_AUTOREPLACE                             :AGT Track Vehicle
 
+# GMNO
+STR_TRACK_GMNO_NAME                                    :GMNO Track
+STR_TRACK_GMNO_DROPDOWN_MENU                           :GMNO Track Construction
+STR_TRACK_GMNO_TOOLBAR_CAPTION                         :GMNO Track Construction
+STR_TRACK_GMNO_BUILD_VEHICLE_CAPTION                   :New GMNO Track Construction
+STR_TRACK_GMNO_NEW_ENGINE                              :GMNO Track Vehicle
+STR_TRACK_GMNO_AUTOREPLACE                             :GMNO Track Vehicle
+
 # Waypoint's name
 STR_Waypoint_Wash                                      :[DTS_Track] Train Wash
 STR_Waypoint_WashA                                     :[DTS_Track] Train Wash A

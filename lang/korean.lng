@@ -78,14 +78,14 @@ STR_HIGH_SPEED_NEW_ENGINE                              :고속선 차량
 STR_HIGH_SPEED_AUTOREPLACE                             :고속선 차량
 
 # High Speed // 430
-STR_HIGH_SPEED_TRACK_430_NAME                          :고속선 선로 (430km/h)
-STR_HIGH_SPEED_TRACK_430_DROPDOWN_MENU                 :고속선 선로 건설 (430km/h)
-STR_HIGH_SPEED_TRACK_430_TOOLBAR_CAPTION               :고속선 선로 건설 (430km/h)
+STR_HIGH_SPEED_TRACK_430_NAME                          :준초고속선 선로
+STR_HIGH_SPEED_TRACK_430_DROPDOWN_MENU                 :준초고속선 선로 건설
+STR_HIGH_SPEED_TRACK_430_TOOLBAR_CAPTION               :준초고속선 선로 건설
 
 # High Speed // 600
-STR_HIGH_SPEED_TRACK_600_NAME                          :고속선 선로 (600km/h)
-STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU                 :고속선 선로 건설 (600km/h)
-STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION               :고속선 선로 건설 (600km/h)
+STR_HIGH_SPEED_TRACK_600_NAME                          :초고속선 선로
+STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU                 :초고속선 선로 건설
+STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION               :초고속선 선로 건설
 
 # Metro
 STR_TRACK_METRO_NAME                                   :지하철 선로

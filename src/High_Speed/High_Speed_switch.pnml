@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// Graphic for terrain
+// Graphic for terrain 331km/h
 switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_tunnel_underlay, terrain_type) {
     TILETYPE_NORMAL:                    set_HIGH_SPEED_track_tunnel_underlay;
     TILETYPE_DESERT:                    set_HIGH_SPEED_track_tunnel_underlay_desert;
@@ -22,4 +22,40 @@ switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_underlay, terrain_type) {
 switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_depot, terrain_type) {
     TILETYPE_NORMAL:                    set_HIGH_SPEED_track_depot;
     set_HIGH_SPEED_track_depot;
+}
+
+// Graphic for terrain 430km/h
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_430_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_track_430_tunnel_underlay;
+    TILETYPE_DESERT:                    set_HIGH_SPEED_track_430_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_HIGH_SPEED_track_430_tunnel_underlay_rain;
+    set_HIGH_SPEED_track_430_tunnel_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_430_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_track_430_overlay;          
+    set_HIGH_SPEED_track_430_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_430_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_track_430_underlay;
+    set_HIGH_SPEED_track_430_underlay;
+}
+
+// Graphic for terrain 600km/h
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_600_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_track_600_tunnel_underlay;
+    TILETYPE_DESERT:                    set_HIGH_SPEED_track_600_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_HIGH_SPEED_track_600_tunnel_underlay_rain;
+    set_HIGH_SPEED_track_600_tunnel_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_600_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_track_600_overlay;          
+    set_HIGH_SPEED_track_600_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_600_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_track_600_underlay;
+    set_HIGH_SPEED_track_600_underlay;
 }

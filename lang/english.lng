@@ -70,13 +70,23 @@ STR_SEMI_HIGH_SPEED_BUILD_VEHICLE_CAPTION              :New Semi High Speed Vehi
 STR_SEMI_HIGH_SPEED_NEW_ENGINE                         :Semi High Speed Vehicle
 STR_SEMI_HIGH_SPEED_AUTOREPLACE                        :Semi High Speed Vehicles
 
-# High Speed // 430
+# High Speed // 331
 STR_HIGH_SPEED_TRACK_NAME                              :High Speed Tracks
 STR_HIGH_SPEED_TRACK_DROPDOWN_MENU                     :High Speed Track Construction
 STR_HIGH_SPEED_TRACK_TOOLBAR_CAPTION                   :High Speed Track Construction
 STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION                   :New High Speed Vehicles
 STR_HIGH_SPEED_NEW_ENGINE                              :High Speed Vehicle
 STR_HIGH_SPEED_AUTOREPLACE                             :High Speed Vehicles
+
+# High Speed // 430
+STR_HIGH_SPEED_TRACK_430_NAME                          :High Speed Tracks (430Km/h)
+STR_HIGH_SPEED_TRACK_430_DROPDOWN_MENU                 :High Speed Track Construction (430Km/h)
+STR_HIGH_SPEED_TRACK_430_TOOLBAR_CAPTION               :High Speed Track Construction (430Km/h)
+
+# High Speed // 600
+STR_HIGH_SPEED_TRACK_600_NAME                          :High Speed Tracks (600Km/h)
+STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU                 :High Speed Track Construction (600Km/h)
+STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION               :High Speed Track Construction (600Km/h)
 
 # Metro
 STR_TRACK_METRO_NAME                                   :Metro Tracks

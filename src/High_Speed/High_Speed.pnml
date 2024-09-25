@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------
-지하철 선로
+고속선로 선로
 --------------------------------------------------------------------*/
 // Graphics
 #include "High_Speed_graphic.pnml"
@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED, 08) {
         sort_order:                     08;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
     }
 
     graphics {
@@ -41,6 +41,86 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED, 08) {
         tunnels:                        sw_HIGH_SPEED_track_tunnel_underlay;
         depots:                         sw_HIGH_SPEED_track_depot;
         bridge_surfaces:                set_HIGH_SPEED_track_bridge;
+        catenary_wire:                  set_HIGH_SPEED_track_wire;
+        catenary_pylons:                set_HIGH_SPEED_track_pylons;
+        fences:                         set_HIGH_SPEED_fences;
+    }
+}
+
+/*--------------------------------------------------------------------
+선로정보
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_HIGH_SPEED_430, 16) {
+    property {
+        label:                          "KHST";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_HIGH_SPEED_TRACK_430_NAME);
+        menu_text:                      string(STR_HIGH_SPEED_TRACK_430_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_HIGH_SPEED_TRACK_430_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_HIGH_SPEED_NEW_ENGINE);
+        autoreplace_text:               string(STR_HIGH_SPEED_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_MAGLEV;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    430 km/h;
+        construction_cost:              96;
+        maintenance_cost:               24;
+        sort_order:                     08;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+    }
+
+    graphics {
+        gui:                            set_HIGH_SPEED_gui;
+        track_overlay:                  sw_HIGH_SPEED_track_430_overlay;
+        underlay:                       sw_HIGH_SPEED_track_430_underlay;
+        tunnels:                        sw_HIGH_SPEED_track_430_tunnel_underlay;
+        depots:                         sw_HIGH_SPEED_track_depot;
+        bridge_surfaces:                set_HIGH_SPEED_track_430_bridge;
+        catenary_wire:                  set_HIGH_SPEED_track_wire;
+        catenary_pylons:                set_HIGH_SPEED_track_pylons;
+        fences:                         set_HIGH_SPEED_fences;
+    }
+}
+
+/*--------------------------------------------------------------------
+선로정보
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_HIGH_SPEED_600, 17) {
+    property {
+        label:                          "KTHS";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_HIGH_SPEED_TRACK_600_NAME);
+        menu_text:                      string(STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_HIGH_SPEED_NEW_ENGINE);
+        autoreplace_text:               string(STR_HIGH_SPEED_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_MAGLEV;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    600 km/h;
+        construction_cost:              96;
+        maintenance_cost:               24;
+        sort_order:                     08;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+    }
+
+    graphics {
+        gui:                            set_HIGH_SPEED_gui;
+        track_overlay:                  sw_HIGH_SPEED_track_600_overlay;
+        underlay:                       sw_HIGH_SPEED_track_600_underlay;
+        tunnels:                        sw_HIGH_SPEED_track_600_tunnel_underlay;
+        depots:                         sw_HIGH_SPEED_track_depot;
+        bridge_surfaces:                set_HIGH_SPEED_track_600_bridge;
         catenary_wire:                  set_HIGH_SPEED_track_wire;
         catenary_pylons:                set_HIGH_SPEED_track_pylons;
         fences:                         set_HIGH_SPEED_fences;

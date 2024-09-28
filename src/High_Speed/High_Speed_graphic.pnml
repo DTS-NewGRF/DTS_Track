@@ -6,6 +6,14 @@ spriteset(set_HIGH_SPEED_gui, "src/Graphics/GUI/GUI_High_Speed.png") {
     tmpl_gui (0, 0) 
 }
 
+spriteset(set_HIGH_SPEED_gui_430, "src/Graphics/GUI/GUI_High_Speed_430.png") {
+    tmpl_gui (0, 0) 
+}
+
+spriteset(set_HIGH_SPEED_gui_600, "src/Graphics/GUI/GUI_High_Speed_600.png") {
+    tmpl_gui (0, 0) 
+}
+
 // Tracks overlay
 spriteset(set_HIGH_SPEED_track_overlay, "src/Graphics/Track/High_Speed.png") {
     tmpl_overlay (0, 0)
@@ -84,6 +92,14 @@ spriteset(set_HIGH_SPEED_track_600_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
 
 // Depot
 spriteset(set_HIGH_SPEED_track_depot, "src/Graphics/Depots/Depots_High_Speed.png") {
+    tmpl_depot (0, 0)
+}
+
+spriteset(set_HIGH_SPEED_track_430_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_High_Speed_430.png") {
+    tmpl_depot (0, 0)
+}
+
+spriteset(set_HIGH_SPEED_track_600_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_High_Speed_600.png") {
     tmpl_depot (0, 0)
 }
 

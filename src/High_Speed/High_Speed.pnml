@@ -75,11 +75,11 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_430, 16) {
     }
 
     graphics {
-        gui:                            set_HIGH_SPEED_gui;
+        gui:                            set_HIGH_SPEED_gui_430;
         track_overlay:                  sw_HIGH_SPEED_track_430_overlay;
         underlay:                       sw_HIGH_SPEED_track_430_underlay;
         tunnels:                        sw_HIGH_SPEED_track_430_tunnel_underlay;
-        depots:                         sw_HIGH_SPEED_track_depot;
+        depots:                         sw_HIGH_SPEED_track_430_depot;
         bridge_surfaces:                set_HIGH_SPEED_track_430_bridge;
         catenary_wire:                  set_HIGH_SPEED_track_wire;
         catenary_pylons:                set_HIGH_SPEED_track_pylons;
@@ -115,11 +115,11 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_600, 17) {
     }
 
     graphics {
-        gui:                            set_HIGH_SPEED_gui;
+        gui:                            set_HIGH_SPEED_gui_600;
         track_overlay:                  sw_HIGH_SPEED_track_600_overlay;
         underlay:                       sw_HIGH_SPEED_track_600_underlay;
         tunnels:                        sw_HIGH_SPEED_track_600_tunnel_underlay;
-        depots:                         sw_HIGH_SPEED_track_depot;
+        depots:                         sw_HIGH_SPEED_track_600_depot;
         bridge_surfaces:                set_HIGH_SPEED_track_600_bridge;
         catenary_wire:                  set_HIGH_SPEED_track_wire;
         catenary_pylons:                set_HIGH_SPEED_track_pylons;

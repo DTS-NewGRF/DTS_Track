@@ -1,0 +1,72 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_Train_Wash_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashA_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashB_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashC_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_D, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashD_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_E, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashE_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_F, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashF_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_G, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashG_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_G_A2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashG_A2_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_G_A3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashG_A3_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_G_A4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashG_A4_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_G_A5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashG_A5_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_G_A6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashG_A6_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_G_A7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashG_A7_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}
+
+spriteset(set_Train_Wash_G_A8, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Waypoint/Train_Wash/Train_WashG_A8_32bpp.png"){
+    [0,      0,    64,    75,    -29,  -42]
+    [70,     0,    64,    75,    -32,  -43]
+}

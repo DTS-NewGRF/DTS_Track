@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_LAGT, 14) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["LAGT","KRLR"];
-        compatible_railtype_list:       ["LAGT","KRLR"];
-        powered_railtype_list:          ["LAGT","KRLR"];
+        alternative_railtype_list:      ["LAGT","KRLR","KLAG"];
+        compatible_railtype_list:       ["LAGT","KRLR","KLAG"];
+        powered_railtype_list:          ["LAGT","KRLR","KLAG"];
     }
 
     graphics {

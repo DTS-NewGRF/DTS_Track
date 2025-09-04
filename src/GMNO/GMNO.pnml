@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_GMNO, 15) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["GMNO"];
-        compatible_railtype_list:       ["GMNO"];
-        powered_railtype_list:          ["GMNO"];
+        alternative_railtype_list:      ["GMNO","KLMN"];
+        compatible_railtype_list:       ["GMNO","KLMN"];
+        powered_railtype_list:          ["GMNO","KLMN"];
     }
 
     graphics {

@@ -13,6 +13,10 @@ STR_PARA_NAME_SPEED_SEMI_HIGH_SPEED                    :Speed limit on semi high
 STR_PARA_DESC_SPEED_SEMI_HIGH_SPEED                    :Set speed limit on semi high speed tracks. The default value is 261. (251~290km/h)
 STR_PARA_NAME_SPEED_HIGH_SPEED                         :Speed limit on high speed Tracks (km/h)
 STR_PARA_DESC_SPEED_HIGH_SPEED                         :Set speed limit on high speed Tracks. The default value is 331. (300~600km/h)
+STR_PARAM_Simple_Waypoint_NAME                         :Make waypoint's graphics simple
+STR_PARAM_Simple_Waypoint_DESC                         :Make the graphic of waypoints simple by eliminating waypoint buildings.
+STR_PARAM_Object_Waypoint_NAME                         :Whether to use objects or waypoints
+STR_PARAM_Object_Waypoint_DESC                         :Check when using objects and waypoints. (Default: unused)
 
 # Low Speed // 120
 STR_LOW_SPEED_TRACK_NAME                               :Low Speed Tracks
@@ -153,3 +157,22 @@ STR_Waypoint_WashD                                     :[DTS_Track] Train Wash D
 STR_Waypoint_WashE                                     :[DTS_Track] Train Wash E
 STR_Waypoint_WashF                                     :[DTS_Track] Train Wash F
 STR_Waypoint_WashG                                     :[DTS_Track] Train Wash G
+STR_Waypoint                                           :NoUse Station
+STR_Waypoint_Nousestation_HighA                        :NoUse High Station A
+STR_Waypoint_Nousestation_HighB                        :NoUse High Station B
+STR_Waypoint_Nousestation_LowA                         :NoUse Low Station A
+STR_Waypoint_Nousestation_LowB                         :NoUse Low Station B
+STR_Waypoint_Nousestation_ALowA                        :NoUse Low Asphalt Station A
+STR_Waypoint_Nousestation_ALowB                        :NoUse Low Asphalt Station B
+STR_Waypoint_Nousestation_HighA_Snow                   :NoUse High Snow Station A
+STR_Waypoint_Nousestation_HighB_Snow                   :NoUse High Snow Station B
+STR_Waypoint_Nousestation_LowA_Snow                    :NoUse Low Snow Station A
+STR_Waypoint_Nousestation_LowB_Snow                    :NoUse Low Snow Station B
+STR_Waypoint_Nousestation_ALowA_Snow                   :NoUse Low Asphalt Snow Station A
+STR_Waypoint_Nousestation_ALowB_Snow                   :NoUse Low Asphalt Snow Station B
+
+# Object's name
+STR_OBJ_BUFFER                                         :Buffers
+STR_OBJ_BUFFER_Concrete                                :Concrete Buffers
+STR_OBJ_BUFFER_pebble                                  :pebble Buffers
+STR_OBJ_BUFFER_signboard                               :Train stopper Gravel track with signboard

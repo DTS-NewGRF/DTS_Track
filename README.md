@@ -6,7 +6,12 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Track/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 프리 릴리즈
-[1.03] 2025.09.04
+[1.03] 2025.09.13
+[이슈외 작업]
+* [변경] 기존선 도시철도 차량기지 그래픽 오류 수정
+* [2025.09.13] DTS 열차셋의 오브젝트, 경유지 추가 적용.
+
+[이슈작업]
 [추가]
 * [선로변경] 고무차륜 선로 호환되는 선로 추가 ([#17](https://github.com/DTS-NewGRF/DTS/issues/17))
 * [선로변경] 과좌식 모노레일 선로 호환되는 선로 추가 ([#18](https://github.com/DTS-NewGRF/DTS/issues/18))

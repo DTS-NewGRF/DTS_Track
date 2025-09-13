@@ -1,4 +1,6 @@
 /*--------------------------------------------------------------------
 경유지 리스트
 --------------------------------------------------------------------*/
-#include "Train_Wash/Train_Wash.pnml"
+#include "waypoint/Train_Wash/Train_Wash.pnml"
+#include "waypoint/Platform/Platforms/Platforms.pnml"
+#include "waypoint/Platform/Simple/Simple.pnml"

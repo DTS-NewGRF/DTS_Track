@@ -13,6 +13,10 @@ STR_PARA_NAME_SPEED_SEMI_HIGH_SPEED                    :속도제한 - 준고속
 STR_PARA_DESC_SPEED_SEMI_HIGH_SPEED                    :준고속선 선로의 제한속도를 설정합니다. 기본값은 261 입니다. (250~290km/h)
 STR_PARA_NAME_SPEED_HIGH_SPEED                         :속도제한 - 고속선 선로 (km/h)
 STR_PARA_DESC_SPEED_HIGH_SPEED                         :고속선 선로의 제한속도를 설정합니다. 기본값은 331 입니다. (300~600km/h)
+STR_PARAM_Simple_Waypoint_NAME                         :경유지를 간단하게 표시
+STR_PARAM_Simple_Waypoint_DESC                         :경유지 그래픽에서 건물을 제거하여 간단하게 표시합니다.
+STR_PARAM_Object_Waypoint_NAME                         :오브젝트, 경유지 사용 여부
+STR_PARAM_Object_Waypoint_DESC                         :오브젝트, 경유지 사용시 체크하세요. (기본:미사용)
 
 # Low Speed // 120
 STR_LOW_SPEED_TRACK_NAME                               :기존선 선로
@@ -152,3 +156,22 @@ STR_Waypoint_WashD                                     :세차장 D
 STR_Waypoint_WashE                                     :세차장 E
 STR_Waypoint_WashF                                     :세차장 F
 STR_Waypoint_WashG                                     :세차장 G
+STR_Waypoint                                           :미사용 승강장
+STR_Waypoint_Nousestation_HighA                        :미사용 고상홈A
+STR_Waypoint_Nousestation_HighB                        :미사용 고상홈B
+STR_Waypoint_Nousestation_LowA                         :미사용 저상홈A
+STR_Waypoint_Nousestation_LowB                         :미사용 저상홈B
+STR_Waypoint_Nousestation_ALowA                        :미사용 아스팔트 저상홈A
+STR_Waypoint_Nousestation_ALowB                        :미사용 아스팔트 저상홈B
+STR_Waypoint_Nousestation_HighA_Snow                   :미사용 고상홈A 아한대
+STR_Waypoint_Nousestation_HighB_Snow                   :미사용 고상홈B 아한대
+STR_Waypoint_Nousestation_LowA_Snow                    :미사용 저상홈A 아한대
+STR_Waypoint_Nousestation_LowB_Snow                    :미사용 저상홈B 아한대
+STR_Waypoint_Nousestation_ALowA_Snow                   :미사용 아스팔트 저상홈A 아한대
+STR_Waypoint_Nousestation_ALowB_Snow                   :미사용 아스팔트 저상홈B 아한대
+
+# Object's name
+STR_OBJ_BUFFER                                         :차막이
+STR_OBJ_BUFFER_Concrete                                :콘크리트 차막이
+STR_OBJ_BUFFER_pebble                                  :자갈 차막이
+STR_OBJ_BUFFER_signboard                               :표지판 차막이

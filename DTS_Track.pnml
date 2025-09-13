@@ -10,7 +10,7 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20250904;
+    version :                          20250913;
     min_compatible_version :           20240616;
 	
 	// Parameters 매개변수
@@ -19,10 +19,13 @@ grf {
     }
 
 // Load Templates
-#include "src/Template_list.pnml"
+#include "src/template_list.pnml"
 
 // Load Track
-#include "src/Track_list.pnml"
+#include "src/track_list.pnml"
+
+// Load Objects
+#include "src/object.pnml"
 
 // Load Waypoint
-#include "src/Waypoint/Waypoint.pnml"
+#include "src/waypoint.pnml"

@@ -35,6 +35,6 @@ item(FEAT_RAILTYPES, track_RAILBED, 10) {
         gui:                            set_RAILBED_gui;
         track_overlay:                  set_RAILBED_overlay;
         underlay:                       sw_RAILBED_underlay;
-        fences:                         set_RAILBED_fences;
+        fences:                         set_fences3;
     }
 }

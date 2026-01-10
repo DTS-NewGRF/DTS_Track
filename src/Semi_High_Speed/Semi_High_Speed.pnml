@@ -41,8 +41,8 @@ item(FEAT_RAILTYPES, track_SEMI_HIGH_SPEED, 07) {
         tunnels:                        sw_SEMI_HIGH_SPEED_track_tunnel_underlay;
         depots:                         sw_SEMI_HIGH_SPEED_track_depot;
         bridge_surfaces:                set_SEMI_HIGH_SPEED_track_bridge;
-        catenary_wire:                  set_SEMI_HIGH_SPEED_track_wire;
-        catenary_pylons:                set_SEMI_HIGH_SPEED_track_pylons;
-        fences:                         set_SEMI_HIGH_SPEED_fences;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences3;
     }
 }

@@ -77,20 +77,6 @@ spriteset(set_MAIN_LINE_URBAN_track_depot, "src/Graphics/Depots/Depots_Main_Line
     tmpl_depot (0, 0)
 }
 
-// Fences
-spriteset(set_MAIN_LINE_fences, "src/Graphics/Fence.png") {
-    tmpl_fence (0, 0)
-}
-
-spriteset(set_MAIN_LINE_URBAN_fences, "src/Graphics/Fence.png") {
-    tmpl_fence (0, 44)
-}
-
-// Catenary Wire
-spriteset(set_MAIN_LINE_ELEC_track_wire, "src/Graphics/Catenary_Wire.png") {
-    tmpl_catenary_wire (0, 0)
-}
-
 // Catenary Pylons
 spriteset(set_MAIN_LINE_ELEC_track_pylons, "src/Graphics/Catenary_Pylons.png") {
     tmpl_catenary_pylons (0, 0)

@@ -43,9 +43,9 @@ item(FEAT_RAILTYPES, track_METRO, 09) {
         depots:                         sw_METRO_depot;
         bridge_surfaces:                set_METRO_bridge;
         level_crossings:                sw_set_METRO_level_crossing;
-        catenary_wire:                  set_METRO_wire;
-        catenary_pylons:                set_METRO_pylons;
-        fences:                         set_METRO_fences;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences3;
     }
 }
 
@@ -73,8 +73,8 @@ item(FEAT_RAILTYPES, track_METRO_Underground, 18) {
     graphics {
         gui:                            set_METRO_Underground_gui;
         depots:                         set_METRO_Underground_depot;
-        catenary_wire:                  set_METRO_Underground_catenary;
-        catenary_pylons:                set_METRO_Underground_pylons;
-        fences:                         set_METRO_Undergroind_fences;
+        catenary_wire:                  set_Underground_catenary;
+        catenary_pylons:                set_No_catenary;
+        fences:                         set_No_Fences;
     }
 }

@@ -37,8 +37,3 @@ spriteset(set_AGT_track_bridge, "src/Graphics/Track/LAGT.png") {
 spriteset(set_AGT_track_depot, "src/Graphics/Depots/Depots_LAGT.png") {
     tmpl_depot (0, 0)
 }
-
-// Fences
-spriteset(set_AGT_fences, "src/Graphics/Fence.png") {
-    tmpl_fence (0, 88)
-}

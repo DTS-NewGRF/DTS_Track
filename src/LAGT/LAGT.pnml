@@ -41,6 +41,6 @@ item(FEAT_RAILTYPES, track_LAGT, 14) {
         tunnels:                        sw_AGT_track_tunnel_underlay;
         depots:                         sw_AGT_track_depot;
         bridge_surfaces:                sw_AGT_track_bridge;
-        fences:                         set_AGT_fences;
+        fences:                         set_fences3;
     }
 }

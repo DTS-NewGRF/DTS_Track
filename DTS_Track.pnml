@@ -29,3 +29,9 @@ grf {
 
 // Load Waypoint
 #include "src/waypoint.pnml"
+
+// Load Fence
+#include "src/Fence.pnml"
+
+// Load Catenary
+#include "src/Catenary.pnml"

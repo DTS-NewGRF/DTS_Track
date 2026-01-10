@@ -35,6 +35,6 @@ item(FEAT_RAILTYPES, track_CONC, 19) {
         gui:                            set_RAILCONC_gui;
         track_overlay:                  sw_CONC_overlay;
         underlay:                       sw_CONC_underlay;
-        fences:                         set_RAILCONC_fences;
+        fences:                         set_No_Fences;
     }
 }

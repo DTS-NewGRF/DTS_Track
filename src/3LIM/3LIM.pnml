@@ -42,6 +42,6 @@ item(FEAT_RAILTYPES, track_3LIM, 13) {
         tunnel_overlay:                 sw_3LIM_track_tunnel_overlay;
         depots:                         sw_3LIM_track_depot;
         bridge_surfaces:                sw_3LIM_track_bridge;
-        fences:                         set_3LIM_fences;
+        fences:                         set_fences3;
     }
 }

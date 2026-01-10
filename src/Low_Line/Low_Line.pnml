@@ -77,8 +77,8 @@ item(FEAT_RAILTYPES, track_LOW_SPEED_ELEC, 02) {
         depots:                         sw_LOW_SPEED_track_depot;
         bridge_surfaces:                sw_LOW_SPEED_track_bridge;
         level_crossings:                sw_set_LOW_SPEED_track_level_crossing;
-        catenary_wire:                  set_LOW_SPEED_ELEC_track_wire;
-        catenary_pylons:                set_LOW_SPEED_ELEC_track_pylons;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
     }
 }
 
@@ -115,8 +115,8 @@ item(FEAT_RAILTYPES, track_LOW_SPEED_URBAN, 03) {
         depots:                         sw_LOW_SPEED_URBAN_track_depot;
         bridge_surfaces:                set_LOW_SPEED_URBAN_track_bridge;
         level_crossings:                sw_set_LOW_SPEED_URBAN_track_level_crossing;
-        catenary_wire:                  set_LOW_SPEED_ELEC_track_wire;
-        catenary_pylons:                set_LOW_SPEED_ELEC_track_pylons;
-        fences:                         set_LOW_SPEED_URBAN_fences;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences2;
     }
 }

@@ -42,7 +42,7 @@ item(FEAT_RAILTYPES, track_MAIN_LINE, 04) {
         depots:                         sw_MAIN_LINE_track_depot;
         bridge_surfaces:                sw_MAIN_LINE_track_bridge;
         level_crossings:                sw_set_MAIN_LINE_track_level_crossing;
-        fences:                         set_MAIN_LINE_fences;
+        fences:                         set_fences1;
     }
 }
 
@@ -78,9 +78,9 @@ item(FEAT_RAILTYPES, track_MAIN_LINE_ELEC, 05) {
         depots:                         sw_MAIN_LINE_track_depot;
         bridge_surfaces:                sw_MAIN_LINE_track_bridge;
         level_crossings:                sw_set_MAIN_LINE_track_level_crossing;
-        catenary_wire:                  set_MAIN_LINE_ELEC_track_wire;
-        catenary_pylons:                set_MAIN_LINE_ELEC_track_pylons;
-        fences:                         set_MAIN_LINE_fences;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences1;
     }
 }
 
@@ -117,8 +117,8 @@ item(FEAT_RAILTYPES, track_MAIN_LINE_URBAN, 06) {
         depots:                         sw_MAIN_LINE_URBAN_track_depot;
         bridge_surfaces:                set_MAIN_LINE_track_bridge;
         level_crossings:                sw_set_MAIN_LINE_URBAN_track_level_crossing;
-        catenary_wire:                  set_MAIN_LINE_ELEC_track_wire;
-        catenary_pylons:                set_MAIN_LINE_ELEC_track_pylons;
-        fences:                         set_MAIN_LINE_URBAN_fences;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences2;
     }
 }

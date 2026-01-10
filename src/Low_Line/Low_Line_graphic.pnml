@@ -84,18 +84,3 @@ spriteset(set_LOW_SPEED_track_depot, "src/Graphics/Depots/Depots_Low_Line.png") 
 spriteset(set_LOW_SPEED_URBAN_track_depot, "src/Graphics/Depots/Depots_Low_Line_URBAN.png") {
     tmpl_depot (0, 0)
 }
-
-// Fences
-spriteset(set_LOW_SPEED_URBAN_fences, "src/Graphics/Fence.png") {
-    tmpl_fence (0, 44)
-}
-
-// Catenary Wire
-spriteset(set_LOW_SPEED_ELEC_track_wire, "src/Graphics/Catenary_Wire.png") {
-    tmpl_catenary_wire (0, 0)
-}
-
-// Catenary Pylons
-spriteset(set_LOW_SPEED_ELEC_track_pylons, "src/Graphics/Catenary_Pylons.png") {
-    tmpl_catenary_pylons (0, 0)
-}

@@ -103,16 +103,6 @@ spriteset(set_HIGH_SPEED_track_600_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "s
     tmpl_depot (0, 0)
 }
 
-// Fences
-spriteset(set_HIGH_SPEED_fences, "src/Graphics/Fence.png") {
-    tmpl_fence (0, 88)
-}
-
-// Catenary Wire
-spriteset(set_HIGH_SPEED_track_wire, "src/Graphics/Catenary_Wire.png") {
-    tmpl_catenary_wire (0, 0)
-}
-
 // Catenary Pylons
 spriteset(set_HIGH_SPEED_track_pylons, "src/Graphics/Catenary_Pylons.png") {
     tmpl_catenary_pylons (0, 0)

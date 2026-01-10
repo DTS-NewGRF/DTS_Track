@@ -62,8 +62,3 @@ spriteset(set_3LIM_track_depot, "src/Graphics/Depots/Depots_3LIM.png") {
 spriteset(set_3LIM_track_depot_snow, "src/Graphics/Depots/Depots_3LIM_Snow.png") {
     tmpl_depot (0, 0)
 }
-
-// Fences
-spriteset(set_3LIM_fences, "src/Graphics/Fence.png") {
-    tmpl_fence (0, 88)
-}

@@ -42,7 +42,7 @@ item(FEAT_RAILTYPES, track_3RDR, 11) {
         depots:                         sw_3RDR_track_depot;
         bridge_surfaces:                sw_3RDR_track_bridge;
         level_crossings:                sw_3RDR_track_level_crossing;
-        fences:                         set_3RDR_fences;
+        fences:                         set_fences1;
     }
 }
 
@@ -78,7 +78,7 @@ item(FEAT_RAILTYPES, track_M3RL, 12) {
         tunnel_overlay:                 sw_M3RL_track_tunnel_overlay;
         depots:                         sw_M3RL_track_depot;
         bridge_surfaces:                sw_M3RL_track_bridge;
-        fences:                         set_M3RL_fences;
+        fences:                         set_fences3;
     }
 }
 
@@ -113,8 +113,8 @@ item(FEAT_RAILTYPES, track_3RDR_Underground, 20) {
         tunnels:                        sw_M3RL_track_tunnel_underlay;
         tunnel_overlay:                 sw_M3RL_track_tunnel_overlay;
         depots:                         sw_3RDR_Underground_depot;
-        catenary_wire:                  set_3RDR_Underground_catenary;
-        catenary_pylons:                set_3RDR_Underground_pylons;
-        fences:                         set_3RDR_Underground_fences;
+        catenary_wire:                  set_Underground_catenary;
+        catenary_pylons:                set_No_catenary;
+        fences:                         set_No_Fences;
     }
 }

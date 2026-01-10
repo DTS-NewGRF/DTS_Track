@@ -41,9 +41,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED, 08) {
         tunnels:                        sw_HIGH_SPEED_track_tunnel_underlay;
         depots:                         sw_HIGH_SPEED_track_depot;
         bridge_surfaces:                set_HIGH_SPEED_track_bridge;
-        catenary_wire:                  set_HIGH_SPEED_track_wire;
-        catenary_pylons:                set_HIGH_SPEED_track_pylons;
-        fences:                         set_HIGH_SPEED_fences;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences3;
     }
 }
 
@@ -81,9 +81,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_430, 16) {
         tunnels:                        sw_HIGH_SPEED_track_430_tunnel_underlay;
         depots:                         sw_HIGH_SPEED_track_430_depot;
         bridge_surfaces:                set_HIGH_SPEED_track_430_bridge;
-        catenary_wire:                  set_HIGH_SPEED_track_wire;
-        catenary_pylons:                set_HIGH_SPEED_track_pylons;
-        fences:                         set_HIGH_SPEED_fences;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences3;
     }
 }
 
@@ -121,8 +121,8 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_600, 17) {
         tunnels:                        sw_HIGH_SPEED_track_600_tunnel_underlay;
         depots:                         sw_HIGH_SPEED_track_600_depot;
         bridge_surfaces:                set_HIGH_SPEED_track_600_bridge;
-        catenary_wire:                  set_HIGH_SPEED_track_wire;
-        catenary_pylons:                set_HIGH_SPEED_track_pylons;
-        fences:                         set_HIGH_SPEED_fences;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences3;
     }
 }

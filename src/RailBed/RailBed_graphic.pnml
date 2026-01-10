@@ -39,8 +39,3 @@ spriteset(set_RAILBED_underlay, "src/Graphics/Track/RailBed.png") {
     [   0,   0,   64,   31,  -31,    0]   // combi NW
     [   0,   0,   64,   31,  -31,    0]   // combi all
 }
-
-// Fences
-spriteset(set_RAILBED_fences, "src/Graphics/Fence.png") {
-    tmpl_fence (0, 88)
-}

@@ -99,6 +99,14 @@ STR_TRACK_METRO_BUILD_VEHICLE_CAPTION                  :새 지하철 차량
 STR_TRACK_METRO_NEW_ENGINE                             :지하철 차량
 STR_TRACK_METRO_AUTOREPLACE                            :지하철 차량
 
+# Metro 지하선로
+STR_TRACK_METRO_UNDERGROUND_NAME                       :도시철도(지하) 선로
+STR_TRACK_METRO_UNDERGROUND_DROPDOWN_MENU              :도시철도(지하) 선로 건설
+STR_TRACK_METRO_UNDERGROUND_TOOLBAR_CAPTION            :도시철도(지하) 선로 건설
+STR_TRACK_METRO_UNDERGROUND_BUILD_VEHICLE_CAPTION      :새 도시철도(지하) 차량
+STR_TRACK_METRO_UNDERGROUND_NEW_ENGINE                 :도시철도(지하) 차량
+STR_TRACK_METRO_UNDERGROUND_AUTOREPLACE                :도시철도(지하) 차량
+
 # Railbed
 STR_TRACK_RAILBED_NAME                                 :노반
 STR_TRACK_RAILBED_DROPDOWN_MENU                        :노반 건설
@@ -107,6 +115,14 @@ STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION                :.
 STR_TRACK_RAILBED_NEW_ENGINE                           :.
 STR_TRACK_RAILBED_AUTOREPLACE                          :.
 
+# CONC
+STR_TRACK_RAILCONC_NAME                                :콘크리트 장식
+STR_TRACK_RAILCONC_DROPDOWN_MENU                       :콘크리트 장식 건설
+STR_TRACK_RAILCONC_TOOLBAR_CAPTION                     :콘크리트 장식 건설
+STR_TRACK_RAILCONC_BUILD_VEHICLE_CAPTION               :.
+STR_TRACK_RAILCONC_NEW_ENGINE                          :.
+STR_TRACK_RAILCONC_AUTOREPLACE                         :.
+
 # 3RDR
 STR_TRACK_3RDR_NAME                                    :일반선 3궤조 전기선로
 STR_TRACK_3RDR_DROPDOWN_MENU                           :일반선 3궤조 전기선로 건설
@@ -114,6 +130,14 @@ STR_TRACK_3RDR_TOOLBAR_CAPTION                         :일반선 3궤조 전기
 STR_TRACK_3RDR_BUILD_VEHICLE_CAPTION                   :새 일반선 3궤조 전기선로 차량
 STR_TRACK_3RDR_NEW_ENGINE                              :일반선 3궤조 전기선로 차량
 STR_TRACK_3RDR_AUTOREPLACE                             :일반선 3궤조 전기선로 차량
+
+# 3RDR Underground
+STR_TRACK_3RDR_UNDERGROUND_NAME                        :일반선 3궤조(지하) 전기선로
+STR_TRACK_3RDR_UNDERGROUND_DROPDOWN_MENU               :일반선 3궤조(지하) 전기선로 건설
+STR_TRACK_3RDR_UNDERGROUND_TOOLBAR_CAPTION             :일반선 3궤조(지하) 전기선로 건설
+STR_TRACK_3RDR_UNDERGROUND_BUILD_VEHICLE_CAPTION       :새 일반선 3궤조(지하) 전기선로 차량
+STR_TRACK_3RDR_UNDERGROUND_NEW_ENGINE                  :일반선 3궤조(지하) 전기선로 차량
+STR_TRACK_3RDR_UNDERGROUND_AUTOREPLACE                 :일반선 3궤조(지하) 전기선로 차량
 
 # M3RL
 STR_TRACK_M3RL_NAME                                    :도시철도 3궤조 전기선로

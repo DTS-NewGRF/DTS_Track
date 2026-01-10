@@ -2,12 +2,12 @@
 그래픽
 --------------------------------------------------------------------*/
 // GUI
-spriteset(set_RAILBED_gui, "src/Graphics/GUI/GUI_RailBed.png") {
+spriteset(set_RAILCONC_gui, "src/Graphics/GUI/GUI_CONC.png") {
     tmpl_gui (0, 0) 
 }
 
 // Tracks overlay (Blank)
-spriteset(set_RAILBED_overlay, "src/Graphics/Track/RailBed.png") {
+spriteset(set_RAILCONC_overlay, "src/Graphics/Track/Conc.png") {
     [   0,    0,    1,    1,    0,    0]
     [   0,    0,    1,    1,    0,    0]
     [   0,    0,    1,    1,    0,    0]
@@ -21,12 +21,12 @@ spriteset(set_RAILBED_overlay, "src/Graphics/Track/RailBed.png") {
 }
 
 // Tracks underlay
-spriteset(set_RAILBED_underlay, "src/Graphics/Track/RailBed.png") {
+spriteset(set_RAILCONC_underlay, "src/Graphics/Track/Conc.png") {
     [   0,   0,   64,   31,  -31,    0]   // ↗↙
     [  70,   0,   64,   31,  -31,    0]   // ↖↘
     [ 140,   0,   64,   31,  -31,    0]   // ↔U
     [ 210,   0,   64,   31,  -31,    0]   // ↔D
-    [ 280,   0,   64,   31,  -31,    0]   // ↕R
+    [ 280,   0,   64,   31,  -31,    0]   // ↕Rz
     [ 350,   0,   64,   31,  -31,    0]   // ↕L
     [ 420,   0,   64,   39,  -31,   -8]   // ↗ slope up
     [ 490,   0,   64,   23,  -31,    0]   // ↘ slope up 
@@ -41,6 +41,6 @@ spriteset(set_RAILBED_underlay, "src/Graphics/Track/RailBed.png") {
 }
 
 // Fences
-spriteset(set_RAILBED_fences, "src/Graphics/Fence.png") {
-    tmpl_fence (0, 88)
+spriteset(set_RAILCONC_fences, "src/Graphics/Fence.png") {
+    tmpl_fence (0, 132)
 }

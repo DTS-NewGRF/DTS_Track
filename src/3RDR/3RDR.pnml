@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_3RDR, 11) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["3RDR","M3RL"];
-        compatible_railtype_list:       ["3RDR","M3RL"];
-        powered_railtype_list:          ["3RDR","M3RL"];
+        alternative_railtype_list:      ["3RDR","3RUB","M3RL"];
+        compatible_railtype_list:       ["3RDR","3RUB","M3RL"];
+        powered_railtype_list:          ["3RDR","3RUB","M3RL"];
     }
 
     graphics {
@@ -65,9 +65,9 @@ item(FEAT_RAILTYPES, track_M3RL, 12) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["3RDR","M3RL"];
-        compatible_railtype_list:       ["3RDR","M3RL"];
-        powered_railtype_list:          ["3RDR","M3RL"];
+        alternative_railtype_list:      ["3RDR","3RUB","M3RL"];
+        compatible_railtype_list:       ["3RDR","3RUB","M3RL"];
+        powered_railtype_list:          ["3RDR","3RUB","M3RL"];
     }
 
     graphics {
@@ -79,5 +79,42 @@ item(FEAT_RAILTYPES, track_M3RL, 12) {
         depots:                         sw_M3RL_track_depot;
         bridge_surfaces:                sw_M3RL_track_bridge;
         fences:                         set_M3RL_fences;
+    }
+}
+
+item(FEAT_RAILTYPES, track_3RDR_Underground, 20) {
+    property {
+        label:                          "3RUB";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_3RDR_UNDERGROUND_NAME);
+        menu_text:                      string(STR_TRACK_3RDR_UNDERGROUND_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_3RDR_UNDERGROUND_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_3RDR_UNDERGROUND_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_3RDR_UNDERGROUND_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_3RDR_UNDERGROUND_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    120 km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
+        alternative_railtype_list:      ["3RDR","3RUB","M3RL"];
+        compatible_railtype_list:       ["3RDR","3RUB","M3RL"];
+        powered_railtype_list:          ["3RDR","3RUB","M3RL"];
+    }
+
+    graphics {
+        gui:                            set_3RDR_Underground_gui;
+        track_overlay:                  sw_M3RL_track_overlay;
+        underlay:                       sw_M3RL_track_underlay;
+        tunnels:                        sw_M3RL_track_tunnel_underlay;
+        tunnel_overlay:                 sw_M3RL_track_tunnel_overlay;
+        depots:                         sw_3RDR_Underground_depot;
+        catenary_wire:                  set_3RDR_Underground_catenary;
+        catenary_pylons:                set_3RDR_Underground_pylons;
+        fences:                         set_3RDR_Underground_fences;
     }
 }

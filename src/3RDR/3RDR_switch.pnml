@@ -85,6 +85,11 @@ switch(FEAT_RAILTYPES, SELF, sw_M3RL_track_depot, terrain_type) {
     set_M3RL_track_depot;
 }
 
+switch(FEAT_RAILTYPES, SELF, sw_3RDR_Underground_depot, terrain_type) {
+    TILETYPE_NORMAL:                    set_3RDR_Underground_track_depot;
+    set_3RDR_Underground_track_depot;
+}
+
 switch(FEAT_RAILTYPES, SELF, sw_M3RL_track_bridge, terrain_type) {
     TILETYPE_NORMAL:                    set_M3RL_track_bridge;
     set_M3RL_track_bridge;

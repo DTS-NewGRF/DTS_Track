@@ -30,3 +30,6 @@
 
 // 과좌식 모노레일
 #include "GMNO/GMNO.pnml"
+
+// 콘크리트 장식
+#include "Conc/Conc.pnml"

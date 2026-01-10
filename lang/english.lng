@@ -100,6 +100,14 @@ STR_TRACK_METRO_BUILD_VEHICLE_CAPTION                  :New Metro Vehicles
 STR_TRACK_METRO_NEW_ENGINE                             :Metro Vehicle
 STR_TRACK_METRO_AUTOREPLACE                            :Metro Vehicles
 
+# Metro Underground
+STR_TRACK_METRO_UNDERGROUND_NAME                       :Metro Underground Tracks
+STR_TRACK_METRO_UNDERGROUND_DROPDOWN_MENU              :Metro Underground Track Construction
+STR_TRACK_METRO_UNDERGROUND_TOOLBAR_CAPTION            :Metro Underground Track Construction
+STR_TRACK_METRO_UNDERGROUND_BUILD_VEHICLE_CAPTION      :New Metro Underground Vehicles
+STR_TRACK_METRO_UNDERGROUND_NEW_ENGINE                 :Metro Underground Vehicle
+STR_TRACK_METRO_UNDERGROUND_AUTOREPLACE                :Metro Underground Vehicles
+
 # Railbed
 STR_TRACK_RAILBED_NAME                                 :Railbed
 STR_TRACK_RAILBED_DROPDOWN_MENU                        :Railbed Construction
@@ -108,6 +116,14 @@ STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION                :.
 STR_TRACK_RAILBED_NEW_ENGINE                           :.
 STR_TRACK_RAILBED_AUTOREPLACE                          :.
 
+# CONC
+STR_TRACK_RAILCONC_NAME                                :Conc
+STR_TRACK_RAILCONC_DROPDOWN_MENU                       :Conc Construction
+STR_TRACK_RAILCONC_TOOLBAR_CAPTION                     :Conc Construction
+STR_TRACK_RAILCONC_BUILD_VEHICLE_CAPTION               :.
+STR_TRACK_RAILCONC_NEW_ENGINE                          :.
+STR_TRACK_RAILCONC_AUTOREPLACE                         :.
+
 # 3RDR
 STR_TRACK_3RDR_NAME                                    :Third rail current collector
 STR_TRACK_3RDR_DROPDOWN_MENU                           :Third rail current collector Construction
@@ -115,6 +131,14 @@ STR_TRACK_3RDR_TOOLBAR_CAPTION                         :Third rail current colle
 STR_TRACK_3RDR_BUILD_VEHICLE_CAPTION                   :New Third rail current collector Vehicle
 STR_TRACK_3RDR_NEW_ENGINE                              :Third rail current collector Vehicle
 STR_TRACK_3RDR_AUTOREPLACE                             :Third rail current collector Vehicle
+
+# 3RDR Underground
+STR_TRACK_3RDR_UNDERGROUND_NAME                        :Third rail Underground current collector
+STR_TRACK_3RDR_UNDERGROUND_DROPDOWN_MENU               :Third rail Underground current collector Construction
+STR_TRACK_3RDR_UNDERGROUND_TOOLBAR_CAPTION             :Third rail Underground current collector Construction
+STR_TRACK_3RDR_UNDERGROUND_BUILD_VEHICLE_CAPTION       :New Third rail Underground current collector Vehicle
+STR_TRACK_3RDR_UNDERGROUND_NEW_ENGINE                  :Third rail Underground current collector Vehicle
+STR_TRACK_3RDR_UNDERGROUND_AUTOREPLACE                 :Third rail Underground current collector Vehicle
 
 # M3RL
 STR_TRACK_M3RL_NAME                                    :Third rail metro current collector

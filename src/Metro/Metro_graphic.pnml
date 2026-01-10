@@ -6,6 +6,10 @@ spriteset(set_METRO_gui, "src/Graphics/GUI/GUI_Metro.png") {
     tmpl_gui (0, 0) 
 }
 
+spriteset(set_METRO_Underground_gui, "src/Graphics/GUI/GUI_Metro_Underground.png") {
+    tmpl_underground_gui (0, 0) 
+}
+
 // Tracks overlay
 spriteset(set_METRO_overlay, "src/Graphics/Track/Metro.png") {
     tmpl_overlay (0, 0)
@@ -45,9 +49,17 @@ spriteset(set_METRO_depot, "src/Graphics/Depots/Depots_Metro.png") {
     tmpl_depot (0, 0)
 }
 
+spriteset(set_METRO_Underground_depot, "src/Graphics/Depots/Depots_Metro_Underground.png") {
+    tmpl_depot (0, 0)
+}
+
 // Fences
 spriteset(set_METRO_fences, "src/Graphics/Fence.png") {
     tmpl_fence (0, 88)
+}
+
+spriteset(set_METRO_Undergroind_fences, "src/Graphics/Fence.png") {
+    tmpl_fence (0, 132)
 }
 
 // Catenary Wire
@@ -58,4 +70,13 @@ spriteset(set_METRO_wire, "src/Graphics/Catenary_Wire.png") {
 // Catenary Pylons
 spriteset(set_METRO_pylons, "src/Graphics/Catenary_Pylons.png") {
     tmpl_catenary_pylons (0, 0)
+}
+
+spriteset(set_METRO_Underground_pylons, "src/Graphics/Catenary_Pylons.png") {
+    tmpl_catenary_pylons (0, 31)
+}
+
+// Catenary underground
+spriteset(set_METRO_Underground_catenary, "src/Graphics/Catenary_Metro_Underground.png") {
+    tmpl_catenary_underground (0, 0)
 }

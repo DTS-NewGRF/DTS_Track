@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------------
+콘크리트 장식
+--------------------------------------------------------------------*/
+// Graphics
+#include "Conc_graphic.pnml"
+
+// Switch
+#include "Conc_switch.pnml"
+
+/*--------------------------------------------------------------------
+선로정보
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_CONC, 19) {
+    property {
+        label:                          "CONC";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_RAILCONC_NAME);
+        menu_text:                      string(STR_TRACK_RAILCONC_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_RAILCONC_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_RAILCONC_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_RAILCONC_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_RAILCONC_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    0 km/h;
+        construction_cost:              8;
+        maintenance_cost:               4;
+        sort_order:                     16;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_NO_LEVEL_CROSSING);
+    }
+
+    graphics {
+        gui:                            set_RAILCONC_gui;
+        track_overlay:                  sw_CONC_overlay;
+        underlay:                       sw_CONC_underlay;
+        fences:                         set_RAILCONC_fences;
+    }
+}

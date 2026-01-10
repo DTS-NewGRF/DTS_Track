@@ -10,6 +10,10 @@ spriteset(set_M3RL_gui, "src/Graphics/GUI/GUI_M3RL.png") {
     tmpl_gui (0, 0) 
 }
 
+spriteset(set_3RDR_Underground_gui, "src/Graphics/GUI/GUI_3RDR_Underground.png") {
+    tmpl_underground_gui (0, 0) 
+}
+
 // Tracks overlay
 spriteset(set_3RDR_track_overlay, "src/Graphics/Track/3RDR.png") {
     tmpl_overlay (0, 0)
@@ -120,6 +124,10 @@ spriteset(set_M3RL_track_depot, "src/Graphics/Depots/Depots_M3RL.png") {
     tmpl_depot (0, 0)
 }
 
+spriteset(set_3RDR_Underground_track_depot, "src/Graphics/Depots/Depots_3RDR_Underground.png") {
+    tmpl_depot (0, 0)
+}
+
 spriteset(set_3RDR_track_depot_snow, "src/Graphics/Depots/Depots_3RDR_Snow.png") {
     tmpl_depot (0, 0)
 }
@@ -135,4 +143,18 @@ spriteset(set_3RDR_fences, "src/Graphics/Fence.png") {
 
 spriteset(set_M3RL_fences, "src/Graphics/Fence.png") {
     tmpl_fence (0, 88)
+}
+
+spriteset(set_3RDR_Underground_fences, "src/Graphics/Fence.png") {
+    tmpl_fence (0, 132)
+}
+
+// Catenary Pylons
+spriteset(set_3RDR_Underground_pylons, "src/Graphics/Catenary_Pylons.png") {
+    tmpl_catenary_pylons (0, 31)
+}
+
+// Catenary underground
+spriteset(set_3RDR_Underground_catenary, "src/Graphics/Catenary_3RDR_Underground.png") {
+    tmpl_catenary_underground (0, 0)
 }

@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// Graphic for terrain
+switch(FEAT_RAILTYPES, SELF, sw_CONC_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_RAILCONC_overlay;          
+    set_RAILCONC_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_CONC_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_RAILCONC_underlay;          
+    set_RAILCONC_underlay;
+}

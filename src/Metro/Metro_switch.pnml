@@ -24,6 +24,11 @@ switch(FEAT_RAILTYPES, SELF, sw_METRO_depot, terrain_type) {
     set_METRO_depot;
 }
 
+switch(FEAT_RAILTYPES, SELF, sw_METRO_Underground_depot, terrain_type) {
+    TILETYPE_NORMAL:                    set_METRO_Underground_depot;
+    set_METRO_Underground_depot;
+}
+
 switch(FEAT_RAILTYPES, SELF, sw_METRO_tunnel_overlay, terrain_type) {
     TILETYPE_NORMAL:                    set_METRO_tunnel_overlay;          
     set_METRO_tunnel_overlay;

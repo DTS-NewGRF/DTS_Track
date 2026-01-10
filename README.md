@@ -5,26 +5,23 @@
 
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Track/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
-## 최근 등록 프리 릴리즈
-[1.03] 2025.09.13
+## 최근 등록 릴리즈
+[1.03] 2026.01.10 <br>
 [이슈외 작업]
 * [변경] 기존선 도시철도 차량기지 그래픽 오류 수정
 * [2025.09.13] DTS 열차셋의 오브젝트, 경유지 추가 적용.
 
 [이슈작업]
-[추가]
-* [선로변경] 고무차륜 선로 호환되는 선로 추가 ([#17](https://github.com/DTS-NewGRF/DTS/issues/17))
-* [선로변경] 과좌식 모노레일 선로 호환되는 선로 추가 ([#18](https://github.com/DTS-NewGRF/DTS/issues/18))
+* [선로변경] 고무차륜 선로 호환되는 선로 추가 ([#17](https://github.com/DTS-NewGRF/DTS/issues/17)) (2025.09.03)
+* [선로변경] 과좌식 모노레일 선로 호환되는 선로 추가 ([#18](https://github.com/DTS-NewGRF/DTS/issues/18)) (2025.09.03)
+* [선로변경] 3궤조 선로 그래픽 변경 ([#20](https://github.com/DTS-NewGRF/DTS/issues/20)) (2026.01.10)
+* [선로변경] LIM 3궤조 그래픽 변경 ([#21](https://github.com/DTS-NewGRF/DTS/issues/21)) (2026.01.10)
+* [선로추가] 도시철도(지하) 선로 / Electric metro track (Underground) ([#22](https://github.com/DTS-NewGRF/DTS/issues/22)) (2026.01.10)
+* [선로추가] 콘크리드 장식 / Concrete Deco ([#23](https://github.com/DTS-NewGRF/DTS/issues/23)) (2026.01.10)
+* [선로추가] 도시철도 3궤조 (지하) / Electric metro track (Underground Third rail current collector) ([#24](https://github.com/DTS-NewGRF/DTS/issues/24)) (2026.01.10)
 
 [변경]
 * 기존선 도시철도 차량기지 그래픽 오류 수정
-
-## 최근 등록 릴리즈
-```
-[1.02] 2025.02.02
-[추가]
-- 고속선 430, 600 속도고정 선로 추가
-```
 
 ## 인게임 등록
 ```

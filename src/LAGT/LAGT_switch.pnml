@@ -10,8 +10,15 @@ switch(FEAT_RAILTYPES, SELF, sw_AGT_track_tunnel_underlay, terrain_type) {
     set_AGT_track_tunnel_underlay;
 }
 
+switch(FEAT_RAILTYPES, SELF, sw_AGT_track_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_AGT_overlay;
+    TILETYPE_SNOW:                      set_AGT_overlay_snow;
+    set_AGT_overlay;
+}
+
 switch(FEAT_RAILTYPES, SELF, sw_AGT_track_underlay, terrain_type) {
     TILETYPE_NORMAL:                    set_AGT_track_underlay;
+    TILETYPE_SNOW:                      set_AGT_track_underlay_snow;
     set_AGT_track_underlay;
 }
 

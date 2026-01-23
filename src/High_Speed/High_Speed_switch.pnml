@@ -69,3 +69,12 @@ switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_track_600_depot, terrain_type) {
     TILETYPE_NORMAL:                    set_HIGH_SPEED_track_600_depot;
     set_HIGH_SPEED_track_600_depot;
 }
+
+// Graphic for terrain underground
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_underground_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_Underground_tunnel_underlay;
+    TILETYPE_DESERT:                    set_HIGH_SPEED_Underground_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_HIGH_SPEED_Underground_tunnel_underlay_rain;
+    TILETYPE_SNOW:                      set_HIGH_SPEED_Underground_tunnel_underlay_snow;
+    set_HIGH_SPEED_Underground_tunnel_underlay;
+}

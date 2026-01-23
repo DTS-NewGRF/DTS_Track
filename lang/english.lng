@@ -92,6 +92,14 @@ STR_HIGH_SPEED_TRACK_600_NAME                          :High Speed Tracks
 STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU                 :High Speed Track Construction
 STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION               :High Speed Track Construction
 
+# High Speed Underground
+STR_HIGH_SPEED_UNDERGROUND_TRACK_NAME                  :High Speed Underground Tracks
+STR_HIGH_SPEED_UNDERGROUND_TRACK_DROPDOWN_MENU         :High Speed Underground Track Construction
+STR_HIGH_SPEED_UNDERGROUND_TRACK_TOOLBAR_CAPTION       :High Speed Underground Track Construction
+STR_HIGH_SPEED_UNDERGROUND_BUILD_VEHICLE_CAPTION       :New High Speed Underground Vehicles
+STR_HIGH_SPEED_UNDERGROUND_NEW_ENGINE                  :High Speed Underground Vehicles
+STR_HIGH_SPEED_UNDERGROUND_AUTOREPLACE                 :High Speed Underground Vehicles
+
 # Metro
 STR_TRACK_METRO_NAME                                   :Metro Tracks
 STR_TRACK_METRO_DROPDOWN_MENU                          :Metro Track Construction
@@ -115,6 +123,14 @@ STR_TRACK_RAILBED_TOOLBAR_CAPTION                      :Railbed Construction
 STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION                :.
 STR_TRACK_RAILBED_NEW_ENGINE                           :.
 STR_TRACK_RAILBED_AUTOREPLACE                          :.
+
+# Railbed Underground
+STR_TRACK_RAILBED_UNDERGROUND_NAME                     :Railbed Underground
+STR_TRACK_RAILBED_UNDERGROUND_DROPDOWN_MENU            :Railbed Underground Construction
+STR_TRACK_RAILBED_UNDERGROUND_TOOLBAR_CAPTION          :Railbed Underground Construction
+STR_TRACK_RAILBED_UNDERGROUND_BUILD_VEHICLE_CAPTION    :.
+STR_TRACK_RAILBED_UNDERGROUND_NEW_ENGINE               :.
+STR_TRACK_RAILBED_UNDERGROUND_AUTOREPLACE              :.
 
 # CONC
 STR_TRACK_RAILCONC_NAME                                :Conc

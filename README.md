@@ -6,7 +6,7 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Track/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.03] 2026.01.10 <br>
+[1.03] 2026.01.24 <br>
 [이슈외 작업]
 * [변경] 기존선 도시철도 차량기지 그래픽 오류 수정
 * [2025.09.13] DTS 열차셋의 오브젝트, 경유지 추가 적용.
@@ -17,8 +17,15 @@
 * [선로변경] 3궤조 선로 그래픽 변경 ([#20](https://github.com/DTS-NewGRF/DTS/issues/20)) (2026.01.10)
 * [선로변경] LIM 3궤조 그래픽 변경 ([#21](https://github.com/DTS-NewGRF/DTS/issues/21)) (2026.01.10)
 * [선로추가] 도시철도(지하) 선로 / Electric metro track (Underground) ([#22](https://github.com/DTS-NewGRF/DTS/issues/22)) (2026.01.10)
+  * [버그] 지하 선로의 그래픽 문제 ([#25](https://github.com/DTS-NewGRF/DTS/issues/25)) (2026.01.10)
+  * [버그] 지하 선로의 그래픽 문제 (2) ([#26](https://github.com/DTS-NewGRF/DTS/issues/26)) (2026.01.23)
 * [선로추가] 콘크리드 장식 / Concrete Deco ([#23](https://github.com/DTS-NewGRF/DTS/issues/23)) (2026.01.10)
 * [선로추가] 도시철도 3궤조 (지하) / Electric metro track (Underground Third rail current collector) ([#24](https://github.com/DTS-NewGRF/DTS/issues/24)) (2026.01.10)
+  * [버그] 지하 선로의 그래픽 문제 ([#25](https://github.com/DTS-NewGRF/DTS/issues/25)) (2026.01.10)
+  * [버그] 지하 선로의 그래픽 문제 (2) ([#26](https://github.com/DTS-NewGRF/DTS/issues/26)) (2026.01.23)
+* [선로변경] 노반 터널, 다리 그래픽 추가 ([#27](https://github.com/DTS-NewGRF/DTS/issues/27)) (2026.01.23)
+* [선로추가] 노반 (지하) / RailBed (Underground) ([#28](https://github.com/DTS-NewGRF/DTS/issues/28)) (2026.01.23)
+* [선로변경] 고무차륜 선로 그래픽 변경 ([#30](https://github.com/DTS-NewGRF/DTS/issues/30)) (2026.01.24)
 
 [변경]
 * 기존선 도시철도 차량기지 그래픽 오류 수정

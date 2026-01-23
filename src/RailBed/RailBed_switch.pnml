@@ -6,3 +6,29 @@ switch(FEAT_RAILTYPES, SELF, sw_RAILBED_underlay, terrain_type) {
     TILETYPE_NORMAL:                    set_RAILBED_underlay;
     set_RAILBED_underlay;
 }
+
+switch(FEAT_RAILTYPES, SELF, sw_RAILBE_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_RAILBED_tunnel_underlay;
+    TILETYPE_DESERT:                    set_RAILBED_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_RAILBED_tunnel_underlay_rain;
+    TILETYPE_SNOW:                      set_RAILBED_tunnel_underlay_snow;
+    set_RAILBED_tunnel_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_RAILBE_Ungerground_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_RAILBED_Underground_tunnel_underlay;
+    TILETYPE_DESERT:                    set_RAILBED_Underground_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_RAILBED_Underground_tunnel_underlay_rain;
+    TILETYPE_SNOW:                      set_RAILBED_Underground_tunnel_underlay_snow;
+    set_RAILBED_Underground_tunnel_underlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_RAILBE_Ungerground_tunnel_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_RAILBED_Underground_tunnel_overlay;          
+    set_RAILBED_Underground_tunnel_overlay;
+}
+
+switch(FEAT_RAILTYPES, SELF, sw_RAILBE_bridge, terrain_type) {
+    TILETYPE_NORMAL:                    set_RAILBED_bridge;
+    set_RAILBED_bridge;
+}

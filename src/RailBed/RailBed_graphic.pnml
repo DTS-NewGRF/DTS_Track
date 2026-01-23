@@ -6,36 +6,59 @@ spriteset(set_RAILBED_gui, "src/Graphics/GUI/GUI_RailBed.png") {
     tmpl_gui (0, 0) 
 }
 
+spriteset(set_RAILBED_Underground_gui, "src/Graphics/GUI/GUI_RBUB.png") {
+    tmpl_underground_gui (0, 0) 
+}
+
 // Tracks overlay (Blank)
 spriteset(set_RAILBED_overlay, "src/Graphics/Track/RailBed.png") {
-    [   0,    0,    1,    1,    0,    0]
-    [   0,    0,    1,    1,    0,    0]
-    [   0,    0,    1,    1,    0,    0]
-    [   0,    0,    1,    1,    0,    0]
-    [   0,    0,    1,    1,    0,    0]
-    [   0,    0,    1,    1,    0,    0]
-    [   0,    0,    1,    1,    0,    0]
-    [   0,    0,    1,    1,    0,    0]
-    [   0,    0,    1,    1,    0,    0]
-    [   0,    0,    1,    1,    0,    0]
+    tmpl_overlay (0, 0)
 }
 
 // Tracks underlay
 spriteset(set_RAILBED_underlay, "src/Graphics/Track/RailBed.png") {
-    [   0,   0,   64,   31,  -31,    0]   // ↗↙
-    [  70,   0,   64,   31,  -31,    0]   // ↖↘
-    [ 140,   0,   64,   31,  -31,    0]   // ↔U
-    [ 210,   0,   64,   31,  -31,    0]   // ↔D
-    [ 280,   0,   64,   31,  -31,    0]   // ↕R
-    [ 350,   0,   64,   31,  -31,    0]   // ↕L
-    [ 420,   0,   64,   39,  -31,   -8]   // ↗ slope up
-    [ 490,   0,   64,   23,  -31,    0]   // ↘ slope up 
-    [ 560,   0,   64,   23,  -31,    0]   // ↙ slope up
-    [ 630,   0,   64,   39,  -31,   -8]   // ↖ slope up
-    [   0,   0,   64,   31,  -31,    0]   // +
-    [  70,   0,   64,   31,  -31,    0]   // combi SW
-    [  70,   0,   64,   31,  -31,    0]   // combi NE
-    [   0,   0,   64,   31,  -31,    0]   // combi SE
-    [   0,   0,   64,   31,  -31,    0]   // combi NW
-    [   0,   0,   64,   31,  -31,    0]   // combi all
+    tmpl_underlay_RailBed (0, 44)
+}
+
+// Tunnels
+spriteset(set_RAILBED_tunnel_underlay, "src/Graphics/Track/RailBed.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
+spriteset(set_RAILBED_Underground_tunnel_underlay, "src/Graphics/Track/RBUB.png") {
+    tmpl_tunnel_underlay (0, 0)
+}
+
+spriteset(set_RAILBED_tunnel_underlay_desert, "src/Graphics/Track/RailBed.png") {
+    tmpl_tunnel_underlay (0, 140)
+}
+
+spriteset(set_RAILBED_Underground_tunnel_underlay_desert, "src/Graphics/Track/RBUB.png") {
+    tmpl_tunnel_underlay (0, 52)
+} 
+
+spriteset(set_RAILBED_tunnel_underlay_rain, "src/Graphics/Track/RailBed.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
+spriteset(set_RAILBED_Underground_tunnel_underlay_rain, "src/Graphics/Track/RBUB.png") {
+    tmpl_tunnel_underlay (0, 104)
+}
+
+spriteset(set_RAILBED_tunnel_underlay_snow, "src/Graphics/Track/RailBed.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
+spriteset(set_RAILBED_Underground_tunnel_underlay_snow, "src/Graphics/Track/RBUB.png") {
+    tmpl_tunnel_underlay (0, 156)
+}
+
+// Tunnel overlay
+spriteset(set_RAILBED_Underground_tunnel_overlay, "src/Graphics/Track/RBUB.png") {
+    tmpl_tunnel_overlay (0, 208)
+}
+
+// Bridge surfaces
+spriteset(set_RAILBED_bridge, "src/Graphics/Track/RailBed.png") {
+    tmpl_bridge_surface (0, 296)
 }

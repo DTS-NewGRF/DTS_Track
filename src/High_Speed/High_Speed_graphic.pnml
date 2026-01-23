@@ -53,6 +53,10 @@ spriteset(set_HIGH_SPEED_track_600_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH
     tmpl_tunnel_underlay (0, 88)
 }
 
+spriteset(set_HIGH_SPEED_Underground_tunnel_underlay, "src/Graphics/Track/HBUB.png") {
+    tmpl_tunnel_underlay (0, 0)
+}
+
 spriteset(set_HIGH_SPEED_track_tunnel_underlay_desert, "src/Graphics/Track/High_Speed.png") {
     tmpl_tunnel_underlay (0, 140)
 }
@@ -65,6 +69,10 @@ spriteset(set_HIGH_SPEED_track_600_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BI
     tmpl_tunnel_underlay (0, 140)
 }
 
+spriteset(set_HIGH_SPEED_Underground_tunnel_underlay_desert, "src/Graphics/Track/HBUB.png") {
+    tmpl_tunnel_underlay (0, 52)
+}
+
 spriteset(set_HIGH_SPEED_track_tunnel_underlay_rain, "src/Graphics/Track/High_Speed.png") {
     tmpl_tunnel_underlay (0, 192)
 }
@@ -75,6 +83,18 @@ spriteset(set_HIGH_SPEED_track_430_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_
 
 spriteset(set_HIGH_SPEED_track_600_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/High_Speed_600.png") {
     tmpl_tunnel_underlay (0, 192)
+}
+
+spriteset(set_HIGH_SPEED_Underground_tunnel_underlay_rain, "src/Graphics/Track/HBUB.png") {
+    tmpl_tunnel_underlay (0, 104)
+}
+
+spriteset(set_HIGH_SPEED_Underground_tunnel_underlay_snow, "src/Graphics/Track/HBUB.png") {
+    tmpl_tunnel_underlay (0, 156)
+}
+
+spriteset(set_HIGH_SPEED_Underground_tunnel_overlay, "src/Graphics/Track/HBUB.png") {
+    tmpl_tunnel_underlay (0, 208)
 }
 
 // Bridge surfaces

@@ -8,15 +8,15 @@ spriteset(set_Underground_catenary, "src/Graphics/Catenary.png") {
 
 // 전차선 전선
 spriteset(set_Wire_catenary, "src/Graphics/Catenary.png") {
-    tmpl_catenary_wire (0, 60)
+    tmpl_catenary_wire (0, 120)
 }
 
 // 전차선 기둥
 spriteset(set_Pylons_catenary, "src/Graphics/Catenary.png") {
-    tmpl_catenary_pylons (0, 189)
+    tmpl_catenary_pylons (0, 249)
 }
 
 // No 전차선
 spriteset(set_No_catenary, "src/Graphics/Catenary.png") {
-    tmpl_catenary_pylons (0, 220)
+    tmpl_catenary_pylons (0, 280)
 }

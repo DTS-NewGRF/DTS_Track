@@ -36,7 +36,7 @@ item(FEAT_RAILTYPES, track_LAGT, 14) {
 
     graphics {
         gui:                            set_AGT_gui;
-        track_overlay:                  sw_AGT_track_underlay;
+        track_overlay:                  sw_AGT_track_overlay;
         underlay:                       sw_AGT_track_underlay;
         tunnels:                        sw_AGT_track_tunnel_underlay;
         depots:                         sw_AGT_track_depot;

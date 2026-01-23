@@ -91,6 +91,14 @@ STR_HIGH_SPEED_TRACK_600_NAME                          :초고속선 선로
 STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU                 :초고속선 선로 건설
 STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION               :초고속선 선로 건설
 
+# High Speed 지하선로
+STR_HIGH_SPEED_UNDERGROUND_TRACK_NAME                  :고속선(지하) 선로
+STR_HIGH_SPEED_UNDERGROUND_TRACK_DROPDOWN_MENU         :고속선(지하) 선로 건설
+STR_HIGH_SPEED_UNDERGROUND_TRACK_TOOLBAR_CAPTION       :고속선(지하) 선로 건설
+STR_HIGH_SPEED_UNDERGROUND_BUILD_VEHICLE_CAPTION       :새 고속선(지하) 차량
+STR_HIGH_SPEED_UNDERGROUND_NEW_ENGINE                  :고속선(지하) 차량
+STR_HIGH_SPEED_UNDERGROUND_AUTOREPLACE                 :고속선(지하) 차량
+
 # Metro
 STR_TRACK_METRO_NAME                                   :지하철 선로
 STR_TRACK_METRO_DROPDOWN_MENU                          :지하철 선로 건설
@@ -114,6 +122,14 @@ STR_TRACK_RAILBED_TOOLBAR_CAPTION                      :노반 건설
 STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION                :.
 STR_TRACK_RAILBED_NEW_ENGINE                           :.
 STR_TRACK_RAILBED_AUTOREPLACE                          :.
+
+# Railbed 지하선로
+STR_TRACK_RAILBED_UNDERGROUND_NAME                     :노반(지하)
+STR_TRACK_RAILBED_UNDERGROUND_DROPDOWN_MENU            :노반(지하) 건설
+STR_TRACK_RAILBED_UNDERGROUND_TOOLBAR_CAPTION          :노반(지하) 건설
+STR_TRACK_RAILBED_UNDERGROUND_BUILD_VEHICLE_CAPTION    :.
+STR_TRACK_RAILBED_UNDERGROUND_NEW_ENGINE               :.
+STR_TRACK_RAILBED_UNDERGROUND_AUTOREPLACE              :.
 
 # CONC
 STR_TRACK_RAILCONC_NAME                                :콘크리트 장식

@@ -63,9 +63,9 @@ item(FEAT_RAILTYPES, track_RAILBED_Underground, 21) {
         sort_order:                     16;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KRBD","RBUB"];
-        compatible_railtype_list:       ["KRBD","RBUB"];
-        powered_railtype_list:          ["KRBD","RBUB"];
+        alternative_railtype_list:      ["KRBD"];
+        compatible_railtype_list:       ["KRBD"];
+        powered_railtype_list:          ["KRBD"];
     }
 
     graphics {

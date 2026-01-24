@@ -21,7 +21,7 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED, 08) {
         new_engine_text:                string(STR_HIGH_SPEED_NEW_ENGINE);
         autoreplace_text:               string(STR_HIGH_SPEED_AUTOREPLACE);
 
-        station_graphics:               RAILTYPE_STATION_MAGLEV;
+        station_graphics:               RAILTYPE_STATION_NORMAL;
         acceleration_model:             ACC_MODEL_RAIL;
         speed_limit:                    para_speed_HIGH_SPEED km/h;
         construction_cost:              96;
@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED, 08) {
         sort_order:                     08;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+        alternative_railtype_list:      ["ELRL"];
+        compatible_railtype_list:       ["ELRL"];
+        powered_railtype_list:          ["ELRL"];
     }
 
     graphics {
@@ -61,7 +61,7 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_430, 16) {
         new_engine_text:                string(STR_HIGH_SPEED_NEW_ENGINE);
         autoreplace_text:               string(STR_HIGH_SPEED_AUTOREPLACE);
 
-        station_graphics:               RAILTYPE_STATION_MAGLEV;
+        station_graphics:               RAILTYPE_STATION_NORMAL;
         acceleration_model:             ACC_MODEL_RAIL;
         speed_limit:                    430 km/h;
         construction_cost:              96;
@@ -69,9 +69,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_430, 16) {
         sort_order:                     08;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+        alternative_railtype_list:      ["ELRL"];
+        compatible_railtype_list:       ["ELRL"];
+        powered_railtype_list:          ["ELRL"];
     }
 
     graphics {
@@ -101,7 +101,7 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_600, 17) {
         new_engine_text:                string(STR_HIGH_SPEED_NEW_ENGINE);
         autoreplace_text:               string(STR_HIGH_SPEED_AUTOREPLACE);
 
-        station_graphics:               RAILTYPE_STATION_MAGLEV;
+        station_graphics:               RAILTYPE_STATION_NORMAL;
         acceleration_model:             ACC_MODEL_RAIL;
         speed_limit:                    600 km/h;
         construction_cost:              96;
@@ -109,9 +109,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_600, 17) {
         sort_order:                     08;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+        alternative_railtype_list:      ["ELRL"];
+        compatible_railtype_list:       ["ELRL"];
+        powered_railtype_list:          ["ELRL"];
     }
 
     graphics {
@@ -137,11 +137,8 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_Underground, 22) {
         name:                           string(STR_HIGH_SPEED_UNDERGROUND_TRACK_NAME);
         menu_text:                      string(STR_HIGH_SPEED_UNDERGROUND_TRACK_DROPDOWN_MENU);
         toolbar_caption:                string(STR_HIGH_SPEED_UNDERGROUND_TRACK_TOOLBAR_CAPTION);
-        build_window_caption:           string(STR_HIGH_SPEED_UNDERGROUND_BUILD_VEHICLE_CAPTION);
-        new_engine_text:                string(STR_HIGH_SPEED_UNDERGROUND_NEW_ENGINE);
-        autoreplace_text:               string(STR_HIGH_SPEED_UNDERGROUND_AUTOREPLACE);
 
-        station_graphics:               RAILTYPE_STATION_MAGLEV;
+        station_graphics:               RAILTYPE_STATION_NORMAL;
         acceleration_model:             ACC_MODEL_RAIL;
         speed_limit:                    para_speed_HIGH_SPEED km/h;
         construction_cost:              96;
@@ -149,9 +146,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_Underground, 22) {
         sort_order:                     08;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS"];
+        alternative_railtype_list:      ["RAIL","ELRL"];
+        compatible_railtype_list:       ["RAIL","ELRL"];
+        powered_railtype_list:          ["RAIL","ELRL"];
     }
 
     graphics {

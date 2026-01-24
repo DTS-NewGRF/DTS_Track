@@ -75,6 +75,6 @@ item(FEAT_RAILTYPES, track_METRO_Underground, 18) {
         depots:                         set_METRO_Underground_depot;
         catenary_wire:                  set_Underground_catenary;
         catenary_pylons:                set_No_catenary;
-        fences:                         set_No_Fences;
+        fences:                         set_Underground_Fences;
     }
 }

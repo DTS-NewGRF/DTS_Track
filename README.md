@@ -26,6 +26,9 @@
 * [선로변경] 노반 터널, 다리 그래픽 추가 ([#27](https://github.com/DTS-NewGRF/DTS/issues/27)) (2026.01.23)
 * [선로추가] 노반 (지하) / RailBed (Underground) ([#28](https://github.com/DTS-NewGRF/DTS/issues/28)) (2026.01.23)
 * [선로변경] 고무차륜 선로 그래픽 변경 ([#30](https://github.com/DTS-NewGRF/DTS/issues/30)) (2026.01.24)
+* [선로변경] 지하선로 Catenary ([#35](https://github.com/DTS-NewGRF/DTS/issues/35)) (2026.01.24)
+* [선로추가] 지하선로 울타리 ([#36](https://github.com/DTS-NewGRF/DTS/issues/36)) (2026.01.24)
+* [선로변경] 노반 GUI 변경 ([#37](https://github.com/DTS-NewGRF/DTS/issues/37)) (2026.01.24)
 
 [변경]
 * 기존선 도시철도 차량기지 그래픽 오류 수정

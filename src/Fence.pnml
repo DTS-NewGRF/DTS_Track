@@ -1,11 +1,6 @@
 /*--------------------------------------------------------------------
 울타리
 --------------------------------------------------------------------*/
-// NO 울타리
-spriteset(set_No_Fences, "src/Graphics/Fence.png") {
-    tmpl_fence (0, 132)
-}
-
 // 울타리1
 spriteset(set_fences1, "src/Graphics/Fence.png") {
     tmpl_fence (0, 0)
@@ -19,4 +14,14 @@ spriteset(set_fences2, "src/Graphics/Fence.png") {
 // 울타리3
 spriteset(set_fences3, "src/Graphics/Fence.png") {
     tmpl_fence (0, 88)
+}
+
+// NO 울타리
+spriteset(set_No_Fences, "src/Graphics/Fence.png") {
+    tmpl_fence (0, 132)
+}
+
+// 지하 벽
+spriteset(set_Underground_Fences, "src/Graphics/Fence.png") {
+    tmpl_Underground_fence (0, 176)
 }

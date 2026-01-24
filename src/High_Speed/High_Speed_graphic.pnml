@@ -27,6 +27,10 @@ spriteset(set_HIGH_SPEED_track_600_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, 
     tmpl_overlay (0, 0)
 }
 
+spriteset(set_HIGH_SPEED_Underground_track_overlay, "src/Graphics/Track/HBUB.png") {
+    tmpl_overlay (0, 0)
+}
+
 // Tracks underlay
 spriteset(set_HIGH_SPEED_track_underlay, "src/Graphics/Track/High_Speed.png") {
     tmpl_underlay (0, 44)
@@ -37,6 +41,10 @@ spriteset(set_HIGH_SPEED_track_430_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
 }
 
 spriteset(set_HIGH_SPEED_track_600_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/High_Speed_600.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_HIGH_SPEED_Underground_track_underlay, "src/Graphics/Track/HBUB.png") {
     tmpl_underlay (0, 44)
 }
 
@@ -54,7 +62,7 @@ spriteset(set_HIGH_SPEED_track_600_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH
 }
 
 spriteset(set_HIGH_SPEED_Underground_tunnel_underlay, "src/Graphics/Track/HBUB.png") {
-    tmpl_tunnel_underlay (0, 0)
+    tmpl_tunnel_underlay (0, 88)
 }
 
 spriteset(set_HIGH_SPEED_track_tunnel_underlay_desert, "src/Graphics/Track/High_Speed.png") {
@@ -70,7 +78,7 @@ spriteset(set_HIGH_SPEED_track_600_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BI
 }
 
 spriteset(set_HIGH_SPEED_Underground_tunnel_underlay_desert, "src/Graphics/Track/HBUB.png") {
-    tmpl_tunnel_underlay (0, 52)
+    tmpl_tunnel_underlay (0, 140)
 }
 
 spriteset(set_HIGH_SPEED_track_tunnel_underlay_rain, "src/Graphics/Track/High_Speed.png") {
@@ -86,15 +94,15 @@ spriteset(set_HIGH_SPEED_track_600_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_
 }
 
 spriteset(set_HIGH_SPEED_Underground_tunnel_underlay_rain, "src/Graphics/Track/HBUB.png") {
-    tmpl_tunnel_underlay (0, 104)
+    tmpl_tunnel_underlay (0, 192)
 }
 
 spriteset(set_HIGH_SPEED_Underground_tunnel_underlay_snow, "src/Graphics/Track/HBUB.png") {
-    tmpl_tunnel_underlay (0, 156)
+    tmpl_tunnel_underlay (0, 244)
 }
 
 spriteset(set_HIGH_SPEED_Underground_tunnel_overlay, "src/Graphics/Track/HBUB.png") {
-    tmpl_tunnel_underlay (0, 208)
+    tmpl_tunnel_overlay (0, 296)
 }
 
 // Bridge surfaces
@@ -108,6 +116,10 @@ spriteset(set_HIGH_SPEED_track_430_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "
 
 spriteset(set_HIGH_SPEED_track_600_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/High_Speed_600.png") {
     tmpl_bridge_surface (0, 296)
+}
+
+spriteset(set_HIGH_SPEED_Underground_track_bridge, "src/Graphics/Track/HBUB.png") {
+    tmpl_bridge_surface (0, 348)
 }
 
 // Depot

@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_LOW_SPEED, 01) {
         sort_order:                     01;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB","KHST","KTHS","HSUB"];
-        compatible_railtype_list:       ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB","KHST","KTHS","HSUB"];
-        powered_railtype_list:          ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB","KHST","KTHS","HSUB"];
+        alternative_railtype_list:      ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB","KHST","KTHS","HSUB", "VHSU"];
+        compatible_railtype_list:       ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB","KHST","KTHS","HSUB", "VHSU"];
+        powered_railtype_list:          ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB","KHST","KTHS","HSUB", "VHSU"];
     }
 
     graphics {

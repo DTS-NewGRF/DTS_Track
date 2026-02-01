@@ -6,8 +6,16 @@ spriteset(set_AGT_gui, "src/Graphics/GUI/GUI_LAGT.png") {
     tmpl_gui (0, 0) 
 }
 
+spriteset(set_RBUB_gui, "src/Graphics/GUI/GUI_RBUB.png") {
+    tmpl_underground_gui (0, 0) 
+}
+
 // Tracks overlay
 spriteset(set_AGT_overlay, "src/Graphics/Track/LAGT.png") {
+    tmpl_overlay (0, 0)
+}
+
+spriteset(set_RBUB_overlay, "src/Graphics/Track/RBUB.png") {
     tmpl_overlay (0, 0)
 }
 
@@ -20,6 +28,10 @@ spriteset(set_AGT_track_underlay, "src/Graphics/Track/LAGT.png") {
     tmpl_underlay (0, 44)
 }
 
+spriteset(set_RBUB_track_underlay, "src/Graphics/Track/RBUB.png") {
+    tmpl_overlay (0, 44)
+}
+
 spriteset(set_AGT_track_underlay_snow, "src/Graphics/Track/LAGT_Snow.png") {
     tmpl_underlay (0, 44)
 }
@@ -29,7 +41,15 @@ spriteset(set_AGT_track_tunnel_underlay, "src/Graphics/Track/LAGT.png") {
     tmpl_tunnel_underlay (0, 88)
 }
 
+spriteset(set_RBUB_track_tunnel_underlay, "src/Graphics/Track/RBUB.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
 spriteset(set_AGT_track_tunnel_underlay_desert, "src/Graphics/Track/LAGT.png") {
+    tmpl_tunnel_underlay (0, 140)
+}
+
+spriteset(set_RBUB_track_tunnel_underlay_desert, "src/Graphics/Track/RBUB.png") {
     tmpl_tunnel_underlay (0, 140)
 }
 
@@ -37,8 +57,21 @@ spriteset(set_AGT_track_tunnel_underlay_rain, "src/Graphics/Track/LAGT.png") {
     tmpl_tunnel_underlay (0, 192)
 }
 
+spriteset(set_RBUB_track_tunnel_underlay_rain, "src/Graphics/Track/RBUB.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
 spriteset(set_AGT_track_tunnel_underlay_snow, "src/Graphics/Track/LAGT.png") {
     tmpl_tunnel_underlay (0, 244)
+}
+
+spriteset(set_RBUB_track_tunnel_underlay_snow, "src/Graphics/Track/RBUB.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
+// Tunnel overlay
+spriteset(set_RBUB_track_tunnel_overlay, "src/Graphics/Track/RBUB.png") {
+    tmpl_tunnel_overlay (0, 296)
 }
 
 // Bridge surfaces
@@ -46,7 +79,15 @@ spriteset(set_AGT_track_bridge, "src/Graphics/Track/LAGT.png") {
     tmpl_bridge_surface (0, 296)
 }
 
+spriteset(set_RBUB_track_bridge, "src/Graphics/Track/RBUB.png") {
+    tmpl_bridge_surface (0, 348)
+}
+
 // Depot
 spriteset(set_AGT_track_depot, "src/Graphics/Depots/Depots_LAGT.png") {
+    tmpl_depot (0, 0)
+}
+
+spriteset(set_RBUB_track_depot, "src/Graphics/Depots/Depots_RBUB.png") {
     tmpl_depot (0, 0)
 }

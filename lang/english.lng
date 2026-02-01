@@ -100,6 +100,14 @@ STR_HIGH_SPEED_UNDERGROUND_BUILD_VEHICLE_CAPTION       :New High Speed Undergrou
 STR_HIGH_SPEED_UNDERGROUND_NEW_ENGINE                  :High Speed Underground Vehicles
 STR_HIGH_SPEED_UNDERGROUND_AUTOREPLACE                 :High Speed Underground Vehicles
 
+# High Speed 600 지하선로
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NAME              :Very High Speed Underground Tracks
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_DROPDOWN_MENU     :Very High Speed Underground Track Construction
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_TOOLBAR_CAPTION   :Very High Speed Underground Track Construction
+STR_HIGH_SPEED_UNDERGROUND_BUILD_600_VEHICLE_CAPTION   :New Very High Speed Underground Vehicles
+STR_HIGH_SPEED_UNDERGROUND_600_NEW_ENGINE              :Very High Speed Underground Vehicles
+STR_HIGH_SPEED_UNDERGROUND_600_AUTOREPLACE             :Very High Speed Underground Vehicles
+
 # Metro
 STR_TRACK_METRO_NAME                                   :Metro Tracks
 STR_TRACK_METRO_DROPDOWN_MENU                          :Metro Track Construction
@@ -179,6 +187,14 @@ STR_TRACK_LAGT_TOOLBAR_CAPTION                         :AGT Track Construction
 STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :New AGT Track Vehicle
 STR_TRACK_LAGT_NEW_ENGINE                              :AGT Track Vehicle
 STR_TRACK_LAGT_AUTOREPLACE                             :AGT Track Vehicle
+
+# LAGT Underground
+STR_TRACK_AGUB_NAME                                    :AGUB Track
+STR_TRACK_AGUB_DROPDOWN_MENU                           :AGUB Track Construction
+STR_TRACK_AGUB_TOOLBAR_CAPTION                         :AGUB Track Construction
+STR_TRACK_AGUB_BUILD_VEHICLE_CAPTION                   :New AGUB Track Vehicle
+STR_TRACK_AGUB_NEW_ENGINE                              :AGUB Track Vehicle
+STR_TRACK_AGUB_AUTOREPLACE                             :AGUB Track Vehicle
 
 # GMNO
 STR_TRACK_GMNO_NAME                                    :GMNO Track

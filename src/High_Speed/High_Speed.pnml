@@ -157,8 +157,49 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_Underground, 22) {
         underlay:                       set_HIGH_SPEED_Underground_track_underlay;
         tunnels:                        sw_HIGH_SPEED_underground_tunnel_underlay;
         tunnel_overlay:                 set_HIGH_SPEED_Underground_tunnel_overlay;
-        depots:                         sw_HIGH_SPEED_track_430_depot;
+        depots:                         set_HIGH_SPEED_underground_track_depot;
         bridge_surfaces:                set_HIGH_SPEED_Underground_track_bridge;
+        catenary_wire:                  set_Underground_catenary;
+        catenary_pylons:                set_No_catenary;
+        fences:                         set_Underground_Fences;
+    }
+}
+
+/*--------------------------------------------------------------------
+선로정보
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_HIGH_SPEED_Underground_600, 24) {
+    property {
+        label:                          "VHSU";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NAME);
+        menu_text:                      string(STR_HIGH_SPEED_UNDERGROUND_TRACK_600_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_HIGH_SPEED_UNDERGROUND_TRACK_600_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_HIGH_SPEED_UNDERGROUND_BUILD_600_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_HIGH_SPEED_UNDERGROUND_600_NEW_ENGINE);
+        autoreplace_text:               string(STR_HIGH_SPEED_UNDERGROUND_600_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    600 km/h;
+        construction_cost:              96;
+        maintenance_cost:               24;
+        sort_order:                     08;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
+        alternative_railtype_list:      ["RAIL","ELRL"];
+        compatible_railtype_list:       ["RAIL","ELRL"];
+        powered_railtype_list:          ["RAIL","ELRL"];
+    }
+
+    graphics {
+        gui:                            set_METRO_Underground_gui;
+        track_overlay:                  set_HIGH_SPEED_Underground_track_600_overlay;
+        underlay:                       set_HIGH_SPEED_Underground_track_600_underlay;
+        tunnels:                        sw_HIGH_SPEED_underground_600_tunnel_underlay;
+        tunnel_overlay:                 set_HIGH_SPEED_Underground_600_tunnel_overlay;
+        depots:                         set_HIGH_SPEED_underground_track_depot;
+        bridge_surfaces:                set_HIGH_SPEED_Underground_600_track_bridge;
         catenary_wire:                  set_Underground_catenary;
         catenary_pylons:                set_No_catenary;
         fences:                         set_Underground_Fences;

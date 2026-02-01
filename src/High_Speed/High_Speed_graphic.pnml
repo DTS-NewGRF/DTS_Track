@@ -31,6 +31,10 @@ spriteset(set_HIGH_SPEED_Underground_track_overlay, "src/Graphics/Track/HBUB.png
     tmpl_overlay (0, 0)
 }
 
+spriteset(set_HIGH_SPEED_Underground_track_600_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/VHSU.png") {
+    tmpl_overlay (0, 0)
+}
+
 // Tracks underlay
 spriteset(set_HIGH_SPEED_track_underlay, "src/Graphics/Track/High_Speed.png") {
     tmpl_underlay (0, 44)
@@ -45,6 +49,10 @@ spriteset(set_HIGH_SPEED_track_600_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
 }
 
 spriteset(set_HIGH_SPEED_Underground_track_underlay, "src/Graphics/Track/HBUB.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_HIGH_SPEED_Underground_track_600_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/VHSU.png") {
     tmpl_underlay (0, 44)
 }
 
@@ -65,6 +73,10 @@ spriteset(set_HIGH_SPEED_Underground_tunnel_underlay, "src/Graphics/Track/HBUB.p
     tmpl_tunnel_underlay (0, 88)
 }
 
+spriteset(set_HIGH_SPEED_Underground_600_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/VHSU.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
 spriteset(set_HIGH_SPEED_track_tunnel_underlay_desert, "src/Graphics/Track/High_Speed.png") {
     tmpl_tunnel_underlay (0, 140)
 }
@@ -78,6 +90,10 @@ spriteset(set_HIGH_SPEED_track_600_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BI
 }
 
 spriteset(set_HIGH_SPEED_Underground_tunnel_underlay_desert, "src/Graphics/Track/HBUB.png") {
+    tmpl_tunnel_underlay (0, 140)
+}
+
+spriteset(set_HIGH_SPEED_Underground_600_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/VHSU.png") {
     tmpl_tunnel_underlay (0, 140)
 }
 
@@ -97,11 +113,23 @@ spriteset(set_HIGH_SPEED_Underground_tunnel_underlay_rain, "src/Graphics/Track/H
     tmpl_tunnel_underlay (0, 192)
 }
 
+spriteset(set_HIGH_SPEED_Underground_600_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/VHSU.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
 spriteset(set_HIGH_SPEED_Underground_tunnel_underlay_snow, "src/Graphics/Track/HBUB.png") {
     tmpl_tunnel_underlay (0, 244)
 }
 
+spriteset(set_HIGH_SPEED_Underground_600_tunnel_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/VHSU.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
 spriteset(set_HIGH_SPEED_Underground_tunnel_overlay, "src/Graphics/Track/HBUB.png") {
+    tmpl_tunnel_overlay (0, 296)
+}
+
+spriteset(set_HIGH_SPEED_Underground_600_tunnel_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/VHSU.png") {
     tmpl_tunnel_overlay (0, 296)
 }
 
@@ -122,6 +150,10 @@ spriteset(set_HIGH_SPEED_Underground_track_bridge, "src/Graphics/Track/HBUB.png"
     tmpl_bridge_surface (0, 348)
 }
 
+spriteset(set_HIGH_SPEED_Underground_600_track_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/VHSU.png") {
+    tmpl_bridge_surface (0, 296)
+}
+
 // Depot
 spriteset(set_HIGH_SPEED_track_depot, "src/Graphics/Depots/Depots_High_Speed.png") {
     tmpl_depot (0, 0)
@@ -132,6 +164,10 @@ spriteset(set_HIGH_SPEED_track_430_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "s
 }
 
 spriteset(set_HIGH_SPEED_track_600_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_High_Speed_600.png") {
+    tmpl_depot (0, 0)
+}
+
+spriteset(set_HIGH_SPEED_underground_track_depot, "src/Graphics/Depots/Depots_High_Speed_Underground.png") {
     tmpl_depot (0, 0)
 }
 

@@ -78,3 +78,12 @@ switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_underground_tunnel_underlay, terrain_
     TILETYPE_SNOW:                      set_HIGH_SPEED_Underground_tunnel_underlay_snow;
     set_HIGH_SPEED_Underground_tunnel_underlay;
 }
+
+// Graphic for terrain underground 600
+switch(FEAT_RAILTYPES, SELF, sw_HIGH_SPEED_underground_600_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_HIGH_SPEED_Underground_600_tunnel_underlay;
+    TILETYPE_DESERT:                    set_HIGH_SPEED_Underground_600_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_HIGH_SPEED_Underground_600_tunnel_underlay_rain;
+    TILETYPE_SNOW:                      set_HIGH_SPEED_Underground_600_tunnel_underlay_snow;
+    set_HIGH_SPEED_Underground_600_tunnel_underlay;
+}

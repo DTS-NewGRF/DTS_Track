@@ -99,6 +99,14 @@ STR_HIGH_SPEED_UNDERGROUND_BUILD_VEHICLE_CAPTION       :새 고속선(지하) �
 STR_HIGH_SPEED_UNDERGROUND_NEW_ENGINE                  :고속선(지하) 차량
 STR_HIGH_SPEED_UNDERGROUND_AUTOREPLACE                 :고속선(지하) 차량
 
+# High Speed 600 지하선로
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NAME                  :초고속선(지하) 선로
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_DROPDOWN_MENU         :초고속선(지하) 선로 건설
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_TOOLBAR_CAPTION       :초고속선(지하) 선로 건설
+STR_HIGH_SPEED_UNDERGROUND_BUILD_600_VEHICLE_CAPTION       :새 초고속선(지하) 차량
+STR_HIGH_SPEED_UNDERGROUND_600_NEW_ENGINE                  :초고속선(지하) 차량
+STR_HIGH_SPEED_UNDERGROUND_600_AUTOREPLACE                 :초고속선(지하) 차량
+
 # Metro
 STR_TRACK_METRO_NAME                                   :지하철 선로
 STR_TRACK_METRO_DROPDOWN_MENU                          :지하철 선로 건설
@@ -178,6 +186,14 @@ STR_TRACK_LAGT_TOOLBAR_CAPTION                         :고무차륜 선로건�
 STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :새 고무차륜 선로 차량
 STR_TRACK_LAGT_NEW_ENGINE                              :고무차륜 선로 차량
 STR_TRACK_LAGT_AUTOREPLACE                             :고무차륜 선로 차량
+
+# LAGT Underground
+STR_TRACK_AGUB_NAME                                    :고무차륜(지하) 선로
+STR_TRACK_AGUB_DROPDOWN_MENU                           :고무차륜(지하) 선로건설
+STR_TRACK_AGUB_TOOLBAR_CAPTION                         :고무차륜(지하) 선로건설
+STR_TRACK_AGUB_BUILD_VEHICLE_CAPTION                   :새 고무차륜(지하) 선로 차량
+STR_TRACK_AGUB_NEW_ENGINE                              :고무차륜(지하) 선로 차량
+STR_TRACK_AGUB_AUTOREPLACE                             :고무차륜(지하) 선로 차량
 
 # GMNO
 STR_TRACK_GMNO_NAME                                    :과좌식 모노레일

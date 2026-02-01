@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_LAGT, 14) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["LAGT","KRLR","KLAG"];
-        compatible_railtype_list:       ["LAGT","KRLR","KLAG"];
-        powered_railtype_list:          ["LAGT","KRLR","KLAG"];
+        alternative_railtype_list:      ["LAGT","KRLR","KLAG", "AGUB"];
+        compatible_railtype_list:       ["LAGT","KRLR","KLAG", "AGUB"];
+        powered_railtype_list:          ["LAGT","KRLR","KLAG", "AGUB"];
     }
 
     graphics {
@@ -42,5 +42,43 @@ item(FEAT_RAILTYPES, track_LAGT, 14) {
         depots:                         sw_AGT_track_depot;
         bridge_surfaces:                sw_AGT_track_bridge;
         fences:                         set_fences3;
+    }
+}
+
+item(FEAT_RAILTYPES, track_RBUB, 23) {
+    property {
+        label:                          "AGUB";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_AGUB_NAME);
+        menu_text:                      string(STR_TRACK_AGUB_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_AGUB_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_AGUB_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_AGUB_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_AGUB_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    100 km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
+        alternative_railtype_list:      ["LAGT","KRLR","KLAG"];
+        compatible_railtype_list:       ["LAGT","KRLR","KLAG"];
+        powered_railtype_list:          ["LAGT","KRLR","KLAG"];
+    }
+
+    graphics {
+        gui:                            set_RBUB_gui;
+        track_overlay:                  set_RBUB_overlay;
+        underlay:                       set_RBUB_track_underlay;
+        tunnels:                        sw_RBUB_track_tunnel_underlay;
+        tunnel_overlay:                 set_RBUB_track_tunnel_overlay;
+        depots:                         set_RBUB_track_depot;
+        bridge_surfaces:                set_RBUB_track_bridge;
+        catenary_wire:                  set_Underground_catenary;
+        catenary_pylons:                set_No_catenary;
+        fences:                         set_Underground_Fences;
     }
 }

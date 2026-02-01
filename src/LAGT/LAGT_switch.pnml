@@ -31,3 +31,12 @@ switch(FEAT_RAILTYPES, SELF, sw_AGT_track_bridge, terrain_type) {
     TILETYPE_NORMAL:                    set_AGT_track_bridge;
     set_AGT_track_bridge;
 }
+
+// Graphic for terrain RBUB
+switch(FEAT_RAILTYPES, SELF, sw_RBUB_track_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_RBUB_track_tunnel_underlay;
+    TILETYPE_DESERT:                    set_RBUB_track_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_RBUB_track_tunnel_underlay_rain;
+    TILETYPE_SNOW:                      set_RBUB_track_tunnel_underlay_snow;
+    set_RBUB_track_tunnel_underlay;
+}

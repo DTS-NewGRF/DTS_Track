@@ -29,7 +29,7 @@ spriteset(set_AGT_track_underlay, "src/Graphics/Track/LAGT.png") {
 }
 
 spriteset(set_RBUB_track_underlay, "src/Graphics/Track/RBUB.png") {
-    tmpl_overlay (0, 44)
+    tmpl_underlay (0, 44)
 }
 
 spriteset(set_AGT_track_underlay_snow, "src/Graphics/Track/LAGT_Snow.png") {

@@ -26,7 +26,7 @@ spriteset(set_RAILBED_tunnel_underlay, "src/Graphics/Track/RailBed.png") {
 }
 
 spriteset(set_RAILBED_Underground_tunnel_underlay, "src/Graphics/Track/RBUB.png") {
-    tmpl_tunnel_underlay (0, 0)
+    tmpl_tunnel_underlay (0, 88)
 }
 
 spriteset(set_RAILBED_tunnel_underlay_desert, "src/Graphics/Track/RailBed.png") {
@@ -34,7 +34,7 @@ spriteset(set_RAILBED_tunnel_underlay_desert, "src/Graphics/Track/RailBed.png") 
 }
 
 spriteset(set_RAILBED_Underground_tunnel_underlay_desert, "src/Graphics/Track/RBUB.png") {
-    tmpl_tunnel_underlay (0, 52)
+    tmpl_tunnel_underlay (0, 140)
 } 
 
 spriteset(set_RAILBED_tunnel_underlay_rain, "src/Graphics/Track/RailBed.png") {
@@ -42,7 +42,7 @@ spriteset(set_RAILBED_tunnel_underlay_rain, "src/Graphics/Track/RailBed.png") {
 }
 
 spriteset(set_RAILBED_Underground_tunnel_underlay_rain, "src/Graphics/Track/RBUB.png") {
-    tmpl_tunnel_underlay (0, 104)
+    tmpl_tunnel_underlay (0, 192)
 }
 
 spriteset(set_RAILBED_tunnel_underlay_snow, "src/Graphics/Track/RailBed.png") {
@@ -50,12 +50,12 @@ spriteset(set_RAILBED_tunnel_underlay_snow, "src/Graphics/Track/RailBed.png") {
 }
 
 spriteset(set_RAILBED_Underground_tunnel_underlay_snow, "src/Graphics/Track/RBUB.png") {
-    tmpl_tunnel_underlay (0, 156)
+    tmpl_tunnel_underlay (0, 244)
 }
 
 // Tunnel overlay
 spriteset(set_RAILBED_Underground_tunnel_overlay, "src/Graphics/Track/RBUB.png") {
-    tmpl_tunnel_overlay (0, 208)
+    tmpl_tunnel_overlay (0, 296)
 }
 
 // Bridge surfaces

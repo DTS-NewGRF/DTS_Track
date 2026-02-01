@@ -13,6 +13,7 @@
 * [선로변경] 도시철도 3궤조 (지하) 차량기지 변경 ([#41](https://github.com/DTS-NewGRF/DTS/issues/41)) (2026.02.01)
 * [선로변경] 고속철도 (지하) 차량기지 그래픽 변경 ([#42](https://github.com/DTS-NewGRF/DTS/issues/42)) (2026.02.01)
 * [선로추가] 초고속선 (지하) / Very High Speed (Underground) ([#43](https://github.com/DTS-NewGRF/DTS/issues/43)) (2026.02.01)
+* [버그] 노반(지하) 그래픽 문제 발생 ([#44](https://github.com/DTS-NewGRF/DTS/issues/44)) (2026.02.01)
 
 ## 인게임 등록
 ```

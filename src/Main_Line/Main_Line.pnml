@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_MAIN_LINE, 04) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["RAIL","ELRL"];
-        compatible_railtype_list:       ["RAIL","ELRL"];
-        powered_railtype_list:          ["RAIL","ELRL"];
+        alternative_railtype_list:      RailType_All_List;
+        compatible_railtype_list:       RailType_All_List;
+        powered_railtype_list:          RailType_All_List;
     }
 
     graphics {
@@ -65,9 +65,9 @@ item(FEAT_RAILTYPES, track_MAIN_LINE_ELEC, 05) {
         sort_order:                     05;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","KSUB","HSUB", "VHSU"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","KSUB","HSUB", "VHSU"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","KSUB","HSUB", "VHSU"];
+        alternative_railtype_list:      RailType_All_List;
+        compatible_railtype_list:       RailType_All_List;
+        powered_railtype_list:          RailType_All_List;
     }
 
     graphics {
@@ -103,9 +103,9 @@ item(FEAT_RAILTYPES, track_MAIN_LINE_URBAN, 06) {
         sort_order:                     06;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
-        alternative_railtype_list:      ["ELRL"];
-        compatible_railtype_list:       ["ELRL"];
-        powered_railtype_list:          ["ELRL"];
+        alternative_railtype_list:      RailType_All_List;
+        compatible_railtype_list:       RailType_All_List;
+        powered_railtype_list:          RailType_All_List;
     }
 
     graphics {

@@ -6,7 +6,9 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Track/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.04] 2026.02.01 <br>
+[1.04] 2026.02.13 <br>
+[이슈외작업]
+* 선로간 연결자동설치 수정 (2026.02.10)
 [이슈작업]
 * [선로추가] 고무차륜 (지하) / AGT Track (Underground) ([#39](https://github.com/DTS-NewGRF/DTS/issues/39)) (2026.02.01)
 * [선로변경] 도시철도 (지하) 차량기지 변경 ([#40](https://github.com/DTS-NewGRF/DTS/issues/40)) (2026.02.01)

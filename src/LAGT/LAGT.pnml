@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_LAGT, 14) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["LAGT","KRLR","KLAG", "AGUB"];
-        compatible_railtype_list:       ["LAGT","KRLR","KLAG", "AGUB"];
-        powered_railtype_list:          ["LAGT","KRLR","KLAG", "AGUB"];
+        alternative_railtype_list:      RailType_LAGT_List;
+        compatible_railtype_list:       RailType_LAGT_List;
+        powered_railtype_list:          RailType_LAGT_List;
     }
 
     graphics {
@@ -64,9 +64,9 @@ item(FEAT_RAILTYPES, track_RBUB, 23) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
-        alternative_railtype_list:      ["LAGT","KRLR","KLAG"];
-        compatible_railtype_list:       ["LAGT","KRLR","KLAG"];
-        powered_railtype_list:          ["LAGT","KRLR","KLAG"];
+        alternative_railtype_list:      RailType_LAGT_List;
+        compatible_railtype_list:       RailType_LAGT_List;
+        powered_railtype_list:          RailType_LAGT_List;
     }
 
     graphics {

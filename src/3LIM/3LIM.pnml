@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_3LIM, 13) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["3LIM"];
-        compatible_railtype_list:       ["3LIM"];
-        powered_railtype_list:          ["3LIM"];
+        alternative_railtype_list:      RailType_3LIM_List;
+        compatible_railtype_list:       RailType_3LIM_List;
+        powered_railtype_list:          RailType_3LIM_List;
     }
 
     graphics {

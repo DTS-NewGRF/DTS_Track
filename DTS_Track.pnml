@@ -10,13 +10,16 @@ grf {
     name :                             string(STR_GRF_NAME_WITH_VER);
     desc :                             string(STR_GRF_DESC);
     url :                              string(STR_GRF_URL);
-    version :                          20260201;
+    version :                          20260213;
     min_compatible_version :           20240616;
 	
 	// Parameters 매개변수
     #include "src/parameter.pnml"
 
     }
+
+// Load Track Label
+#include "src/track_Label.pnml"
 
 // Load Templates
 #include "src/template_list.pnml"

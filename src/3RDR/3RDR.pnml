@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_3RDR, 11) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["3RDR","3RUB","M3RL"];
-        compatible_railtype_list:       ["3RDR","3RUB","M3RL"];
-        powered_railtype_list:          ["3RDR","3RUB","M3RL"];
+        alternative_railtype_list:      RailType_3RDR_List;
+        compatible_railtype_list:       RailType_3RDR_List;
+        powered_railtype_list:          RailType_3RDR_List;
     }
 
     graphics {
@@ -65,9 +65,9 @@ item(FEAT_RAILTYPES, track_M3RL, 12) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["3RDR","3RUB","M3RL"];
-        compatible_railtype_list:       ["3RDR","3RUB","M3RL"];
-        powered_railtype_list:          ["3RDR","3RUB","M3RL"];
+        alternative_railtype_list:      RailType_3RDR_List;
+        compatible_railtype_list:       RailType_3RDR_List;
+        powered_railtype_list:          RailType_3RDR_List;
     }
 
     graphics {
@@ -101,9 +101,9 @@ item(FEAT_RAILTYPES, track_3RDR_Underground, 20) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
-        alternative_railtype_list:      ["3RDR","3RUB","M3RL"];
-        compatible_railtype_list:       ["3RDR","3RUB","M3RL"];
-        powered_railtype_list:          ["3RDR","3RUB","M3RL"];
+        alternative_railtype_list:      RailType_3RDR_List;
+        compatible_railtype_list:       RailType_3RDR_List;
+        powered_railtype_list:          RailType_3RDR_List;
     }
 
     graphics {

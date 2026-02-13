@@ -1,0 +1,57 @@
+/* LIM 3궤조 전기선로 3LIM (STR_TRACK_3LIM_NAME) */
+#define RailType_3LIM_List ["3LIM"]
+
+/*
+일반선 3궤조 전기선로 3RDR (STR_TRACK_3RDR_NAME)
+도시철도 3궤조 전기선로 M3RL (STR_TRACK_M3RL_NAME)
+일반선 3궤조(지하) 전기선로 3RUB (STR_TRACK_3RDR_UNDERGROUND_NAME)
+*/
+#define RailType_3RDR_List ["3RDR", "M3RL", "3RUB"]
+
+/* 과좌식 모노레일 GMNO (STR_TRACK_GMNO_NAME) */
+#define RailType_GMNO_List ["GMNO","KLMN"]
+
+/*
+고무차륜 선로 LAGT (STR_TRACK_LAGT_NAME)
+고무차륜(지하) 선로 AGUB (STR_TRACK_AGUB_NAME)
+*/
+#define RailType_LAGT_List ["LAGT","KRLR","KLAG", "AGUB"]
+
+/*
+기존선 선로 (120) RAIL (STR_LOW_SPEED_TRACK_NAME)
+비전철화 선로 (180) KDS_ (STR_MAIN_LINE_TRACK_NAME)
+*/
+
+#define RailType_Rail_List ["RAIL","KDS_"]
+
+/*
+기존선 선로 (120) RAIL (STR_LOW_SPEED_TRACK_NAME)
+*/
+
+#define RailType_Only_Rail_List ["RAIL"]
+
+/*
+기존선 선로 (120) RAIL (STR_LOW_SPEED_TRACK_NAME)
+기존선 전기선로 (120) KLSE (STR_LOW_SPEED_ELEC_TRACK_NAME)
+기존선 도심전기선로 (120) KLSU (STR_LOW_SPEED_URBAN_TRACK_NAME)
+비전철화 선로 (180) KDS_ (STR_MAIN_LINE_TRACK_NAME)
+전철화 선로 (180) ELRL (STR_MAIN_LINE_ELEC_TRACK_NAME)
+전철화 도심전기선로 (180) KDSU (STR_MAIN_LINE_URBAN_TRACK_NAME)
+지하철 선로 KMTR (STR_TRACK_METRO_NAME)
+도시철도(지하) 선로 KSUB (STR_TRACK_METRO_UNDERGROUND_NAME)
+준고속선 선로 (260) KSSU (STR_SEMI_HIGH_SPEED_TRACK_NAME)
+고속선 선로 (331) KHS_ (STR_HIGH_SPEED_TRACK_NAME)
+고속선(지하) 선로 (331) HSUB (STR_HIGH_SPEED_UNDERGROUND_TRACK_NAME)
+준초고속선 선로 (430) KHST (STR_HIGH_SPEED_TRACK_430_NAME)
+초고속선 선로 (600) KTHS (STR_HIGH_SPEED_TRACK_600_NAME)
+초고속선(지하) 선로 (600) VHSU (STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NAME)
+*/
+
+#define RailType_All_List ["RAIL", "KDS_", "KLSE", "KLSU", "ELRL", "KDSU", "KMTR", "KSUB", "KSSU", "KHS_", "HSUB", "KHST", "KTHS", "VHSU"]
+
+
+/*
+노반 KRBD (STR_TRACK_RAILBED_NAME)
+노반(지하) RBUB (STR_TRACK_RAILBED_UNDERGROUND_NAME)
+*/
+#define RailType_RailBed_List ["KRBD","RBUB"]

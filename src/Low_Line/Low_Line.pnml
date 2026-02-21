@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_LOW_SPEED, 01) {
         sort_order:                     01;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB"];
-        compatible_railtype_list:       ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB"];
-        powered_railtype_list:          ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB"];
+        alternative_railtype_list:      ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB","HSUB","KTHS","KHST","VHSU"];
+        compatible_railtype_list:       ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB","HSUB","KTHS","KHST","VHSU"];
+        powered_railtype_list:          ["RAIL","KLSE","KLSU","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB","HSUB","KTHS","KHST","VHSU"];
     }
 
     graphics {
@@ -101,9 +101,9 @@ item(FEAT_RAILTYPES, track_LOW_SPEED_URBAN, 03) {
         sort_order:                     03;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
-        alternative_railtype_list:      ["RAIL","KLSE","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB"];
-        compatible_railtype_list:       ["RAIL","KLSE","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB"];
-        powered_railtype_list:          ["RAIL","KLSE","KDS_","ELRL","KDSU","KSSU","KHS_","KMTR","KSUB"];
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR"];
     }
 
     graphics {

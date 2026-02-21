@@ -31,6 +31,19 @@
 #define RailType_Only_Rail_List ["RAIL"]
 
 /*
+전철화 선로 (180) ELRL (STR_MAIN_LINE_ELEC_TRACK_NAME)
+*/
+
+#define RailType_Only_ELRL_List ["ELRL"]
+
+/*
+기존선 선로 (120) RAIL (STR_LOW_SPEED_TRACK_NAME)
+전철화 선로 (180) ELRL (STR_MAIN_LINE_ELEC_TRACK_NAME)
+*/
+
+#define RailType_Rail_ELRL ["RAIL","ELRL"]
+
+/*
 기존선 선로 (120) RAIL (STR_LOW_SPEED_TRACK_NAME)
 기존선 전기선로 (120) KLSE (STR_LOW_SPEED_ELEC_TRACK_NAME)
 기존선 도심전기선로 (120) KLSU (STR_LOW_SPEED_URBAN_TRACK_NAME)

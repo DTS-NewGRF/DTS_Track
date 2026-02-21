@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_SEMI_HIGH_SPEED, 07) {
         sort_order:                     07;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      RailType_All_List;
-        compatible_railtype_list:       RailType_All_List;
-        powered_railtype_list:          RailType_All_List;
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
     }
 
     graphics {

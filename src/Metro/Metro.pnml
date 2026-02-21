@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_METRO, 09) {
         sort_order:                     09;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
-        alternative_railtype_list:      RailType_All_List;
-        compatible_railtype_list:       RailType_All_List;
-        powered_railtype_list:          RailType_All_List;
+        alternative_railtype_list:      ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR","KSUB"];
+        compatible_railtype_list:       ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR","KSUB"];
+        powered_railtype_list:          ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR","KSUB"];
     }
 
     graphics {
@@ -65,9 +65,9 @@ item(FEAT_RAILTYPES, track_METRO_Underground, 18) {
         sort_order:                     09;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
-        alternative_railtype_list:      RailType_All_List;
-        compatible_railtype_list:       RailType_All_List;
-        powered_railtype_list:          RailType_All_List;
+        alternative_railtype_list:      ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR","KSUB"];
+        compatible_railtype_list:       ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR","KSUB"];
+        powered_railtype_list:          ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR","KSUB"];
     }
 
     graphics {

@@ -19,157 +19,131 @@ STR_PARAM_Object_Waypoint_NAME                         :오브젝트, 경유지 
 STR_PARAM_Object_Waypoint_DESC                         :오브젝트, 경유지 사용시 체크하세요. (기본:미사용)
 
 # Low Speed // 120
-STR_LOW_SPEED_TRACK_NAME                               :기존선 선로
-STR_LOW_SPEED_TRACK_DROPDOWN_MENU                      :기존선 선로 건설
-STR_LOW_SPEED_TRACK_TOOLBAR_CAPTION                    :기존선 선로 건설
-STR_LOW_SPEED_BUILD_VEHICLE_CAPTION                    :새 일반선 차량
-STR_LOW_SPEED_NEW_ENGINE                               :일반선 차량
-STR_LOW_SPEED_AUTOREPLACE                              :일반선 차량
+STR_LOW_SPEED_TRACK_NAME                               :표준궤 기존선 선로(1435mm)
+STR_LOW_SPEED_TRACK_DROPDOWN_MENU                      :표준궤 기존선 선로(1435mm) 건설
+STR_LOW_SPEED_TRACK_TOOLBAR_CAPTION                    :표준궤 기존선 선로(1435mm) 건설
+STR_LOW_SPEED_BUILD_VEHICLE_CAPTION                    :새 표준궤 기존선 선로(1435mm) 차량
+STR_LOW_SPEED_NEW_ENGINE                               :표준궤 기존선 선로(1435mm) 차량
+STR_LOW_SPEED_AUTOREPLACE                              :표준궤 기존선 선로(1435mm) 차량
 
-# Electrified Low Speed // 120
-STR_LOW_SPEED_ELEC_TRACK_NAME                          :기존선 전기선로
-STR_LOW_SPEED_ELEC_TRACK_DROPDOWN_MENU                 :기존선 전기선로 건설
-STR_LOW_SPEED_ELEC_TRACK_TOOLBAR_CAPTION               :기존선 전기선로 건설
-STR_LOW_SPEED_ELEC_BUILD_VEHICLE_CAPTION               :새 일반선 전기 차량
-STR_LOW_SPEED_ELEC_NEW_ENGINE                          :일반선 전기 차량
-STR_LOW_SPEED_ELEC_AUTOREPLACE                         :일반선 전기 차량
+STR_LOW_SPEED_ELEC_TRACK_NAME                          :표준궤 기존선 전기선로 (1435mm)
+STR_LOW_SPEED_ELEC_TRACK_DROPDOWN_MENU                 :표준궤 기존선 전기선로 (1435mm) 건설
+STR_LOW_SPEED_ELEC_TRACK_TOOLBAR_CAPTION               :표준궤 기존선 전기선로 (1435mm) 건설
+STR_LOW_SPEED_ELEC_BUILD_VEHICLE_CAPTION               :새 표준궤 기존선 전기선로 (1435mm) 차량
+STR_LOW_SPEED_ELEC_NEW_ENGINE                          :표준궤 기존선 전기선로 (1435mm) 차량
+STR_LOW_SPEED_ELEC_AUTOREPLACE                         :표준궤 기존선 전기선로 (1435mm) 차량
 
-# Urban Electrified Low Speed // 120
-STR_LOW_SPEED_URBAN_TRACK_NAME                         :기존선 도심전기선로
-STR_LOW_SPEED_URBAN_TRACK_DROPDOWN_MENU                :기존선 도심전기선로 건설
-STR_LOW_SPEED_URBAN_TRACK_TOOLBAR_CAPTION              :기존선 도심전기선로 건설
-STR_LOW_SPEED_URBAN_BUILD_VEHICLE_CAPTION              :새 일반선 전기 차량
-STR_LOW_SPEED_URBAN_NEW_ENGINE                         :일반선 전기 차량
-STR_LOW_SPEED_URBAN_AUTOREPLACE                        :일반선 전기 차량
+STR_LOW_SPEED_URBAN_TRACK_NAME                         :표준궤 기존선 도심전기선로 (1435mm)
+STR_LOW_SPEED_URBAN_TRACK_DROPDOWN_MENU                :표준궤 기존선 도심전기선로 (1435mm) 건설
+STR_LOW_SPEED_URBAN_TRACK_TOOLBAR_CAPTION              :표준궤 기존선 도심전기선로 (1435mm) 건설
+STR_LOW_SPEED_URBAN_BUILD_VEHICLE_CAPTION              :새 표준궤 기존선 도심전기선로 (1435mm) 차량
+STR_LOW_SPEED_URBAN_NEW_ENGINE                         :표준궤 기존선 도심전기선로 (1435mm) 차량
+STR_LOW_SPEED_URBAN_AUTOREPLACE                        :표준궤 기존선 도심전기선로 (1435mm) 차량
 
 # Standard Speed // 180
-STR_MAIN_LINE_TRACK_NAME                               :비전철화 선로
-STR_MAIN_LINE_TRACK_DROPDOWN_MENU                      :비전철화 선로 건설
-STR_MAIN_LINE_TRACK_TOOLBAR_CAPTION                    :비전철화 선로 건설
-STR_MAIN_LINE_BUILD_VEHICLE_CAPTION                    :새 비전철화 차량
-STR_MAIN_LINE_NEW_ENGINE                               :비전철화 차량
-STR_MAIN_LINE_AUTOREPLACE                              :비전철화 차량
+STR_MAIN_LINE_TRACK_NAME                               :표준궤 일반선 선로 (1435mm)
+STR_MAIN_LINE_TRACK_DROPDOWN_MENU                      :표준궤 일반선 선로 (1435mm) 건설
+STR_MAIN_LINE_TRACK_TOOLBAR_CAPTION                    :표준궤 일반선 선로 (1435mm) 건설
+STR_MAIN_LINE_BUILD_VEHICLE_CAPTION                    :새 표준궤 일반선 선로 (1435mm) 차량
+STR_MAIN_LINE_NEW_ENGINE                               :표준궤 일반선 선로 (1435mm) 차량
+STR_MAIN_LINE_AUTOREPLACE                              :표준궤 일반선 선로 (1435mm) 차량
 
-# Electrified Standard Speed // 180
-STR_MAIN_LINE_ELEC_TRACK_NAME                          :전철화 선로
-STR_MAIN_LINE_ELEC_TRACK_DROPDOWN_MENU                 :전철화 선로 건설
-STR_MAIN_LINE_ELEC_TRACK_TOOLBAR_CAPTION               :전철화 선로 건설
-STR_MAIN_LINE_ELEC_BUILD_VEHICLE_CAPTION               :새 전철화 차량
-STR_MAIN_LINE_ELEC_NEW_ENGINE                          :전철화 차량
-STR_MAIN_LINE_ELEC_AUTOREPLACE                         :전철화 차량
+STR_MAIN_LINE_ELEC_TRACK_NAME                          :표준궤 일반선 전기선로 (1435mm)
+STR_MAIN_LINE_ELEC_TRACK_DROPDOWN_MENU                 :표준궤 일반선 전기선로 (1435mm) 건설
+STR_MAIN_LINE_ELEC_TRACK_TOOLBAR_CAPTION               :표준궤 일반선 전기선로 (1435mm) 건설
+STR_MAIN_LINE_ELEC_BUILD_VEHICLE_CAPTION               :새 표준궤 일반선 전기선로 (1435mm) 차량
+STR_MAIN_LINE_ELEC_NEW_ENGINE                          :표준궤 일반선 전기선로 (1435mm) 차량
+STR_MAIN_LINE_ELEC_AUTOREPLACE                         :표준궤 일반선 전기선로 (1435mm) 차량
 
-STR_MAIN_LINE_URBAN_TRACK_NAME                         :전철화 도심전기선로
-STR_MAIN_LINE_URBAN_TRACK_DROPDOWN_MENU                :전철화 도심전기선로 건설
-STR_MAIN_LINE_URBAN_TRACK_TOOLBAR_CAPTION              :전철화 도심전기선로 건설
-STR_MAIN_LINE_URBAN_BUILD_VEHICLE_CAPTION              :새 전철화 전기 차량
-STR_MAIN_LINE_URBAN_NEW_ENGINE                         :전철화 전기 차량
-STR_MAIN_LINE_URBAN_AUTOREPLACE                        :전철화 전기 차량
-
-# Semi High Speed // 260
-STR_SEMI_HIGH_SPEED_TRACK_NAME                         :준고속선 선로
-STR_SEMI_HIGH_SPEED_TRACK_DROPDOWN_MENU                :준고속선 선로 건설
-STR_SEMI_HIGH_SPEED_TRACK_TOOLBAR_CAPTION              :준고속선 선로 건설
-STR_SEMI_HIGH_SPEED_BUILD_VEHICLE_CAPTION              :새 준고속선 차량
-STR_SEMI_HIGH_SPEED_NEW_ENGINE                         :준고속선 차량
-STR_SEMI_HIGH_SPEED_AUTOREPLACE                        :준고속선 차량
-
-# High Speed // 331
-STR_HIGH_SPEED_TRACK_NAME                              :고속선 선로
-STR_HIGH_SPEED_TRACK_DROPDOWN_MENU                     :고속선 선로 건설
-STR_HIGH_SPEED_TRACK_TOOLBAR_CAPTION                   :고속선 선로 건설
-STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION                   :새 고속선 차량
-STR_HIGH_SPEED_NEW_ENGINE                              :고속선 차량
-STR_HIGH_SPEED_AUTOREPLACE                             :고속선 차량
-
-# High Speed // 430
-STR_HIGH_SPEED_TRACK_430_NAME                          :준초고속선 선로
-STR_HIGH_SPEED_TRACK_430_DROPDOWN_MENU                 :준초고속선 선로 건설
-STR_HIGH_SPEED_TRACK_430_TOOLBAR_CAPTION               :준초고속선 선로 건설
-
-# High Speed // 600
-STR_HIGH_SPEED_TRACK_600_NAME                          :초고속선 선로
-STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU                 :초고속선 선로 건설
-STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION               :초고속선 선로 건설
-
-# High Speed 지하선로
-STR_HIGH_SPEED_UNDERGROUND_TRACK_NAME                  :고속선(지하) 선로
-STR_HIGH_SPEED_UNDERGROUND_TRACK_DROPDOWN_MENU         :고속선(지하) 선로 건설
-STR_HIGH_SPEED_UNDERGROUND_TRACK_TOOLBAR_CAPTION       :고속선(지하) 선로 건설
-STR_HIGH_SPEED_UNDERGROUND_BUILD_VEHICLE_CAPTION       :새 고속선(지하) 차량
-STR_HIGH_SPEED_UNDERGROUND_NEW_ENGINE                  :고속선(지하) 차량
-STR_HIGH_SPEED_UNDERGROUND_AUTOREPLACE                 :고속선(지하) 차량
-
-# High Speed 600 지하선로
-STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NAME                  :초고속선(지하) 선로
-STR_HIGH_SPEED_UNDERGROUND_TRACK_600_DROPDOWN_MENU         :초고속선(지하) 선로 건설
-STR_HIGH_SPEED_UNDERGROUND_TRACK_600_TOOLBAR_CAPTION       :초고속선(지하) 선로 건설
-STR_HIGH_SPEED_UNDERGROUND_BUILD_600_VEHICLE_CAPTION       :새 초고속선(지하) 차량
-STR_HIGH_SPEED_UNDERGROUND_600_NEW_ENGINE                  :초고속선(지하) 차량
-STR_HIGH_SPEED_UNDERGROUND_600_AUTOREPLACE                 :초고속선(지하) 차량
+STR_MAIN_LINE_URBAN_TRACK_NAME                         :표준궤 일반선 도심전기선로 (1435m)
+STR_MAIN_LINE_URBAN_TRACK_DROPDOWN_MENU                :표준궤 일반선 도심전기선로 (1435m) 건설
+STR_MAIN_LINE_URBAN_TRACK_TOOLBAR_CAPTION              :표준궤 일반선 도심전기선로 (1435m) 건설
+STR_MAIN_LINE_URBAN_BUILD_VEHICLE_CAPTION              :새 표준궤 일반선 도심전기선로 (1435m) 차량
+STR_MAIN_LINE_URBAN_NEW_ENGINE                         :표준궤 일반선 도심전기선로 (1435m) 차량
+STR_MAIN_LINE_URBAN_AUTOREPLACE                        :표준궤 일반선 도심전기선로 (1435m) 차량
 
 # Metro
-STR_TRACK_METRO_NAME                                   :지하철 선로
-STR_TRACK_METRO_DROPDOWN_MENU                          :지하철 선로 건설
-STR_TRACK_METRO_TOOLBAR_CAPTION                        :지하철 선로 건설
-STR_TRACK_METRO_BUILD_VEHICLE_CAPTION                  :새 지하철 차량
-STR_TRACK_METRO_NEW_ENGINE                             :지하철 차량
-STR_TRACK_METRO_AUTOREPLACE                            :지하철 차량
+STR_TRACK_METRO_NAME                                   :표준궤 도시철도 선로 (1435mm)
+STR_TRACK_METRO_DROPDOWN_MENU                          :표준궤 도시철도 선로 (1435mm) 건설
+STR_TRACK_METRO_TOOLBAR_CAPTION                        :표준궤 도시철도 선로 (1435mm) 건설
+STR_TRACK_METRO_BUILD_VEHICLE_CAPTION                  :새 표준궤 도시철도 선로 (1435mm) 차량
+STR_TRACK_METRO_NEW_ENGINE                             :표준궤 도시철도 선로 (1435mm) 차량
+STR_TRACK_METRO_AUTOREPLACE                            :표준궤 도시철도 선로 (1435mm) 차량
 
-# Metro 지하선로
-STR_TRACK_METRO_UNDERGROUND_NAME                       :도시철도(지하) 선로
-STR_TRACK_METRO_UNDERGROUND_DROPDOWN_MENU              :도시철도(지하) 선로 건설
-STR_TRACK_METRO_UNDERGROUND_TOOLBAR_CAPTION            :도시철도(지하) 선로 건설
-STR_TRACK_METRO_UNDERGROUND_BUILD_VEHICLE_CAPTION      :새 도시철도(지하) 차량
-STR_TRACK_METRO_UNDERGROUND_NEW_ENGINE                 :도시철도(지하) 차량
-STR_TRACK_METRO_UNDERGROUND_AUTOREPLACE                :도시철도(지하) 차량
+STR_TRACK_METRO_UNDERGROUND_NAME                       :표준궤 지하 도시철도 선로 (1435mm)
+STR_TRACK_METRO_UNDERGROUND_DROPDOWN_MENU              :표준궤 지하 도시철도 선로 (1435mm) 건설
+STR_TRACK_METRO_UNDERGROUND_TOOLBAR_CAPTION            :표준궤 지하 도시철도 선로 (1435mm) 건설
+STR_TRACK_METRO_UNDERGROUND_BUILD_VEHICLE_CAPTION      :새 표준궤 지하 도시철도 선로 (1435mm) 차량
+STR_TRACK_METRO_UNDERGROUND_NEW_ENGINE                 :표준궤 지하 도시철도 선로 (1435mm) 차량
+STR_TRACK_METRO_UNDERGROUND_AUTOREPLACE                :표준궤 지하 도시철도 선로 (1435mm) 차량
 
-# Railbed
-STR_TRACK_RAILBED_NAME                                 :노반
-STR_TRACK_RAILBED_DROPDOWN_MENU                        :노반 건설
-STR_TRACK_RAILBED_TOOLBAR_CAPTION                      :노반 건설
-STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION                :.
-STR_TRACK_RAILBED_NEW_ENGINE                           :.
-STR_TRACK_RAILBED_AUTOREPLACE                          :.
+# Semi High Speed // 260
+STR_SEMI_HIGH_SPEED_TRACK_NAME                         :표준궤 준고속선 선로 (1435mm)
+STR_SEMI_HIGH_SPEED_TRACK_DROPDOWN_MENU                :표준궤 준고속선 선로 (1435mm) 건설
+STR_SEMI_HIGH_SPEED_TRACK_TOOLBAR_CAPTION              :표준궤 준고속선 선로 (1435mm) 건설
+STR_SEMI_HIGH_SPEED_BUILD_VEHICLE_CAPTION              :새 표준궤 준고속선 선로 (1435mm) 차량
+STR_SEMI_HIGH_SPEED_NEW_ENGINE                         :표준궤 준고속선 선로 (1435mm) 차량
+STR_SEMI_HIGH_SPEED_AUTOREPLACE                        :표준궤 준고속선 선로 (1435mm) 차량
 
-# Railbed 지하선로
-STR_TRACK_RAILBED_UNDERGROUND_NAME                     :노반(지하)
-STR_TRACK_RAILBED_UNDERGROUND_DROPDOWN_MENU            :노반(지하) 건설
-STR_TRACK_RAILBED_UNDERGROUND_TOOLBAR_CAPTION          :노반(지하) 건설
-STR_TRACK_RAILBED_UNDERGROUND_BUILD_VEHICLE_CAPTION    :.
-STR_TRACK_RAILBED_UNDERGROUND_NEW_ENGINE               :.
-STR_TRACK_RAILBED_UNDERGROUND_AUTOREPLACE              :.
+# High Speed // 331
+STR_HIGH_SPEED_TRACK_NAME                              :표준궤 고속선 선로 (1435mm)
+STR_HIGH_SPEED_TRACK_DROPDOWN_MENU                     :표준궤 고속선 선로 (1435mm) 건설
+STR_HIGH_SPEED_TRACK_TOOLBAR_CAPTION                   :표준궤 고속선 선로 (1435mm) 건설
+STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION                   :새 표준궤 고속선 선로 (1435mm) 차량
+STR_HIGH_SPEED_NEW_ENGINE                              :표준궤 고속선 선로 (1435mm) 차량
+STR_HIGH_SPEED_AUTOREPLACE                             :표준궤 고속선 선로 (1435mm) 차량
 
-# CONC
-STR_TRACK_RAILCONC_NAME                                :콘크리트 장식
-STR_TRACK_RAILCONC_DROPDOWN_MENU                       :콘크리트 장식 건설
-STR_TRACK_RAILCONC_TOOLBAR_CAPTION                     :콘크리트 장식 건설
-STR_TRACK_RAILCONC_BUILD_VEHICLE_CAPTION               :.
-STR_TRACK_RAILCONC_NEW_ENGINE                          :.
-STR_TRACK_RAILCONC_AUTOREPLACE                         :.
+STR_HIGH_SPEED_UNDERGROUND_TRACK_NAME                  :표준궤 지하 고속선 선로 (1435mm)
+STR_HIGH_SPEED_UNDERGROUND_TRACK_DROPDOWN_MENU         :표준궤 지하 고속선 선로 (1435mm) 건설
+STR_HIGH_SPEED_UNDERGROUND_TRACK_TOOLBAR_CAPTION       :표준궤 지하 고속선 선로 (1435mm) 건설
+STR_HIGH_SPEED_UNDERGROUND_BUILD_VEHICLE_CAPTION       :새 표준궤 지하 고속선 선로 (1435mm) 차량
+STR_HIGH_SPEED_UNDERGROUND_NEW_ENGINE                  :표준궤 지하 고속선 선로 (1435mm) 차량
+STR_HIGH_SPEED_UNDERGROUND_AUTOREPLACE                 :표준궤 지하 고속선 선로 (1435mm) 차량
 
-# 3RDR
-STR_TRACK_3RDR_NAME                                    :일반선 3궤조 전기선로
-STR_TRACK_3RDR_DROPDOWN_MENU                           :일반선 3궤조 전기선로 건설
-STR_TRACK_3RDR_TOOLBAR_CAPTION                         :일반선 3궤조 전기선로 건설
-STR_TRACK_3RDR_BUILD_VEHICLE_CAPTION                   :새 일반선 3궤조 전기선로 차량
-STR_TRACK_3RDR_NEW_ENGINE                              :일반선 3궤조 전기선로 차량
-STR_TRACK_3RDR_AUTOREPLACE                             :일반선 3궤조 전기선로 차량
+# High Speed // 430
+STR_HIGH_SPEED_TRACK_430_NAME                          :표준궤 준초고속선 선로 (1435mm)
+STR_HIGH_SPEED_TRACK_430_DROPDOWN_MENU                 :표준궤 준초고속선 선로 (1435mm) 건설
+STR_HIGH_SPEED_TRACK_430_TOOLBAR_CAPTION               :표준궤 준초고속선 선로 (1435mm) 건설
+STR_HIGH_SPEED_TRACK_430_BUILD_VEHICLE_CAPTION         :새 표준궤 준초고속선 선로 (1435mm) 차량
+STR_HIGH_SPEED_TRACK_430_NEW_ENGINE                    :표준궤 준초고속선 선로 (1435mm) 차량
+STR_HIGH_SPEED_TRACK_430_AUTOREPLACE                   :표준궤 준초고속선 선로 (1435mm) 차량
 
-# 3RDR Underground
-STR_TRACK_3RDR_UNDERGROUND_NAME                        :일반선 3궤조(지하) 전기선로
-STR_TRACK_3RDR_UNDERGROUND_DROPDOWN_MENU               :일반선 3궤조(지하) 전기선로 건설
-STR_TRACK_3RDR_UNDERGROUND_TOOLBAR_CAPTION             :일반선 3궤조(지하) 전기선로 건설
-STR_TRACK_3RDR_UNDERGROUND_BUILD_VEHICLE_CAPTION       :새 일반선 3궤조(지하) 전기선로 차량
-STR_TRACK_3RDR_UNDERGROUND_NEW_ENGINE                  :일반선 3궤조(지하) 전기선로 차량
-STR_TRACK_3RDR_UNDERGROUND_AUTOREPLACE                 :일반선 3궤조(지하) 전기선로 차량
+# High Speed // 600
+STR_HIGH_SPEED_TRACK_600_NAME                          :표준궤 초고속선 선로 (1435mm)
+STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU                 :표준궤 초고속선 선로 (1435mm) 건설
+STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION               :표준궤 초고속선 선로 (1435mm) 건설
+STR_HIGH_SPEED_TRACK_600_BUILD_VEHICLE_CAPTION         :새 표준궤 초고속선 선로 (1435mm) 차량
+STR_HIGH_SPEED_TRACK_600_NEW_ENGINE                    :표준궤 초고속선 선로 (1435mm) 차량
+STR_HIGH_SPEED_TRACK_600_AUTOREPLACE                   :표준궤 초고속선 선로 (1435mm) 차량
 
-# M3RL
-STR_TRACK_M3RL_NAME                                    :도시철도 3궤조 전기선로
-STR_TRACK_M3RL_DROPDOWN_MENU                           :도시철도 3궤조 전기선로 건설
-STR_TRACK_M3RL_TOOLBAR_CAPTION                         :도시철도 3궤조 전기선로 건설
-STR_TRACK_M3RL_BUILD_VEHICLE_CAPTION                   :새 도시철도 3궤조 전기선로 차량
-STR_TRACK_M3RL_NEW_ENGINE                              :도시철도 3궤조 전기선로 차량
-STR_TRACK_M3RL_AUTOREPLACE                             :도시철도 3궤조 전기선로 차량
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NAME                  :표준궤 지하 초고속선 선로 (1435mm)
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_DROPDOWN_MENU         :표준궤 지하 초고속선 선로 (1435mm) 건설
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_TOOLBAR_CAPTION       :표준궤 지하 초고속선 선로 (1435mm) 건설
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_BUILD_VEHICLE_CAPTION :새 표준궤 지하 초고속선 선로 (1435mm) 차량
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NEW_ENGINE            :표준궤 지하 초고속선 선로 (1435mm) 차량
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_AUTOREPLACE           :표준궤 지하 초고속선 선로 (1435mm) 차량
+
+# Narrow gauge Nomal Speed Tracks (1067mm)
+STR_TRACK_NGRL_NAME                                    :협궤 일반선 선로 (1067mm)
+STR_TRACK_NGRL_DROPDOWN_MENU                           :협궤 일반선 선로 (1067mm) 건설
+STR_TRACK_NGRL_TOOLBAR_CAPTION                         :협궤 일반선 선로 (1067mm) 건설
+STR_TRACK_NGRL_BUILD_VEHICLE_CAPTION                   :새 협궤 일반선 선로 (1067mm) 차량
+STR_TRACK_NGRL_NEW_ENGINE                              :협궤 일반선 선로 (1067mm) 차량
+STR_TRACK_NGRL_AUTOREPLACE                             :협궤 일반선 선로 (1067mm) 차량
+
+STR_TRACK_ELNG_NAME                                    :협궤 일반선 전기선로 (1067mm)
+STR_TRACK_ELNG_DROPDOWN_MENU                           :협궤 일반선 전기선로 (1067mm) 건설
+STR_TRACK_ELNG_TOOLBAR_CAPTION                         :협궤 일반선 전기선로 (1067mm) 건설
+STR_TRACK_ELNG_BUILD_VEHICLE_CAPTION                   :새 협궤 일반선 전기선로 (1067mm) 차량
+STR_TRACK_ELNG_NEW_ENGINE                              :협궤 일반선 전기선로 (1067mm) 차량
+STR_TRACK_ELNG_AUTOREPLACE                             :협궤 일반선 전기선로 (1067mm) 차량
+
+STR_TRACK_ENHI_NAME                                    :협궤 일반선 도심전기선로 (1067mm)
+STR_TRACK_ENHI_DROPDOWN_MENU                           :협궤 일반선 도심전기선로 (1067mm) 건설
+STR_TRACK_ENHI_TOOLBAR_CAPTION                         :협궤 일반선 도심전기선로 (1067mm) 건설
+STR_TRACK_ENHI_BUILD_VEHICLE_CAPTION                   :새 협궤 일반선 도심전기선로 (1067mm) 차량
+STR_TRACK_ENHI_NEW_ENGINE                              :협궤 일반선 도심전기선로 (1067mm) 차량
+STR_TRACK_ENHI_AUTOREPLACE                             :협궤 일반선 도심전기선로 (1067mm) 차량
 
 # 3LIM
 STR_TRACK_3LIM_NAME                                    :LIM 3궤조 전기선로
@@ -179,21 +153,27 @@ STR_TRACK_3LIM_BUILD_VEHICLE_CAPTION                   :새 LIM 3궤조 전기�
 STR_TRACK_3LIM_NEW_ENGINE                              :LIM 3궤조 전기선로 차량
 STR_TRACK_3LIM_AUTOREPLACE                             :LIM 3궤조 전기선로 차량
 
-# LAGT
-STR_TRACK_LAGT_NAME                                    :고무차륜 선로
-STR_TRACK_LAGT_DROPDOWN_MENU                           :고무차륜 선로건설
-STR_TRACK_LAGT_TOOLBAR_CAPTION                         :고무차륜 선로건설
-STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :새 고무차륜 선로 차량
-STR_TRACK_LAGT_NEW_ENGINE                              :고무차륜 선로 차량
-STR_TRACK_LAGT_AUTOREPLACE                             :고무차륜 선로 차량
+# 3RDR
+STR_TRACK_3RDR_NAME                                    :일반선 3궤조 전기선로
+STR_TRACK_3RDR_DROPDOWN_MENU                           :일반선 3궤조 전기선로 건설
+STR_TRACK_3RDR_TOOLBAR_CAPTION                         :일반선 3궤조 전기선로 건설
+STR_TRACK_3RDR_BUILD_VEHICLE_CAPTION                   :새 일반선 3궤조 전기선로 차량
+STR_TRACK_3RDR_NEW_ENGINE                              :일반선 3궤조 전기선로 차량
+STR_TRACK_3RDR_AUTOREPLACE                             :일반선 3궤조 전기선로 차량
 
-# LAGT Underground
-STR_TRACK_AGUB_NAME                                    :고무차륜(지하) 선로
-STR_TRACK_AGUB_DROPDOWN_MENU                           :고무차륜(지하) 선로건설
-STR_TRACK_AGUB_TOOLBAR_CAPTION                         :고무차륜(지하) 선로건설
-STR_TRACK_AGUB_BUILD_VEHICLE_CAPTION                   :새 고무차륜(지하) 선로 차량
-STR_TRACK_AGUB_NEW_ENGINE                              :고무차륜(지하) 선로 차량
-STR_TRACK_AGUB_AUTOREPLACE                             :고무차륜(지하) 선로 차량
+STR_TRACK_3RDR_UNDERGROUND_NAME                        :일반선 3궤조(지하) 전기선로
+STR_TRACK_3RDR_UNDERGROUND_DROPDOWN_MENU               :일반선 3궤조(지하) 전기선로 건설
+STR_TRACK_3RDR_UNDERGROUND_TOOLBAR_CAPTION             :일반선 3궤조(지하) 전기선로 건설
+STR_TRACK_3RDR_UNDERGROUND_BUILD_VEHICLE_CAPTION       :새 일반선 3궤조(지하) 전기선로 차량
+STR_TRACK_3RDR_UNDERGROUND_NEW_ENGINE                  :일반선 3궤조(지하) 전기선로 차량
+STR_TRACK_3RDR_UNDERGROUND_AUTOREPLACE                 :일반선 3궤조(지하) 전기선로 차량
+
+STR_TRACK_M3RL_NAME                                    :도시철도 3궤조 전기선로
+STR_TRACK_M3RL_DROPDOWN_MENU                           :도시철도 3궤조 전기선로 건설
+STR_TRACK_M3RL_TOOLBAR_CAPTION                         :도시철도 3궤조 전기선로 건설
+STR_TRACK_M3RL_BUILD_VEHICLE_CAPTION                   :새 도시철도 3궤조 전기선로 차량
+STR_TRACK_M3RL_NEW_ENGINE                              :도시철도 3궤조 전기선로 차량
+STR_TRACK_M3RL_AUTOREPLACE                             :도시철도 3궤조 전기선로 차량
 
 # GMNO
 STR_TRACK_GMNO_NAME                                    :과좌식 모노레일
@@ -202,6 +182,44 @@ STR_TRACK_GMNO_TOOLBAR_CAPTION                         :과좌식 모노레일 �
 STR_TRACK_GMNO_BUILD_VEHICLE_CAPTION                   :새 과좌식 모노레일 차량
 STR_TRACK_GMNO_NEW_ENGINE                              :과좌식 모노레일 차량
 STR_TRACK_GMNO_AUTOREPLACE                             :과좌식 모노레일 차량
+
+# LAGT
+STR_TRACK_LAGT_NAME                                    :고무차륜 선로
+STR_TRACK_LAGT_DROPDOWN_MENU                           :고무차륜 선로건설
+STR_TRACK_LAGT_TOOLBAR_CAPTION                         :고무차륜 선로건설
+STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :새 고무차륜 선로 차량
+STR_TRACK_LAGT_NEW_ENGINE                              :고무차륜 선로 차량
+STR_TRACK_LAGT_AUTOREPLACE                             :고무차륜 선로 차량
+
+STR_TRACK_AGUB_NAME                                    :고무차륜(지하) 선로
+STR_TRACK_AGUB_DROPDOWN_MENU                           :고무차륜(지하) 선로건설
+STR_TRACK_AGUB_TOOLBAR_CAPTION                         :고무차륜(지하) 선로건설
+STR_TRACK_AGUB_BUILD_VEHICLE_CAPTION                   :새 고무차륜(지하) 선로 차량
+STR_TRACK_AGUB_NEW_ENGINE                              :고무차륜(지하) 선로 차량
+STR_TRACK_AGUB_AUTOREPLACE                             :고무차륜(지하) 선로 차량
+
+# 노반
+STR_TRACK_RAILBED_NAME                                 :노반
+STR_TRACK_RAILBED_DROPDOWN_MENU                        :노반 건설
+STR_TRACK_RAILBED_TOOLBAR_CAPTION                      :노반 건설
+STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION                :.
+STR_TRACK_RAILBED_NEW_ENGINE                           :.
+STR_TRACK_RAILBED_AUTOREPLACE                          :.
+
+STR_TRACK_RAILBED_UNDERGROUND_NAME                     :노반(지하)
+STR_TRACK_RAILBED_UNDERGROUND_DROPDOWN_MENU            :노반(지하) 건설
+STR_TRACK_RAILBED_UNDERGROUND_TOOLBAR_CAPTION          :노반(지하) 건설
+STR_TRACK_RAILBED_UNDERGROUND_BUILD_VEHICLE_CAPTION    :.
+STR_TRACK_RAILBED_UNDERGROUND_NEW_ENGINE               :.
+STR_TRACK_RAILBED_UNDERGROUND_AUTOREPLACE              :.
+
+# 콘크리트
+STR_TRACK_RAILCONC_NAME                                :콘크리트 장식
+STR_TRACK_RAILCONC_DROPDOWN_MENU                       :콘크리트 장식 건설
+STR_TRACK_RAILCONC_TOOLBAR_CAPTION                     :콘크리트 장식 건설
+STR_TRACK_RAILCONC_BUILD_VEHICLE_CAPTION               :.
+STR_TRACK_RAILCONC_NEW_ENGINE                          :.
+STR_TRACK_RAILCONC_AUTOREPLACE                         :.
 
 # Waypoint's name
 STR_Waypoint_Wash                                      :세차장

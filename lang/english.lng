@@ -19,110 +19,184 @@ STR_PARAM_Object_Waypoint_NAME                         :Whether to use objects o
 STR_PARAM_Object_Waypoint_DESC                         :Check when using objects and waypoints. (Default: unused)
 
 # Low Speed // 120
-STR_LOW_SPEED_TRACK_NAME                               :Low Speed Tracks
-STR_LOW_SPEED_TRACK_DROPDOWN_MENU                      :Low Speed Track Construction
-STR_LOW_SPEED_TRACK_TOOLBAR_CAPTION                    :Low Speed Track Construction
-STR_LOW_SPEED_BUILD_VEHICLE_CAPTION                    :New Low Speed Vehicles
-STR_LOW_SPEED_NEW_ENGINE                               :Low Speed Vehicle
-STR_LOW_SPEED_AUTOREPLACE                              :Low Speed Vehicles
+STR_LOW_SPEED_TRACK_NAME                               :Standard gauge Low Speed Tracks (1435mm)
+STR_LOW_SPEED_TRACK_DROPDOWN_MENU                      :Standard gauge Low Speed Tracks (1435mm) Construction
+STR_LOW_SPEED_TRACK_TOOLBAR_CAPTION                    :Standard gauge Low Speed Tracks (1435mm) Construction
+STR_LOW_SPEED_BUILD_VEHICLE_CAPTION                    :New Standard gauge Low Speed Tracks (1435mm) Vehicles
+STR_LOW_SPEED_NEW_ENGINE                               :Standard gauge Low Speed Tracks (1435mm) Vehicle
+STR_LOW_SPEED_AUTOREPLACE                              :Standard gauge Low Speed Tracks (1435mm) Vehicles
 
-# Electrified Low Speed // 120
-STR_LOW_SPEED_ELEC_TRACK_NAME                          :Low Speed Tracks (Electrified)
-STR_LOW_SPEED_ELEC_TRACK_DROPDOWN_MENU                 :Low Speed Track Construction (Electrified)
-STR_LOW_SPEED_ELEC_TRACK_TOOLBAR_CAPTION               :Low Speed Track Construction (Electrified)
-STR_LOW_SPEED_ELEC_BUILD_VEHICLE_CAPTION               :New Electrified Low Speed Vehicles
-STR_LOW_SPEED_ELEC_NEW_ENGINE                          :Electrified Low Speed Vehicle
-STR_LOW_SPEED_ELEC_AUTOREPLACE                         :Electrified Low Speed Vehicles
+STR_LOW_SPEED_ELEC_TRACK_NAME                          :Standard gauge Low Speed Tracks (Electrified, 1435mm)
+STR_LOW_SPEED_ELEC_TRACK_DROPDOWN_MENU                 :Standard gauge Low Speed Tracks (Electrified, 1435mm) Construction
+STR_LOW_SPEED_ELEC_TRACK_TOOLBAR_CAPTION               :Standard gauge Low Speed Tracks (Electrified, 1435mm) Construction
+STR_LOW_SPEED_ELEC_BUILD_VEHICLE_CAPTION               :New Standard gauge Low Speed Tracks (Electrified, 1435mm) Vehicles
+STR_LOW_SPEED_ELEC_NEW_ENGINE                          :Standard gauge Low Speed Tracks (Electrified, 1435mm) Vehicle
+STR_LOW_SPEED_ELEC_AUTOREPLACE                         :Standard gauge Low Speed Tracks (Electrified, 1435mm) Vehicles
 
-# Urban Electrified Low Speed // 120
-STR_LOW_SPEED_URBAN_TRACK_NAME                         :Low Speed Tracks (Urban, Electrified)
-STR_LOW_SPEED_URBAN_TRACK_DROPDOWN_MENU                :Low Speed Track Construction (Urban, Electrified)
-STR_LOW_SPEED_URBAN_TRACK_TOOLBAR_CAPTION              :Low Speed Track Construction (Urban, Electrified)
-STR_LOW_SPEED_URBAN_BUILD_VEHICLE_CAPTION              :New Electrified Low Speed Vehicles
-STR_LOW_SPEED_URBAN_NEW_ENGINE                         :Electrified Low Speed Vehicle
-STR_LOW_SPEED_URBAN_AUTOREPLACE                        :Electrified Low Speed Vehicle
+STR_LOW_SPEED_URBAN_TRACK_NAME                         :Standard gauge Low Speed Tracks (Urban, Electrified, 1435mm)
+STR_LOW_SPEED_URBAN_TRACK_DROPDOWN_MENU                :Standard gauge Low Speed Tracks (Urban, Electrified, 1435mm) Construction
+STR_LOW_SPEED_URBAN_TRACK_TOOLBAR_CAPTION              :Standard gauge Low Speed Tracks (Urban, Electrified, 1435mm) Construction
+STR_LOW_SPEED_URBAN_BUILD_VEHICLE_CAPTION              :New Standard gauge Low Speed Tracks (Urban, Electrified, 1435mm) Vehicles
+STR_LOW_SPEED_URBAN_NEW_ENGINE                         :Standard gauge Low Speed Tracks (Urban, Electrified, 1435mm) Vehicle
+STR_LOW_SPEED_URBAN_AUTOREPLACE                        :Standard gauge Low Speed Tracks (Urban, Electrified, 1435mm) Vehicle
 
 # Standard Speed // 180
-STR_MAIN_LINE_TRACK_NAME                               :Standard Speed Tracks
-STR_MAIN_LINE_TRACK_DROPDOWN_MENU                      :Standard Speed Track Construction
-STR_MAIN_LINE_TRACK_TOOLBAR_CAPTION                    :Standard Speed Track Construction
-STR_MAIN_LINE_BUILD_VEHICLE_CAPTION                    :New Standard Speed Vehicles
-STR_MAIN_LINE_NEW_ENGINE                               :Standard Speed Vehicle
-STR_MAIN_LINE_AUTOREPLACE                              :Standard Speed Vehicles
+STR_MAIN_LINE_TRACK_NAME                               :Standard gauge Normal Speed Tracks (1435mm)
+STR_MAIN_LINE_TRACK_DROPDOWN_MENU                      :Standard gauge Normal Speed Tracks (1435mm) Construction
+STR_MAIN_LINE_TRACK_TOOLBAR_CAPTION                    :Standard gauge Normal Speed Tracks (1435mm) Construction
+STR_MAIN_LINE_BUILD_VEHICLE_CAPTION                    :New Standard gauge Normal Speed Tracks (1435mm) Vehicles
+STR_MAIN_LINE_NEW_ENGINE                               :Standard gauge Normal Speed Tracks (1435mm) Vehicle
+STR_MAIN_LINE_AUTOREPLACE                              :Standard gauge Normal Speed Tracks (1435mm) Vehicles
 
-# Electrified Standard Speed // 180
-STR_MAIN_LINE_ELEC_TRACK_NAME                          :Standard Speed Tracks (Electrified)
-STR_MAIN_LINE_ELEC_TRACK_DROPDOWN_MENU                 :Standard Speed Track Construction (Electrified)
-STR_MAIN_LINE_ELEC_TRACK_TOOLBAR_CAPTION               :Standard Speed Track Construction (Electrified)
-STR_MAIN_LINE_ELEC_BUILD_VEHICLE_CAPTION               :New Electrified Standard Speed Vehicles
-STR_MAIN_LINE_ELEC_NEW_ENGINE                          :Electrified Standard Speed Vehicle
-STR_MAIN_LINE_ELEC_AUTOREPLACE                         :Electrified Standard Speed Vehicles
+STR_MAIN_LINE_ELEC_TRACK_NAME                          :Standard gauge Normal Speed Tracks (Electrified, 1435mm)
+STR_MAIN_LINE_ELEC_TRACK_DROPDOWN_MENU                 :Standard gauge Normal Speed Tracks (Electrified, 1435mm) Construction
+STR_MAIN_LINE_ELEC_TRACK_TOOLBAR_CAPTION               :Standard gauge Normal Speed Tracks (Electrified, 1435mm) Construction
+STR_MAIN_LINE_ELEC_BUILD_VEHICLE_CAPTION               :New Standard gauge Normal Speed Tracks (Electrified, 1435mm) Vehicles
+STR_MAIN_LINE_ELEC_NEW_ENGINE                          :Standard gauge Normal Speed Tracks (Electrified, 1435mm) Vehicle
+STR_MAIN_LINE_ELEC_AUTOREPLACE                         :Standard gauge Normal Speed Tracks (Electrified, 1435mm) Vehicles
 
-# Urban Electrified Standard Speed // 180
-STR_MAIN_LINE_URBAN_TRACK_NAME                         :Standard Speed Tracks (Urban, Electrified)
-STR_MAIN_LINE_URBAN_TRACK_DROPDOWN_MENU                :Standard Speed Track Construction (Urban, Electrified)
-STR_MAIN_LINE_URBAN_TRACK_TOOLBAR_CAPTION              :Standard Speed Track Construction (Urban, Electrified)
-STR_MAIN_LINE_URBAN_BUILD_VEHICLE_CAPTION              :New Electrified Standard Speed Vehicles
-STR_MAIN_LINE_URBAN_NEW_ENGINE                         :Electrified Standard Speed Vehicle
-STR_MAIN_LINE_URBAN_AUTOREPLACE                        :Electrified Standard Speed Vehicles
-
-# Semi High Speed // 260
-STR_SEMI_HIGH_SPEED_TRACK_NAME                         :Semi High Speed Tracks
-STR_SEMI_HIGH_SPEED_TRACK_DROPDOWN_MENU                :Semi High Speed Track Construction
-STR_SEMI_HIGH_SPEED_TRACK_TOOLBAR_CAPTION              :Semi High Speed Track Construction
-STR_SEMI_HIGH_SPEED_BUILD_VEHICLE_CAPTION              :New Semi High Speed Vehicles
-STR_SEMI_HIGH_SPEED_NEW_ENGINE                         :Semi High Speed Vehicle
-STR_SEMI_HIGH_SPEED_AUTOREPLACE                        :Semi High Speed Vehicles
-
-# High Speed // 331
-STR_HIGH_SPEED_TRACK_NAME                              :High Speed Tracks
-STR_HIGH_SPEED_TRACK_DROPDOWN_MENU                     :High Speed Track Construction
-STR_HIGH_SPEED_TRACK_TOOLBAR_CAPTION                   :High Speed Track Construction
-STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION                   :New High Speed Vehicles
-STR_HIGH_SPEED_NEW_ENGINE                              :High Speed Vehicle
-STR_HIGH_SPEED_AUTOREPLACE                             :High Speed Vehicles
-
-# High Speed // 430
-STR_HIGH_SPEED_TRACK_430_NAME                          :High Speed Tracks
-STR_HIGH_SPEED_TRACK_430_DROPDOWN_MENU                 :High Speed Track Construction
-STR_HIGH_SPEED_TRACK_430_TOOLBAR_CAPTION               :High Speed Track Construction
-
-# High Speed // 600
-STR_HIGH_SPEED_TRACK_600_NAME                          :High Speed Tracks
-STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU                 :High Speed Track Construction
-STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION               :High Speed Track Construction
-
-# High Speed Underground
-STR_HIGH_SPEED_UNDERGROUND_TRACK_NAME                  :High Speed Underground Tracks
-STR_HIGH_SPEED_UNDERGROUND_TRACK_DROPDOWN_MENU         :High Speed Underground Track Construction
-STR_HIGH_SPEED_UNDERGROUND_TRACK_TOOLBAR_CAPTION       :High Speed Underground Track Construction
-STR_HIGH_SPEED_UNDERGROUND_BUILD_VEHICLE_CAPTION       :New High Speed Underground Vehicles
-STR_HIGH_SPEED_UNDERGROUND_NEW_ENGINE                  :High Speed Underground Vehicles
-STR_HIGH_SPEED_UNDERGROUND_AUTOREPLACE                 :High Speed Underground Vehicles
-
-# High Speed 600 지하선로
-STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NAME              :Very High Speed Underground Tracks
-STR_HIGH_SPEED_UNDERGROUND_TRACK_600_DROPDOWN_MENU     :Very High Speed Underground Track Construction
-STR_HIGH_SPEED_UNDERGROUND_TRACK_600_TOOLBAR_CAPTION   :Very High Speed Underground Track Construction
-STR_HIGH_SPEED_UNDERGROUND_BUILD_600_VEHICLE_CAPTION   :New Very High Speed Underground Vehicles
-STR_HIGH_SPEED_UNDERGROUND_600_NEW_ENGINE              :Very High Speed Underground Vehicles
-STR_HIGH_SPEED_UNDERGROUND_600_AUTOREPLACE             :Very High Speed Underground Vehicles
+STR_MAIN_LINE_URBAN_TRACK_NAME                         :Standard gauge Normal Speed Tracks (Urban, Electrified, 1435mm)
+STR_MAIN_LINE_URBAN_TRACK_DROPDOWN_MENU                :Standard gauge Normal Speed Tracks (Urban, Electrified, 1435mm) Construction
+STR_MAIN_LINE_URBAN_TRACK_TOOLBAR_CAPTION              :Standard gauge Normal Speed Tracks (Urban, Electrified, 1435mm) Construction
+STR_MAIN_LINE_URBAN_BUILD_VEHICLE_CAPTION              :New Standard gauge Normal Speed Tracks (Urban, Electrified, 1435mm) Vehicles
+STR_MAIN_LINE_URBAN_NEW_ENGINE                         :Standard gauge Normal Speed Tracks (Urban, Electrified, 1435mm) Vehicle
+STR_MAIN_LINE_URBAN_AUTOREPLACE                        :Standard gauge Normal Speed Tracks (Urban, Electrified, 1435mm) Vehicles
 
 # Metro
-STR_TRACK_METRO_NAME                                   :Metro Tracks
-STR_TRACK_METRO_DROPDOWN_MENU                          :Metro Track Construction
-STR_TRACK_METRO_TOOLBAR_CAPTION                        :Metro Track Construction
-STR_TRACK_METRO_BUILD_VEHICLE_CAPTION                  :New Metro Vehicles
-STR_TRACK_METRO_NEW_ENGINE                             :Metro Vehicle
-STR_TRACK_METRO_AUTOREPLACE                            :Metro Vehicles
+STR_TRACK_METRO_NAME                                   :Standard gauge Metro Tracks (1435mm)
+STR_TRACK_METRO_DROPDOWN_MENU                          :Standard gauge Metro Tracks (1435mm) Construction
+STR_TRACK_METRO_TOOLBAR_CAPTION                        :Standard gauge Metro Tracks (1435mm) Construction
+STR_TRACK_METRO_BUILD_VEHICLE_CAPTION                  :New Standard gauge Metro Tracks (1435mm) Vehicles
+STR_TRACK_METRO_NEW_ENGINE                             :Standard gauge Metro Tracks (1435mm) Vehicle
+STR_TRACK_METRO_AUTOREPLACE                            :Standard gauge Metro Tracks (1435mm) Vehicles
 
-# Metro Underground
-STR_TRACK_METRO_UNDERGROUND_NAME                       :Metro Underground Tracks
-STR_TRACK_METRO_UNDERGROUND_DROPDOWN_MENU              :Metro Underground Track Construction
-STR_TRACK_METRO_UNDERGROUND_TOOLBAR_CAPTION            :Metro Underground Track Construction
-STR_TRACK_METRO_UNDERGROUND_BUILD_VEHICLE_CAPTION      :New Metro Underground Vehicles
-STR_TRACK_METRO_UNDERGROUND_NEW_ENGINE                 :Metro Underground Vehicle
-STR_TRACK_METRO_UNDERGROUND_AUTOREPLACE                :Metro Underground Vehicles
+STR_TRACK_METRO_UNDERGROUND_NAME                       :Standard gauge Underground Metro Tracks (1435mm) Tracks
+STR_TRACK_METRO_UNDERGROUND_DROPDOWN_MENU              :Standard gauge Underground Metro Tracks (1435mm) Construction
+STR_TRACK_METRO_UNDERGROUND_TOOLBAR_CAPTION            :Standard gauge Underground Metro Tracks (1435mm) Construction
+STR_TRACK_METRO_UNDERGROUND_BUILD_VEHICLE_CAPTION      :New Standard gauge Underground Metro Tracks (1435mm) Vehicles
+STR_TRACK_METRO_UNDERGROUND_NEW_ENGINE                 :Standard gauge Underground Metro Tracks (1435mm) Vehicle
+STR_TRACK_METRO_UNDERGROUND_AUTOREPLACE                :Standard gauge Underground Metro Tracks (1435mm) Vehicles
+
+# Semi High Speed // 260
+STR_SEMI_HIGH_SPEED_TRACK_NAME                         :Standard gauge Semi High Speed Tracks (1435mm)
+STR_SEMI_HIGH_SPEED_TRACK_DROPDOWN_MENU                :Standard gauge Semi High Speed Tracks (1435mm) Construction
+STR_SEMI_HIGH_SPEED_TRACK_TOOLBAR_CAPTION              :Standard gauge Semi High Speed Tracks (1435mm) Construction
+STR_SEMI_HIGH_SPEED_BUILD_VEHICLE_CAPTION              :New Standard gauge Semi High Speed Tracks (1435mm) Vehicles
+STR_SEMI_HIGH_SPEED_NEW_ENGINE                         :Standard gauge Semi High Speed Tracks (1435mm) Vehicle
+STR_SEMI_HIGH_SPEED_AUTOREPLACE                        :Standard gauge Semi High Speed Tracks (1435mm) Vehicles
+
+# High Speed // 331
+STR_HIGH_SPEED_TRACK_NAME                              :Standard gauge High Speed Tracks (1435mm)
+STR_HIGH_SPEED_TRACK_DROPDOWN_MENU                     :Standard gauge High Speed Tracks (1435mm) Construction
+STR_HIGH_SPEED_TRACK_TOOLBAR_CAPTION                   :Standard gauge High Speed Tracks (1435mm) Construction
+STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION                   :New Standard gauge High Speed Tracks (1435mm) Vehicles
+STR_HIGH_SPEED_NEW_ENGINE                              :Standard gauge High Speed Tracks (1435mm) Vehicle
+STR_HIGH_SPEED_AUTOREPLACE                             :Standard gauge High Speed Tracks (1435mm) Vehicles
+
+STR_HIGH_SPEED_UNDERGROUND_TRACK_NAME                  :Standard gauge Underground High Speed Tracks (1435mm)
+STR_HIGH_SPEED_UNDERGROUND_TRACK_DROPDOWN_MENU         :Standard gauge Underground High Speed Tracks (1435mm) Construction
+STR_HIGH_SPEED_UNDERGROUND_TRACK_TOOLBAR_CAPTION       :Standard gauge Underground High Speed Tracks (1435mm) Construction
+STR_HIGH_SPEED_UNDERGROUND_BUILD_VEHICLE_CAPTION       :New Standard gauge Underground High Speed Tracks (1435mm) Vehicles
+STR_HIGH_SPEED_UNDERGROUND_NEW_ENGINE                  :Standard gauge Underground High Speed Tracks (1435mm) Vehicles
+STR_HIGH_SPEED_UNDERGROUND_AUTOREPLACE                 :Standard gauge Underground High Speed Tracks (1435mm) Vehicles
+
+# High Speed // 430
+STR_HIGH_SPEED_TRACK_430_NAME                          :Standard gauge Semi Super Fast Tracks (1435mm)
+STR_HIGH_SPEED_TRACK_430_DROPDOWN_MENU                 :Standard gauge Semi Super Fast Tracks (1435mm) Construction
+STR_HIGH_SPEED_TRACK_430_TOOLBAR_CAPTION               :Standard gauge Semi Super Fast Tracks (1435mm) Construction
+STR_HIGH_SPEED_TRACK_430_BUILD_VEHICLE_CAPTION         :New Standard gauge Semi Super Fast Tracks (1435mm) Vehicles
+STR_HIGH_SPEED_TRACK_430_NEW_ENGINE                    :Standard gauge Semi Super Fast Tracks (1435mm) Vehicle
+STR_HIGH_SPEED_TRACK_430_AUTOREPLACE                   :Standard gauge Semi Super Fast Tracks (1435mm) Vehicles
+
+# High Speed // 600
+STR_HIGH_SPEED_TRACK_600_NAME                          :Standard gauge Super Fast Tracks (1435mm)
+STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU                 :Standard gauge Super Fast Tracks (1435mm) Construction
+STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION               :Standard gauge Super Fast Tracks (1435mm) Construction
+STR_HIGH_SPEED_TRACK_600_BUILD_VEHICLE_CAPTION         :New Standard gauge Super Fast Tracks (1435mm) Vehicles
+STR_HIGH_SPEED_TRACK_600_NEW_ENGINE                    :Standard gauge Super Fast Tracks (1435mm) Vehicle
+STR_HIGH_SPEED_TRACK_600_AUTOREPLACE                   :Standard gauge Super Fast Tracks (1435mm) Vehicles
+
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NAME                  :Standard gauge Underground Super Fast Tracks (1435mm)
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_DROPDOWN_MENU         :Standard gauge Underground Super Fast Tracks (1435mm) Construction
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_TOOLBAR_CAPTION       :Standard gauge Underground Super Fast Tracks (1435mm) Construction
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_BUILD_VEHICLE_CAPTION :New Standard gauge Underground Super Fast Tracks (1435mm) Vehicles
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NEW_ENGINE            :Standard gauge Underground Super Fast Tracks (1435mm) Vehicle
+STR_HIGH_SPEED_UNDERGROUND_TRACK_600_AUTOREPLACE           :Standard gauge Underground Super Fast Tracks (1435mm) Vehicles
+
+# Narrow gauge Nomal Speed Tracks (1067mm)
+STR_TRACK_NGRL_NAME                                    :Narrow gauge Nomal Speed Tracks (1067mm)
+STR_TRACK_NGRL_DROPDOWN_MENU                           :Narrow gauge Nomal Speed Tracks (1067mm) Construction
+STR_TRACK_NGRL_TOOLBAR_CAPTION                         :Narrow gauge Nomal Speed Tracks (1067mm) Construction
+STR_TRACK_NGRL_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
+STR_TRACK_NGRL_NEW_ENGINE                              :Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
+STR_TRACK_NGRL_AUTOREPLACE                             :Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
+
+STR_TRACK_ELNG_NAME                                    :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm)
+STR_TRACK_ELNG_DROPDOWN_MENU                           :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) Construction
+STR_TRACK_ELNG_TOOLBAR_CAPTION                         :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) Construction
+STR_TRACK_ELNG_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) Vehicles
+STR_TRACK_ELNG_NEW_ENGINE                              :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) Vehicles
+STR_TRACK_ELNG_AUTOREPLACE                             :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) Vehicles
+
+STR_TRACK_ENHI_NAME                                    :Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm)
+STR_TRACK_ENHI_DROPDOWN_MENU                           :Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) Construction
+STR_TRACK_ENHI_TOOLBAR_CAPTION                         :Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) Construction
+STR_TRACK_ENHI_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) Vehicles
+STR_TRACK_ENHI_NEW_ENGINE                              :Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) Vehicles
+STR_TRACK_ENHI_AUTOREPLACE                             :Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) Vehicles
+
+# 3LIM
+STR_TRACK_3LIM_NAME                                    :LIM Third rail current collector
+STR_TRACK_3LIM_DROPDOWN_MENU                           :LIM Third rail current collector Construction
+STR_TRACK_3LIM_TOOLBAR_CAPTION                         :LIM Third rail current collector Construction
+STR_TRACK_3LIM_BUILD_VEHICLE_CAPTION                   :New LIM Third rail current Vehicle
+STR_TRACK_3LIM_NEW_ENGINE                              :LIM Third rail current Vehicle
+STR_TRACK_3LIM_AUTOREPLACE                             :LIM Third rail current Vehicle
+
+# 3RDR
+STR_TRACK_3RDR_NAME                                    :Third rail current collector
+STR_TRACK_3RDR_DROPDOWN_MENU                           :Third rail current collector Construction
+STR_TRACK_3RDR_TOOLBAR_CAPTION                         :Third rail current collector Construction
+STR_TRACK_3RDR_BUILD_VEHICLE_CAPTION                   :New Third rail current collector Vehicle
+STR_TRACK_3RDR_NEW_ENGINE                              :Third rail current collector Vehicle
+STR_TRACK_3RDR_AUTOREPLACE                             :Third rail current collector Vehicle
+
+STR_TRACK_3RDR_UNDERGROUND_NAME                        :Third rail Underground current collector
+STR_TRACK_3RDR_UNDERGROUND_DROPDOWN_MENU               :Third rail Underground current collector Construction
+STR_TRACK_3RDR_UNDERGROUND_TOOLBAR_CAPTION             :Third rail Underground current collector Construction
+STR_TRACK_3RDR_UNDERGROUND_BUILD_VEHICLE_CAPTION       :New Third rail Underground current collector Vehicle
+STR_TRACK_3RDR_UNDERGROUND_NEW_ENGINE                  :Third rail Underground current collector Vehicle
+STR_TRACK_3RDR_UNDERGROUND_AUTOREPLACE                 :Third rail Underground current collector Vehicle
+
+STR_TRACK_M3RL_NAME                                    :Third rail metro current collector
+STR_TRACK_M3RL_DROPDOWN_MENU                           :Third rail metrocurrent collector Construction
+STR_TRACK_M3RL_TOOLBAR_CAPTION                         :Third rail metro current collector Construction
+STR_TRACK_M3RL_BUILD_VEHICLE_CAPTION                   :New Third rail metro current collector Vehicle
+STR_TRACK_M3RL_NEW_ENGINE                              :Third rail metro current collector Vehicle
+STR_TRACK_M3RL_AUTOREPLACE                             :Third rail metro current collector Vehicle
+
+# GMNO
+STR_TRACK_GMNO_NAME                                    :GMNO Track
+STR_TRACK_GMNO_DROPDOWN_MENU                           :GMNO Track Construction
+STR_TRACK_GMNO_TOOLBAR_CAPTION                         :GMNO Track Construction
+STR_TRACK_GMNO_BUILD_VEHICLE_CAPTION                   :New GMNO Track Construction
+STR_TRACK_GMNO_NEW_ENGINE                              :GMNO Track Vehicle
+STR_TRACK_GMNO_AUTOREPLACE                             :GMNO Track Vehicle
+
+# LAGT
+STR_TRACK_LAGT_NAME                                    :AGT Track
+STR_TRACK_LAGT_DROPDOWN_MENU                           :AGT Track Construction
+STR_TRACK_LAGT_TOOLBAR_CAPTION                         :AGT Track Construction
+STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :New AGT Track Vehicle
+STR_TRACK_LAGT_NEW_ENGINE                              :AGT Track Vehicle
+STR_TRACK_LAGT_AUTOREPLACE                             :AGT Track Vehicle
+
+STR_TRACK_AGUB_NAME                                    :AGUB Track
+STR_TRACK_AGUB_DROPDOWN_MENU                           :AGUB Track Construction
+STR_TRACK_AGUB_TOOLBAR_CAPTION                         :AGUB Track Construction
+STR_TRACK_AGUB_BUILD_VEHICLE_CAPTION                   :New AGUB Track Vehicle
+STR_TRACK_AGUB_NEW_ENGINE                              :AGUB Track Vehicle
+STR_TRACK_AGUB_AUTOREPLACE                             :AGUB Track Vehicle
 
 # Railbed
 STR_TRACK_RAILBED_NAME                                 :Railbed
@@ -132,7 +206,6 @@ STR_TRACK_RAILBED_BUILD_VEHICLE_CAPTION                :.
 STR_TRACK_RAILBED_NEW_ENGINE                           :.
 STR_TRACK_RAILBED_AUTOREPLACE                          :.
 
-# Railbed Underground
 STR_TRACK_RAILBED_UNDERGROUND_NAME                     :Railbed Underground
 STR_TRACK_RAILBED_UNDERGROUND_DROPDOWN_MENU            :Railbed Underground Construction
 STR_TRACK_RAILBED_UNDERGROUND_TOOLBAR_CAPTION          :Railbed Underground Construction
@@ -147,62 +220,6 @@ STR_TRACK_RAILCONC_TOOLBAR_CAPTION                     :Conc Construction
 STR_TRACK_RAILCONC_BUILD_VEHICLE_CAPTION               :.
 STR_TRACK_RAILCONC_NEW_ENGINE                          :.
 STR_TRACK_RAILCONC_AUTOREPLACE                         :.
-
-# 3RDR
-STR_TRACK_3RDR_NAME                                    :Third rail current collector
-STR_TRACK_3RDR_DROPDOWN_MENU                           :Third rail current collector Construction
-STR_TRACK_3RDR_TOOLBAR_CAPTION                         :Third rail current collector Construction
-STR_TRACK_3RDR_BUILD_VEHICLE_CAPTION                   :New Third rail current collector Vehicle
-STR_TRACK_3RDR_NEW_ENGINE                              :Third rail current collector Vehicle
-STR_TRACK_3RDR_AUTOREPLACE                             :Third rail current collector Vehicle
-
-# 3RDR Underground
-STR_TRACK_3RDR_UNDERGROUND_NAME                        :Third rail Underground current collector
-STR_TRACK_3RDR_UNDERGROUND_DROPDOWN_MENU               :Third rail Underground current collector Construction
-STR_TRACK_3RDR_UNDERGROUND_TOOLBAR_CAPTION             :Third rail Underground current collector Construction
-STR_TRACK_3RDR_UNDERGROUND_BUILD_VEHICLE_CAPTION       :New Third rail Underground current collector Vehicle
-STR_TRACK_3RDR_UNDERGROUND_NEW_ENGINE                  :Third rail Underground current collector Vehicle
-STR_TRACK_3RDR_UNDERGROUND_AUTOREPLACE                 :Third rail Underground current collector Vehicle
-
-# M3RL
-STR_TRACK_M3RL_NAME                                    :Third rail metro current collector
-STR_TRACK_M3RL_DROPDOWN_MENU                           :Third rail metrocurrent collector Construction
-STR_TRACK_M3RL_TOOLBAR_CAPTION                         :Third rail metro current collector Construction
-STR_TRACK_M3RL_BUILD_VEHICLE_CAPTION                   :New Third rail metro current collector Vehicle
-STR_TRACK_M3RL_NEW_ENGINE                              :Third rail metro current collector Vehicle
-STR_TRACK_M3RL_AUTOREPLACE                             :Third rail metro current collector Vehicle
-
-# 3LIM
-STR_TRACK_3LIM_NAME                                    :LIM Third rail current collector
-STR_TRACK_3LIM_DROPDOWN_MENU                           :LIM Third rail current collector Construction
-STR_TRACK_3LIM_TOOLBAR_CAPTION                         :LIM Third rail current collector Construction
-STR_TRACK_3LIM_BUILD_VEHICLE_CAPTION                   :New LIM Third rail current Vehicle
-STR_TRACK_3LIM_NEW_ENGINE                              :LIM Third rail current Vehicle
-STR_TRACK_3LIM_AUTOREPLACE                             :LIM Third rail current Vehicle
-
-# LAGT
-STR_TRACK_LAGT_NAME                                    :AGT Track
-STR_TRACK_LAGT_DROPDOWN_MENU                           :AGT Track Construction
-STR_TRACK_LAGT_TOOLBAR_CAPTION                         :AGT Track Construction
-STR_TRACK_LAGT_BUILD_VEHICLE_CAPTION                   :New AGT Track Vehicle
-STR_TRACK_LAGT_NEW_ENGINE                              :AGT Track Vehicle
-STR_TRACK_LAGT_AUTOREPLACE                             :AGT Track Vehicle
-
-# LAGT Underground
-STR_TRACK_AGUB_NAME                                    :AGUB Track
-STR_TRACK_AGUB_DROPDOWN_MENU                           :AGUB Track Construction
-STR_TRACK_AGUB_TOOLBAR_CAPTION                         :AGUB Track Construction
-STR_TRACK_AGUB_BUILD_VEHICLE_CAPTION                   :New AGUB Track Vehicle
-STR_TRACK_AGUB_NEW_ENGINE                              :AGUB Track Vehicle
-STR_TRACK_AGUB_AUTOREPLACE                             :AGUB Track Vehicle
-
-# GMNO
-STR_TRACK_GMNO_NAME                                    :GMNO Track
-STR_TRACK_GMNO_DROPDOWN_MENU                           :GMNO Track Construction
-STR_TRACK_GMNO_TOOLBAR_CAPTION                         :GMNO Track Construction
-STR_TRACK_GMNO_BUILD_VEHICLE_CAPTION                   :New GMNO Track Construction
-STR_TRACK_GMNO_NEW_ENGINE                              :GMNO Track Vehicle
-STR_TRACK_GMNO_AUTOREPLACE                             :GMNO Track Vehicle
 
 # Waypoint's name
 STR_Waypoint_Wash                                      :[DTS_Track] Train Wash

@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------------
+정렬
+--------------------------------------------------------------------*/
+sort(FEAT_RAILTYPES, [
+    track_LOW_SPEED,                         //01
+    track_LOW_SPEED_ELEC,                    //02
+    track_LOW_SPEED_URBAN,                   //03
+    track_MAIN_LINE,                         //04
+    track_MAIN_LINE_ELEC,                    //05
+    track_MAIN_LINE_URBAN,                   //06
+    track_METRO,                             //09
+    track_METRO_Underground,                 //18
+    track_SEMI_HIGH_SPEED,                   //07
+    track_HIGH_SPEED,                        //08
+    track_HIGH_SPEED_Underground,            //22
+    track_HIGH_SPEED_430,                    //16
+    track_HIGH_SPEED_600,                    //17
+    track_HIGH_SPEED_Underground_600,        //24
+    track_RAILBED,                           //10
+    track_RAILBED_Underground,               //21
+    track_CONC,                              //19
+    track_3LIM,                              //13
+    track_3RDR,                              //11
+    track_3RDR_Underground,                  //20
+    track_M3RL,                              //12
+    track_GMNO,                              //15
+    track_LAGT,                              //14
+    track_RBUB,                              //23
+    ]);

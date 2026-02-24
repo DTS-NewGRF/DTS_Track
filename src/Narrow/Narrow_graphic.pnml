@@ -1,0 +1,126 @@
+/*--------------------------------------------------------------------
+그래픽
+--------------------------------------------------------------------*/
+// GUI
+// Tracks overlay
+spriteset(set_Narrow_track_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL.png") {
+    tmpl_overlay (0, 0)
+}
+
+spriteset(set_Narrow_ENHI_track_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_overlay (0, 0)
+}
+
+spriteset(set_Narrow_track_overlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL_Snow.png") {
+    tmpl_overlay (0, 0)
+}
+
+spriteset(set_Narrow_ENHI_track_overlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
+    tmpl_overlay (0, 0)
+}
+
+// Tracks underlay
+spriteset(set_Narrow_track_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_Narrow_ENHI_track_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_Narrow_track_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL_Snow.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_Narrow_ENHI_track_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
+    tmpl_underlay (0, 44)
+}
+
+// Tunnels
+spriteset(set_Narrow_track_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
+spriteset(set_Narrow_ENHI_track_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
+spriteset(set_Narrow_track_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL.png") {
+    tmpl_tunnel_underlay (0, 140)
+}
+
+spriteset(set_Narrow_ENHI_track_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_tunnel_underlay (0, 140)
+} 
+
+spriteset(set_Narrow_track_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
+spriteset(set_Narrow_ENHI_track_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
+spriteset(set_Narrow_track_tunnel_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
+spriteset(set_Narrow_ENHI_track_tunnel_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
+// Tunnel overlay
+spriteset(set_Narrow_ENHI_track_tunnel_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_tunnel_overlay (0, 296)
+}
+
+// Bridge surfaces
+spriteset(set_Narrow_track_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL.png") {
+    tmpl_bridge_surface (0, 296)
+}
+
+spriteset(set_Narrow_ENHI_track_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_bridge_surface (0, 348)
+}
+
+// Level crossing
+spriteset(set_Narrow_track_crossing_close, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL.png") {
+    tmpl_level_crossing_type_close (0, 340)
+}
+
+spriteset(set_Narrow_ENHI_track_crossing_close, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_level_crossing_type_close (0, 388)
+}
+
+spriteset(set_Narrow_track_crossing_close_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL_Snow.png") {
+    tmpl_level_crossing_type_close (0, 86)
+}
+
+spriteset(set_Narrow_ENHI_track_crossing_close_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
+    tmpl_level_crossing_type_close (0, 88)
+}
+
+spriteset(set_Narrow_track_crossing_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL.png") {
+    tmpl_level_crossing_type_open (0, 340)
+}
+
+spriteset(set_Narrow_ENHI_track_crossing_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_level_crossing_type_open (0, 388)
+}
+
+spriteset(set_Narrow_track_crossing_open_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NGRL_Snow.png") {
+    tmpl_level_crossing_type_open (0, 86)
+}
+
+spriteset(set_Narrow_ENHI_track_crossing_open_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
+    tmpl_level_crossing_type_open (0, 88)
+}
+
+// Depot
+spriteset(set_Narrow_track_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_NGRL.png") {
+    tmpl_depot (0, 0)
+}
+
+spriteset(set_Narrow_ENHI_track_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_ENHI.png") {
+    tmpl_depot (0, 0)
+}

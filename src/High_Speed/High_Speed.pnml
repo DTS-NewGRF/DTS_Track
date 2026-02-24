@@ -57,9 +57,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_430, 16) {
         name:                           string(STR_HIGH_SPEED_TRACK_430_NAME);
         menu_text:                      string(STR_HIGH_SPEED_TRACK_430_DROPDOWN_MENU);
         toolbar_caption:                string(STR_HIGH_SPEED_TRACK_430_TOOLBAR_CAPTION);
-        build_window_caption:           string(STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION);
-        new_engine_text:                string(STR_HIGH_SPEED_NEW_ENGINE);
-        autoreplace_text:               string(STR_HIGH_SPEED_AUTOREPLACE);
+        build_window_caption:           string(STR_HIGH_SPEED_TRACK_430_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_HIGH_SPEED_TRACK_430_NEW_ENGINE);
+        autoreplace_text:               string(STR_HIGH_SPEED_TRACK_430_AUTOREPLACE);
 
         station_graphics:               RAILTYPE_STATION_NORMAL;
         acceleration_model:             ACC_MODEL_RAIL;
@@ -97,9 +97,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_600, 17) {
         name:                           string(STR_HIGH_SPEED_TRACK_600_NAME);
         menu_text:                      string(STR_HIGH_SPEED_TRACK_600_DROPDOWN_MENU);
         toolbar_caption:                string(STR_HIGH_SPEED_TRACK_600_TOOLBAR_CAPTION);
-        build_window_caption:           string(STR_HIGH_SPEED_BUILD_VEHICLE_CAPTION);
-        new_engine_text:                string(STR_HIGH_SPEED_NEW_ENGINE);
-        autoreplace_text:               string(STR_HIGH_SPEED_AUTOREPLACE);
+        build_window_caption:           string(STR_HIGH_SPEED_TRACK_600_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_HIGH_SPEED_TRACK_600_NEW_ENGINE);
+        autoreplace_text:               string(STR_HIGH_SPEED_TRACK_600_AUTOREPLACE);
 
         station_graphics:               RAILTYPE_STATION_NORMAL;
         acceleration_model:             ACC_MODEL_RAIL;
@@ -175,9 +175,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_Underground_600, 24) {
         name:                           string(STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NAME);
         menu_text:                      string(STR_HIGH_SPEED_UNDERGROUND_TRACK_600_DROPDOWN_MENU);
         toolbar_caption:                string(STR_HIGH_SPEED_UNDERGROUND_TRACK_600_TOOLBAR_CAPTION);
-        build_window_caption:           string(STR_HIGH_SPEED_UNDERGROUND_BUILD_600_VEHICLE_CAPTION);
-        new_engine_text:                string(STR_HIGH_SPEED_UNDERGROUND_600_NEW_ENGINE);
-        autoreplace_text:               string(STR_HIGH_SPEED_UNDERGROUND_600_AUTOREPLACE);
+        build_window_caption:           string(STR_HIGH_SPEED_UNDERGROUND_TRACK_600_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NEW_ENGINE);
+        autoreplace_text:               string(STR_HIGH_SPEED_UNDERGROUND_TRACK_600_AUTOREPLACE);
 
         station_graphics:               RAILTYPE_STATION_NORMAL;
         acceleration_model:             ACC_MODEL_RAIL;

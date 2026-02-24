@@ -7,29 +7,34 @@
 // 메인선로
 #include "Main_Line/Main_Line.pnml"
 
+// 지하철선로
+#include "Metro/Metro.pnml"
+
 // 준고속선로
 #include "Semi_High_Speed/Semi_High_Speed.pnml"
 
 // 고속선로
 #include "High_Speed/High_Speed.pnml"
 
-// 지하철선로
-#include "Metro/Metro.pnml"
-
-// 노반
-#include "RailBed/RailBed.pnml"
-
-// 3궤조
-#include "3RDR/3RDR.pnml"
+// 협궤 (1067)
+#include "Narrow/Narrow.pnml"
 
 // 3궤조 LIM
 #include "3LIM/3LIM.pnml"
 
-// 고무차륜
-#include "LAGT/LAGT.pnml"
+// 3궤조
+#include "3RDR/3RDR.pnml"
 
 // 과좌식 모노레일
 #include "GMNO/GMNO.pnml"
 
+// 고무차륜
+#include "LAGT/LAGT.pnml"
+
+// 노반
+#include "RailBed/RailBed.pnml"
+
 // 콘크리트 장식
 #include "Conc/Conc.pnml"
+
+// Sorting

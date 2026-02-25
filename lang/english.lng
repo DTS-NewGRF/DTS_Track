@@ -124,12 +124,12 @@ STR_HIGH_SPEED_UNDERGROUND_TRACK_600_NEW_ENGINE            :Standard gauge Under
 STR_HIGH_SPEED_UNDERGROUND_TRACK_600_AUTOREPLACE           :Standard gauge Underground Super Fast Tracks (1435mm) Vehicles
 
 # Narrow gauge Nomal Speed Tracks (1067mm)
-STR_TRACK_NABN_NAME                                    :Narrow gauge Nomal Speed Tracks (1067mm)
-STR_TRACK_NABN_DROPDOWN_MENU                           :Narrow gauge Nomal Speed Tracks (1067mm) Construction
-STR_TRACK_NABN_TOOLBAR_CAPTION                         :Narrow gauge Nomal Speed Tracks (1067mm) Construction
-STR_TRACK_NABN_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
-STR_TRACK_NABN_NEW_ENGINE                              :Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
-STR_TRACK_NABN_AUTOREPLACE                             :Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
+STR_TRACK_NAAN_NAME                                    :Narrow gauge Nomal Speed Tracks (1067mm)
+STR_TRACK_NAAN_DROPDOWN_MENU                           :Narrow gauge Nomal Speed Tracks (1067mm) Construction
+STR_TRACK_NAAN_TOOLBAR_CAPTION                         :Narrow gauge Nomal Speed Tracks (1067mm) Construction
+STR_TRACK_NAAN_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
+STR_TRACK_NAAN_NEW_ENGINE                              :Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
+STR_TRACK_NAAN_AUTOREPLACE                             :Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
 
 STR_TRACK_NABE_NAME                                    :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm)
 STR_TRACK_NABE_DROPDOWN_MENU                           :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) Construction

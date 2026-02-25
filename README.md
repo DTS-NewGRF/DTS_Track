@@ -6,7 +6,7 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Track/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.04] 2026.02.24 <br>
+[1.04] 2026.02.25 <br>
 [이슈외작업]
 * 선로간 연결자동설치 오류 복원 (2026.02.21)
 * 협궤선로 코드 변경적용 / 일본열차셋 호환적용 (2026.02.24)
@@ -20,8 +20,12 @@
 * [버그] 노반(지하) 그래픽 문제 발생 ([#44](https://github.com/DTS-NewGRF/DTS/issues/44)) (2026.02.01)
 * 선로 명칭 변경 (협궤 및 광궤선로 추가 대비) ([#45](https://github.com/DTS-NewGRF/DTS/issues/45)) (2026.02.23)
 * [선로추가] 협궤 일반선 선로 (1067mm) / Narrow gauge Nomal Speed Tracks (1067mm) ([#46](https://github.com/DTS-NewGRF/DTS/issues/46)) (2026.02.23)
+  * [버그] 협궤 일반선 선로, 협궤 일반선 전기선로 터널 그래픽 오류 ([#51](https://github.com/DTS-NewGRF/DTS/issues/51)) (2026.02.25)
 * [선로추가] 협궤 일반선 전기선로 (1067mm) / Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) ([#47](https://github.com/DTS-NewGRF/DTS/issues/47)) (2026.02.23)
+  * [버그] 협궤 일반선 선로, 협궤 일반선 전기선로 터널 그래픽 오류 ([#51](https://github.com/DTS-NewGRF/DTS/issues/51)) (2026.02.25)
 * [선로추가] 협궤 일반선 도심전기선로 (1067mm) / Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) ([#48](https://github.com/DTS-NewGRF/DTS/issues/48)) (2026.02.24)
+* 협궤선로 호환을 위한 추가작업 필요 ([#50](https://github.com/DTS-NewGRF/DTS/issues/50)) (2026.02.25)
+* 협궤 일반선 선로 (1067mm) 선로코드 변경 ([#52](https://github.com/DTS-NewGRF/DTS/issues/52)) (2026.02.25)
 
 ## 인게임 등록
 ```

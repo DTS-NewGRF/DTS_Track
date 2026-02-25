@@ -1,44 +1,44 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// Level crossing status NABN
-switch(FEAT_RAILTYPES, SELF, sw_Narrow_NABN_track_level_crossing_normal, level_crossing_status) {
-    LEVEL_CROSSING_CLOSED:              set_Narrow_NABN_track_crossing_close;
+// Level crossing status NAAN
+switch(FEAT_RAILTYPES, SELF, sw_Narrow_NAAN_track_level_crossing_normal, level_crossing_status) {
+    LEVEL_CROSSING_CLOSED:              set_Narrow_NAAN_track_crossing_close;
     LEVEL_CROSSING_OPEN:              
-    set_Narrow_NABN_track_crossing_open;
+    set_Narrow_NAAN_track_crossing_open;
 }
 
-switch(FEAT_RAILTYPES, SELF, sw_Narrow_NABN_track_level_crossing_snow, level_crossing_status) {
-    LEVEL_CROSSING_CLOSED:              set_Narrow_NABN_track_crossing_close_snow;
+switch(FEAT_RAILTYPES, SELF, sw_Narrow_NAAN_track_level_crossing_snow, level_crossing_status) {
+    LEVEL_CROSSING_CLOSED:              set_Narrow_NAAN_track_crossing_close_snow;
     LEVEL_CROSSING_OPEN:              
-    set_Narrow_NABN_track_crossing_open_snow;
+    set_Narrow_NAAN_track_crossing_open_snow;
 }
 
-// Graphic for terrain NABN
-switch(FEAT_RAILTYPES, SELF, sw_Narrow_NABN_track_tunnel_underlay, terrain_type) {
-    TILETYPE_NORMAL:                    set_Narrow_NABN_track_tunnel_underlay;
-    TILETYPE_DESERT:                    set_Narrow_NABN_track_tunnel_underlay_desert;
-    TILETYPE_RAIN_FOREST:               set_Narrow_NABN_track_tunnel_underlay_rain;
-    TILETYPE_SNOW:                      set_Narrow_NABN_track_tunnel_underlay_snow;
-    set_Narrow_NABN_track_tunnel_underlay;
+// Graphic for terrain NAAN
+switch(FEAT_RAILTYPES, SELF, sw_Narrow_NAAN_track_tunnel_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_Narrow_NAAN_track_tunnel_underlay;
+    TILETYPE_DESERT:                    set_Narrow_NAAN_track_tunnel_underlay_desert;
+    TILETYPE_RAIN_FOREST:               set_Narrow_NAAN_track_tunnel_underlay_rain;
+    TILETYPE_SNOW:                      set_Narrow_NAAN_track_tunnel_underlay_snow;
+    set_Narrow_NAAN_track_tunnel_underlay;
 }
 
-switch(FEAT_RAILTYPES, SELF, sw_Narrow_NABN_track_overlay, terrain_type) {
-    TILETYPE_NORMAL:                    set_Narrow_NABN_track_overlay;
-    TILETYPE_SNOW:                      set_Narrow_NABN_track_overlay_snow;
-    set_Narrow_NABN_track_overlay;
+switch(FEAT_RAILTYPES, SELF, sw_Narrow_NAAN_track_overlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_Narrow_NAAN_track_overlay;
+    TILETYPE_SNOW:                      set_Narrow_NAAN_track_overlay_snow;
+    set_Narrow_NAAN_track_overlay;
 }
 
-switch(FEAT_RAILTYPES, SELF, sw_Narrow_NABN_track_underlay, terrain_type) {
-    TILETYPE_NORMAL:                    set_Narrow_NABN_track_underlay;
-    TILETYPE_SNOW:                      set_Narrow_NABN_track_underlay_snow;
-    set_Narrow_NABN_track_underlay;
+switch(FEAT_RAILTYPES, SELF, sw_Narrow_NAAN_track_underlay, terrain_type) {
+    TILETYPE_NORMAL:                    set_Narrow_NAAN_track_underlay;
+    TILETYPE_SNOW:                      set_Narrow_NAAN_track_underlay_snow;
+    set_Narrow_NAAN_track_underlay;
 }
 
-switch(FEAT_RAILTYPES, SELF, sw_Narrow_NABN_track_level_crossing, terrain_type) {
-    TILETYPE_NORMAL:                    sw_Narrow_NABN_track_level_crossing_normal;
-    TILETYPE_SNOW:                      sw_Narrow_NABN_track_level_crossing_snow;
-    sw_Narrow_NABN_track_level_crossing_normal;
+switch(FEAT_RAILTYPES, SELF, sw_Narrow_NAAN_track_level_crossing, terrain_type) {
+    TILETYPE_NORMAL:                    sw_Narrow_NAAN_track_level_crossing_normal;
+    TILETYPE_SNOW:                      sw_Narrow_NAAN_track_level_crossing_snow;
+    sw_Narrow_NAAN_track_level_crossing_normal;
 }
 
 // Level crossing status ENHI

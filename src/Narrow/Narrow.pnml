@@ -10,42 +10,41 @@
 /*--------------------------------------------------------------------
 선로정보
 --------------------------------------------------------------------*/
-item(FEAT_RAILTYPES, track_NABN, 25) {
+item(FEAT_RAILTYPES, track_NAAN, 25) {
     property {
-        label:                          "NABN";
+        label:                          "NAAN";
         introduction_date:              date(0001, 1, 1);               
-        name:                           string(STR_TRACK_NABN_NAME);
-        menu_text:                      string(STR_TRACK_NABN_DROPDOWN_MENU);
-        toolbar_caption:                string(STR_TRACK_NABN_TOOLBAR_CAPTION);
-        build_window_caption:           string(STR_TRACK_NABN_BUILD_VEHICLE_CAPTION);
-        new_engine_text:                string(STR_TRACK_NABN_NEW_ENGINE);
-        autoreplace_text:               string(STR_TRACK_NABN_AUTOREPLACE);
+        name:                           string(STR_TRACK_NAAN_NAME);
+        menu_text:                      string(STR_TRACK_NAAN_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_NAAN_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_NAAN_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_NAAN_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_NAAN_AUTOREPLACE);
 
         station_graphics:               RAILTYPE_STATION_NORMAL;
         acceleration_model:             ACC_MODEL_RAIL;
-        speed_limit:                    120 km/h;
+        speed_limit:                    100 km/h;
         construction_cost:              12;
         maintenance_cost:               18;
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["NABN", "NACN", "NADN", "NAEN", "IHD_","ENHI"];
+        alternative_railtype_list:      ["NAAN","NABN", "NACN", "NADN", "NAEN", "IHD_"];
         compatible_railtype_list:       ["NAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI"];
         powered_railtype_list:          ["NAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI"];
     }
 
     graphics {
         gui:                            set_LOW_SPEED_gui;
-        track_overlay:                  sw_Narrow_NABN_track_overlay;
-        underlay:                       sw_Narrow_NABN_track_underlay;
-        tunnels:                        sw_Narrow_NABN_track_tunnel_underlay;
-        depots:                         set_Narrow_NABN_track_depot;
-        bridge_surfaces:                set_Narrow_NABN_track_bridge;
-        level_crossings:                sw_Narrow_NABN_track_level_crossing;
+        track_overlay:                  sw_Narrow_NAAN_track_overlay;
+        underlay:                       sw_Narrow_NAAN_track_underlay;
+        tunnels:                        sw_Narrow_NAAN_track_tunnel_underlay;
+        depots:                         set_Narrow_NAAN_track_depot;
+        bridge_surfaces:                set_Narrow_NAAN_track_bridge;
+        level_crossings:                sw_Narrow_NAAN_track_level_crossing;
         fences:                         set_fences1;
     }
 }
-
 item(FEAT_RAILTYPES, track_NABE, 26) {
     property {
         label:                          "NABE";
@@ -66,18 +65,18 @@ item(FEAT_RAILTYPES, track_NABE, 26) {
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
         alternative_railtype_list:      ["NABE","NACE","NADE","NAEE","IHE_","NAA*","NAB*","NAC*","NAD*","NAE*","ELNG","ENHI","IHG_"];
-        compatible_railtype_list:       ["NAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE"];
+        compatible_railtype_list:       ["NAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI"];
         powered_railtype_list:          ["NAAN","NABE","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ELNG","ENHI"];
     }
 
     graphics {
         gui:                            set_LOW_SPEED_ELEC_gui;
-        track_overlay:                  sw_Narrow_NABN_track_overlay;
-        underlay:                       sw_Narrow_NABN_track_underlay;
-        tunnels:                        sw_Narrow_NABN_track_tunnel_underlay;
-        depots:                         set_Narrow_NABN_track_depot;
-        bridge_surfaces:                set_Narrow_NABN_track_bridge;
-        level_crossings:                sw_Narrow_NABN_track_level_crossing;
+        track_overlay:                  sw_Narrow_NAAN_track_overlay;
+        underlay:                       sw_Narrow_NAAN_track_underlay;
+        tunnels:                        sw_Narrow_NAAN_track_tunnel_underlay;
+        depots:                         set_Narrow_NAAN_track_depot;
+        bridge_surfaces:                set_Narrow_NAAN_track_bridge;
+        level_crossings:                sw_Narrow_NAAN_track_level_crossing;
         catenary_wire:                  set_Wire_catenary;
         catenary_pylons:                set_Pylons_catenary;
         fences:                         set_fences1;
@@ -104,7 +103,7 @@ item(FEAT_RAILTYPES, track_ENHI, 27) {
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
         alternative_railtype_list:      ["NABE", "NACE", "NADE", "NAEE", "IHE_", "NAA*", "NAB*", "NAC*", "NAD*", "NAE*", "ELNG","ENHI", "IHG_"];
-        compatible_railtype_list:       ["NAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE"];
+        compatible_railtype_list:       ["NAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI"];
         powered_railtype_list:          ["NAAN","NABE","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ELNG","ENHI"];
     }
 
@@ -113,6 +112,7 @@ item(FEAT_RAILTYPES, track_ENHI, 27) {
         track_overlay:                  sw_Narrow_ENHI_track_overlay;
         underlay:                       sw_Narrow_ENHI_track_underlay;
         tunnels:                        sw_Narrow_ENHI_track_tunnel_underlay;
+        tunnel_overlay:                 set_Narrow_ENHI_track_tunnel_overlay;
         depots:                         set_Narrow_ENHI_track_depot;
         bridge_surfaces:                set_Narrow_ENHI_track_bridge;
         level_crossings:                sw_Narrow_ENHI_track_level_crossing;

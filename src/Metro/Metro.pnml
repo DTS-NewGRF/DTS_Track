@@ -65,13 +65,15 @@ item(FEAT_RAILTYPES, track_METRO_Underground, 18) {
         sort_order:                     09;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
-        alternative_railtype_list:      ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR","KSUB"];
-        compatible_railtype_list:       ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR","KSUB"];
-        powered_railtype_list:          ["RAIL","KLSE","KLSU","KLSU","ELRL","KDS_","KDSU","KSSU","KHS_","KMTR","KSUB"];
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","KSUB","HSUB","VHSU"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","KSUB","HSUB","VHSU"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","KSUB","HSUB","VHSU"];
     }
 
     graphics {
         gui:                            set_METRO_Underground_gui;
+        track_overlay:                  sw_METRO_overlay;
+        underlay:                       sw_METRO_underlay;
         depots:                         set_METRO_Underground_depot;
         catenary_wire:                  set_Underground_catenary;
         catenary_pylons:                set_No_catenary;

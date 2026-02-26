@@ -6,6 +6,9 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Track/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
+[1.05] 곧 등록시작합니다. <br>
+
+## 인게임 등록
 [1.04] 2026.02.25 <br>
 [이슈외작업]
 * 선로간 연결자동설치 오류 복원 (2026.02.21)
@@ -26,13 +29,6 @@
 * [선로추가] 협궤 일반선 도심전기선로 (1067mm) / Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) ([#48](https://github.com/DTS-NewGRF/DTS/issues/48)) (2026.02.24)
 * 협궤선로 호환을 위한 추가작업 필요 ([#50](https://github.com/DTS-NewGRF/DTS/issues/50)) (2026.02.25)
 * 협궤 일반선 선로 (1067mm) 선로코드 변경 ([#52](https://github.com/DTS-NewGRF/DTS/issues/52)) (2026.02.25)
-
-## 인게임 등록
-```
-[1.02] 2025.02.02
-[추가]
-- 고속선 430, 600 속도고정 선로 추가
-```
 
 ## 등록기준
 ### 공통사항

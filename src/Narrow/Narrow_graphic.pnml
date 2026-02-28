@@ -1,21 +1,15 @@
 /*--------------------------------------------------------------------
 그래픽
 --------------------------------------------------------------------*/
-// GUI
+/*--------------------------------------------------------------------
+NAAN
+--------------------------------------------------------------------*/
 // Tracks overlay
 spriteset(set_Narrow_NAAN_track_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
     tmpl_overlay (0, 0)
 }
 
-spriteset(set_Narrow_ENHI_track_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
-    tmpl_overlay (0, 0)
-}
-
 spriteset(set_Narrow_NAAN_track_overlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN_Snow.png") {
-    tmpl_overlay (0, 0)
-}
-
-spriteset(set_Narrow_ENHI_track_overlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
     tmpl_overlay (0, 0)
 }
 
@@ -24,15 +18,7 @@ spriteset(set_Narrow_NAAN_track_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "s
     tmpl_underlay (0, 44)
 }
 
-spriteset(set_Narrow_ENHI_track_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
-    tmpl_underlay (0, 44)
-}
-
 spriteset(set_Narrow_NAAN_track_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN_Snow.png") {
-    tmpl_underlay (0, 44)
-}
-
-spriteset(set_Narrow_ENHI_track_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
     tmpl_underlay (0, 44)
 }
 
@@ -41,28 +27,211 @@ spriteset(set_Narrow_NAAN_track_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32
     tmpl_tunnel_underlay (0, 88)
 }
 
-spriteset(set_Narrow_ENHI_track_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+spriteset(set_Narrow_NAAN_track_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
+    tmpl_tunnel_underlay (0, 140)
+}
+
+spriteset(set_Narrow_NAAN_track_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
+spriteset(set_Narrow_NAAN_track_tunnel_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
+// Bridge surfaces
+spriteset(set_Narrow_NAAN_track_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
+    tmpl_bridge_surface (0, 296)
+}
+
+// Level crossing
+spriteset(set_Narrow_NAAN_track_crossing_close, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
+    tmpl_level_crossing_type_close (0, 336)
+}
+
+spriteset(set_Narrow_NAAN_track_crossing_close_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN_Snow.png") {
+    tmpl_level_crossing_type_close (0, 86)
+}
+
+spriteset(set_Narrow_NAAN_track_crossing_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
+    tmpl_level_crossing_type_open (0, 336)
+}
+
+spriteset(set_Narrow_NAAN_track_crossing_open_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN_Snow.png") {
+    tmpl_level_crossing_type_open (0, 86)
+}
+
+// Depot
+spriteset(set_Narrow_NAAN_track_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_NAAN.png") {
+    tmpl_depot (0, 0)
+}
+
+/*--------------------------------------------------------------------
+NABN
+--------------------------------------------------------------------*/
+// Tracks overlay
+spriteset(set_Narrow_NABN_track_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN.png") {
+    tmpl_overlay (0, 0)
+}
+
+spriteset(set_Narrow_NABN_track_overlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN_Snow.png") {
+    tmpl_overlay (0, 0)
+}
+
+// Tracks underlay
+spriteset(set_Narrow_NABN_track_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_Narrow_NABN_track_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN_Snow.png") {
+    tmpl_underlay (0, 44)
+}
+
+// Tunnels
+spriteset(set_Narrow_NABN_track_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN.png") {
     tmpl_tunnel_underlay (0, 88)
 }
 
-spriteset(set_Narrow_NAAN_track_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
+spriteset(set_Narrow_NABN_track_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN.png") {
     tmpl_tunnel_underlay (0, 140)
+}
+
+spriteset(set_Narrow_NABN_track_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
+spriteset(set_Narrow_NABN_track_tunnel_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
+// Bridge surfaces
+spriteset(set_Narrow_NABN_track_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN.png") {
+    tmpl_bridge_surface (0, 296)
+}
+
+// Level crossing
+spriteset(set_Narrow_NABN_track_crossing_close, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN.png") {
+    tmpl_level_crossing_type_close (0, 340)
+}
+
+spriteset(set_Narrow_NABN_track_crossing_close_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN_Snow.png") {
+    tmpl_level_crossing_type_close (0, 86)
+}
+
+spriteset(set_Narrow_NABN_track_crossing_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN.png") {
+    tmpl_level_crossing_type_open (0, 340)
+}
+
+spriteset(set_Narrow_NABN_track_crossing_open_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NABN_Snow.png") {
+    tmpl_level_crossing_type_open (0, 86)
+}
+
+// Depot
+spriteset(set_Narrow_NABN_track_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_NABN.png") {
+    tmpl_depot (0, 0)
+}
+
+spriteset(set_Narrow_NABN_track_depot_Snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_NABN_Snow.png") {
+    tmpl_depot (0, 0)
+}
+
+/*--------------------------------------------------------------------
+dAAN
+--------------------------------------------------------------------*/
+// Tracks overlay
+spriteset(set_Narrow_dAAN_track_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN.png") {
+    tmpl_overlay (0, 0)
+}
+
+spriteset(set_Narrow_dAAN_track_overlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN_Snow.png") {
+    tmpl_overlay (0, 0)
+}
+
+// Tracks underlay
+spriteset(set_Narrow_dAAN_track_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_Narrow_dAAN_track_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN_Snow.png") {
+    tmpl_underlay (0, 44)
+}
+
+// Tunnels
+spriteset(set_Narrow_dAAN_track_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
+spriteset(set_Narrow_dAAN_track_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN.png") {
+    tmpl_tunnel_underlay (0, 140)
+}
+
+spriteset(set_Narrow_dAAN_track_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
+spriteset(set_Narrow_dAAN_track_tunnel_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
+// Bridge surfaces
+spriteset(set_Narrow_dAAN_track_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN.png") {
+    tmpl_bridge_surface (0, 296)
+}
+
+// Level crossing
+spriteset(set_Narrow_dAAN_track_crossing_close, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN.png") {
+    tmpl_level_crossing_type_close (0, 340)
+}
+
+spriteset(set_Narrow_dAAN_track_crossing_close_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN_Snow.png") {
+    tmpl_level_crossing_type_close (0, 86)
+}
+
+spriteset(set_Narrow_dAAN_track_crossing_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN.png") {
+    tmpl_level_crossing_type_open (0, 340)
+}
+
+spriteset(set_Narrow_dAAN_track_crossing_open_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAN_Snow.png") {
+    tmpl_level_crossing_type_open (0, 86)
+}
+
+// Depot
+spriteset(set_Narrow_dAAN_track_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_dAAN.png") {
+    tmpl_depot (0, 0)
+}
+
+/*--------------------------------------------------------------------
+ENHI
+--------------------------------------------------------------------*/
+// Tracks overlay
+spriteset(set_Narrow_ENHI_track_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_overlay (0, 0)
+}
+
+spriteset(set_Narrow_ENHI_track_overlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
+    tmpl_overlay (0, 0)
+}
+
+// Tracks underlay
+spriteset(set_Narrow_ENHI_track_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_Narrow_ENHI_track_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
+    tmpl_underlay (0, 44)
+}
+
+// Tunnels
+spriteset(set_Narrow_ENHI_track_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
+    tmpl_tunnel_underlay (0, 88)
 }
 
 spriteset(set_Narrow_ENHI_track_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
     tmpl_tunnel_underlay (0, 140)
 } 
 
-spriteset(set_Narrow_NAAN_track_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
-    tmpl_tunnel_underlay (0, 192)
-}
-
 spriteset(set_Narrow_ENHI_track_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
     tmpl_tunnel_underlay (0, 192)
-}
-
-spriteset(set_Narrow_NAAN_track_tunnel_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
-    tmpl_tunnel_underlay (0, 244)
 }
 
 spriteset(set_Narrow_ENHI_track_tunnel_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
@@ -74,42 +243,26 @@ spriteset(set_Narrow_ENHI_track_tunnel_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32B
     tmpl_tunnel_overlay (0, 296)
 }
 
-// Bridge surfaces
-spriteset(set_Narrow_NAAN_track_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
-    tmpl_bridge_surface (0, 296)
+spriteset(set_Narrow_ENHI_track_tunnel_overlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
+    tmpl_tunnel_overlay (770, 0)
 }
 
+// Bridge surfaces
 spriteset(set_Narrow_ENHI_track_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
     tmpl_bridge_surface (0, 348)
 }
 
 // Level crossing
-spriteset(set_Narrow_NAAN_track_crossing_close, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
-    tmpl_level_crossing_type_close (0, 336)
-}
-
 spriteset(set_Narrow_ENHI_track_crossing_close, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
     tmpl_level_crossing_type_close (0, 388)
-}
-
-spriteset(set_Narrow_NAAN_track_crossing_close_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN_Snow.png") {
-    tmpl_level_crossing_type_close (0, 86)
 }
 
 spriteset(set_Narrow_ENHI_track_crossing_close_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
     tmpl_level_crossing_type_close (0, 88)
 }
 
-spriteset(set_Narrow_NAAN_track_crossing_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN.png") {
-    tmpl_level_crossing_type_open (0, 336)
-}
-
 spriteset(set_Narrow_ENHI_track_crossing_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI.png") {
     tmpl_level_crossing_type_open (0, 388)
-}
-
-spriteset(set_Narrow_NAAN_track_crossing_open_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/NAAN_Snow.png") {
-    tmpl_level_crossing_type_open (0, 86)
 }
 
 spriteset(set_Narrow_ENHI_track_crossing_open_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHI_Snow.png") {
@@ -117,10 +270,137 @@ spriteset(set_Narrow_ENHI_track_crossing_open_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH
 }
 
 // Depot
-spriteset(set_Narrow_NAAN_track_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_NAAN.png") {
+spriteset(set_Narrow_ENHI_track_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_ENHI.png") {
     tmpl_depot (0, 0)
 }
 
-spriteset(set_Narrow_ENHI_track_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_ENHI.png") {
+/*--------------------------------------------------------------------
+dAAE
+--------------------------------------------------------------------*/
+// Tracks overlay
+spriteset(set_Narrow_dAAE_track_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAE.png") {
+    tmpl_overlay (0, 0)
+}
+
+// Tracks underlay
+spriteset(set_Narrow_dAAE_track_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAE.png") {
+    tmpl_underlay (0, 44)
+}
+
+// Tunnels
+spriteset(set_Narrow_dAAE_track_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAE.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
+spriteset(set_Narrow_dAAE_track_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAE.png") {
+    tmpl_tunnel_underlay (0, 140)
+}
+
+spriteset(set_Narrow_dAAE_track_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAE.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
+spriteset(set_Narrow_dAAE_track_tunnel_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAE.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
+// Bridge surfaces
+spriteset(set_Narrow_dAAE_track_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAE.png") {
+    tmpl_bridge_surface (0, 296)
+}
+
+// Level crossing
+spriteset(set_Narrow_dAAE_track_crossing_close, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAE.png") {
+    tmpl_level_crossing_type_close (0, 340)
+}
+
+spriteset(set_Narrow_dAAE_track_crossing_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/dAAE.png") {
+    tmpl_level_crossing_type_open (0, 340)
+}
+
+// Depot
+spriteset(set_Narrow_dAAE_track_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_dAAE.png") {
+    tmpl_depot (0, 0)
+}
+
+spriteset(set_Narrow_dAAE_track_depot_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_dAAE_Snow.png") {
+    tmpl_depot (0, 0)
+}
+
+/*--------------------------------------------------------------------
+ENHG
+--------------------------------------------------------------------*/
+// Tracks overlay
+spriteset(set_Narrow_ENHG_track_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG.png") {
+    tmpl_overlay (0, 0)
+}
+
+spriteset(set_Narrow_ENHG_track_overlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG_Snow.png") {
+    tmpl_overlay (0, 0)
+}
+
+// Tracks underlay
+spriteset(set_Narrow_ENHG_track_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG.png") {
+    tmpl_underlay (0, 44)
+}
+
+spriteset(set_Narrow_ENHG_track_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG_Snow.png") {
+    tmpl_underlay (0, 44)
+}
+
+// Tunnels
+spriteset(set_Narrow_ENHG_track_tunnel_underlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG.png") {
+    tmpl_tunnel_underlay (0, 88)
+}
+
+spriteset(set_Narrow_ENHG_track_tunnel_underlay_desert, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG.png") {
+    tmpl_tunnel_underlay (0, 140)
+} 
+
+spriteset(set_Narrow_ENHG_track_tunnel_underlay_rain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG.png") {
+    tmpl_tunnel_underlay (0, 192)
+}
+
+spriteset(set_Narrow_ENHG_track_tunnel_underlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG.png") {
+    tmpl_tunnel_underlay (0, 244)
+}
+
+// Tunnel overlay
+spriteset(set_Narrow_ENHG_track_tunnel_overlay, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG.png") {
+    tmpl_tunnel_overlay (0, 296)
+}
+
+spriteset(set_Narrow_ENHG_track_tunnel_overlay_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG_Snow.png") {
+    tmpl_tunnel_overlay (770, 0)
+}
+
+// Bridge surfaces
+spriteset(set_Narrow_ENHG_track_bridge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG.png") {
+    tmpl_bridge_surface (0, 348)
+}
+
+// Level crossing
+spriteset(set_Narrow_ENHG_track_crossing_close, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG.png") {
+    tmpl_level_crossing_type_close (0, 392)
+}
+
+spriteset(set_Narrow_ENHG_track_crossing_close_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG_Snow.png") {
+    tmpl_level_crossing_type_close (0, 86)
+}
+
+spriteset(set_Narrow_ENHG_track_crossing_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG.png") {
+    tmpl_level_crossing_type_open (0, 392)
+}
+
+spriteset(set_Narrow_ENHG_track_crossing_open_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Track/ENHG_Snow.png") {
+    tmpl_level_crossing_type_open (0, 86)
+}
+
+// Depot
+spriteset(set_Narrow_ENHG_track_depot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_ENHG.png") {
+    tmpl_depot (0, 0)
+}
+
+spriteset(set_Narrow_ENHG_track_depot_snow, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/Graphics/Depots/Depots_ENHG_Snow.png") {
     tmpl_depot (0, 0)
 }

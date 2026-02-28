@@ -131,6 +131,20 @@ STR_TRACK_NAAN_BUILD_VEHICLE_CAPTION                   :새 협궤 일반선 선
 STR_TRACK_NAAN_NEW_ENGINE                              :협궤 일반선 선로 (1067mm) 차량
 STR_TRACK_NAAN_AUTOREPLACE                             :협궤 일반선 선로 (1067mm) 차량
 
+STR_TRACK_NABN_NAME                                    :협궤 개량선 선로 (1067mm)
+STR_TRACK_NABN_DROPDOWN_MENU                           :협궤 개량선 선로 (1067mm) 건설
+STR_TRACK_NABN_TOOLBAR_CAPTION                         :협궤 개량선 선로 (1067mm) 건설
+STR_TRACK_NABN_BUILD_VEHICLE_CAPTION                   :새 협궤 개량선 선로 (1067mm) 차량
+STR_TRACK_NABN_NEW_ENGINE                              :협궤 개량선 선로 (1067mm) 차량
+STR_TRACK_NABN_AUTOREPLACE                             :협궤 개량선 선로 (1067mm) 차량
+
+STR_TRACK_dAAN_NAME                                    :듀얼게이지 일반선 선로 (1067mm+1435mm)
+STR_TRACK_dAAN_DROPDOWN_MENU                           :듀얼게이지 일반선 선로 (1067mm+1435mm) 건설
+STR_TRACK_dAAN_TOOLBAR_CAPTION                         :듀얼게이지 일반선 선로 (1067mm+1435mm) 건설
+STR_TRACK_dAAN_BUILD_VEHICLE_CAPTION                   :새 듀얼게이지 일반선 선로 (1067mm+1435mm) 차량
+STR_TRACK_dAAN_NEW_ENGINE                              :듀얼게이지 일반선 선로 (1067mm+1435mm) 차량
+STR_TRACK_dAAN_AUTOREPLACE                             :듀얼게이지 일반선 선로 (1067mm+1435mm) 차량
+
 STR_TRACK_NABE_NAME                                    :협궤 일반선 전기선로 (1067mm)
 STR_TRACK_NABE_DROPDOWN_MENU                           :협궤 일반선 전기선로 (1067mm) 건설
 STR_TRACK_NABE_TOOLBAR_CAPTION                         :협궤 일반선 전기선로 (1067mm) 건설
@@ -138,12 +152,34 @@ STR_TRACK_NABE_BUILD_VEHICLE_CAPTION                   :새 협궤 일반선 전
 STR_TRACK_NABE_NEW_ENGINE                              :협궤 일반선 전기선로 (1067mm) 차량
 STR_TRACK_NABE_AUTOREPLACE                             :협궤 일반선 전기선로 (1067mm) 차량
 
+STR_TRACK_ELNG_NAME                                    :협궤 개량선 전기선로 (1067mm)
+STR_TRACK_ELNG_DROPDOWN_MENU                           :협궤 개량선 전기선로 (1067mm) 건설
+STR_TRACK_ELNG_TOOLBAR_CAPTION                         :협궤 개량선 전기선로 (1067mm) 건설
+STR_TRACK_ELNG_BUILD_VEHICLE_CAPTION                   :새 협궤 개량선 전기선로 (1067mm) 차량
+STR_TRACK_ELNG_NEW_ENGINE                              :협궤 개량선 전기선로 (1067mm) 차량
+STR_TRACK_ELNG_AUTOREPLACE                             :협궤 개량선 전기선로 (1067mm) 차량
+
+STR_TRACK_dAAE_NAME                                    :듀얼게이지 일반선 전기선로 (1067mm+1435mm)
+STR_TRACK_dAAE_DROPDOWN_MENU                           :듀얼게이지 일반선 전기선로 (1067mm+1435mm) 건설
+STR_TRACK_dAAE_TOOLBAR_CAPTION                         :듀얼게이지 일반선 전기선로 (1067mm+1435mm) 건설
+STR_TRACK_dAAE_BUILD_VEHICLE_CAPTION                   :새 듀얼게이지 일반선 전기선로 (1067mm+1435mm) 차량
+STR_TRACK_dAAE_NEW_ENGINE                              :듀얼게이지 일반선 전기선로 (1067mm+1435mm) 차량
+STR_TRACK_dAAE_AUTOREPLACE                             :듀얼게이지 일반선 전기선로 (1067mm+1435mm) 차량
+
+
 STR_TRACK_ENHI_NAME                                    :협궤 일반선 도심전기선로 (1067mm)
 STR_TRACK_ENHI_DROPDOWN_MENU                           :협궤 일반선 도심전기선로 (1067mm) 건설
 STR_TRACK_ENHI_TOOLBAR_CAPTION                         :협궤 일반선 도심전기선로 (1067mm) 건설
 STR_TRACK_ENHI_BUILD_VEHICLE_CAPTION                   :새 협궤 일반선 도심전기선로 (1067mm) 차량
 STR_TRACK_ENHI_NEW_ENGINE                              :협궤 일반선 도심전기선로 (1067mm) 차량
 STR_TRACK_ENHI_AUTOREPLACE                             :협궤 일반선 도심전기선로 (1067mm) 차량
+
+STR_TRACK_ENHG_NAME                                    :협궤 개량선 도심전기선로 (1067mm)
+STR_TRACK_ENHG_DROPDOWN_MENU                           :협궤 개량선 도심전기선로 (1067mm) 건설
+STR_TRACK_ENHG_TOOLBAR_CAPTION                         :협궤 개량선 도심전기선로 (1067mm) 건설
+STR_TRACK_ENHG_BUILD_VEHICLE_CAPTION                   :새 협궤 개량선 도심전기선로 (1067mm) 차량
+STR_TRACK_ENHG_NEW_ENGINE                              :협궤 개량선 도심전기선로 (1067mm) 차량
+STR_TRACK_ENHG_AUTOREPLACE                             :협궤 개량선 도심전기선로 (1067mm) 차량
 
 # 3LIM
 STR_TRACK_3LIM_NAME                                    :LIM 3궤조 전기선로

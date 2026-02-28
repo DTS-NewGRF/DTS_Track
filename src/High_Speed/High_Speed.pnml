@@ -29,9 +29,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED, 08) {
         sort_order:                     08;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
     }
 
     graphics {
@@ -69,9 +69,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_430, 16) {
         sort_order:                     08;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
     }
 
     graphics {
@@ -109,9 +109,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_600, 17) {
         sort_order:                     08;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
     }
 
     graphics {
@@ -146,9 +146,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_Underground, 22) {
         sort_order:                     08;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
     }
 
     graphics {
@@ -187,9 +187,9 @@ item(FEAT_RAILTYPES, track_HIGH_SPEED_Underground_600, 24) {
         sort_order:                     08;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY, RAILTYPE_FLAG_NO_LEVEL_CROSSING);
-        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
-        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
-        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU"];
+        alternative_railtype_list:      ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
+        compatible_railtype_list:       ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
+        powered_railtype_list:          ["KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","HSUB","VHSU","dAAE"];
     }
 
     graphics {

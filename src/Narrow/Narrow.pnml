@@ -10,6 +10,9 @@
 /*--------------------------------------------------------------------
 선로정보
 --------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+협궤 일반선로
+--------------------------------------------------------------------*/
 item(FEAT_RAILTYPES, track_NAAN, 25) {
     property {
         label:                          "NAAN";
@@ -29,9 +32,9 @@ item(FEAT_RAILTYPES, track_NAAN, 25) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask();
-        alternative_railtype_list:      ["NAAN","NABN", "NACN", "NADN", "NAEN", "IHD_"];
-        compatible_railtype_list:       ["NAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI"];
-        powered_railtype_list:          ["NAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI"];
+        alternative_railtype_list:      ["NAAN","NABE","NABN","ELNG","dAAN","NACN", "NADN", "NAEN", "IHD_","ENHI","ENHG"];
+        compatible_railtype_list:       ["NAAN","NABE","NABN","ELNG","dAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG"];
+        powered_railtype_list:          ["NAAN","NABE","NABN","ELNG","dAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG"];
     }
 
     graphics {
@@ -45,6 +48,88 @@ item(FEAT_RAILTYPES, track_NAAN, 25) {
         fences:                         set_fences1;
     }
 }
+
+/*--------------------------------------------------------------------
+협궤 개량선 선로
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_NABN, 28) {
+    property {
+        label:                          "NABN";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_NABN_NAME);
+        menu_text:                      string(STR_TRACK_NABN_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_NABN_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_NABN_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_NABN_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_NABN_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    160 km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask();
+        alternative_railtype_list:      ["NAAN","NABE","NABN","dAAN", "NACN", "NADN", "NAEN", "IHD_","ENHI","ENHG"];
+        compatible_railtype_list:       ["NAAN","NABE","NABN","dAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG"];
+        powered_railtype_list:          ["NAAN","NABE","NABN","dAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG"];
+    }
+
+    graphics {
+        gui:                            set_MAIN_LINE_gui;
+        track_overlay:                  sw_Narrow_NABN_track_overlay;
+        underlay:                       sw_Narrow_NABN_track_underlay;
+        tunnels:                        sw_Narrow_NABN_track_tunnel_underlay;
+        depots:                         sw_Narrow_NABN_track_depot;
+        bridge_surfaces:                set_Narrow_NABN_track_bridge;
+        level_crossings:                sw_Narrow_NABN_track_level_crossing;
+        fences:                         set_fences1_narrow;
+    }
+}
+
+/*--------------------------------------------------------------------
+협궤+표준궤 듀얼 선로
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_dAAN, 31) {
+    property {
+        label:                          "dAAN";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_dAAN_NAME);
+        menu_text:                      string(STR_TRACK_dAAN_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_dAAN_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_dAAN_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_dAAN_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_dAAN_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    para_speed_MAIN_LINE km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask();
+        alternative_railtype_list:      ["NAAN","NABE","NABN","dAAN","RAIL","KDS_","NACN", "NADN", "NAEN", "IHD_","ENHI","ENHG"];
+        compatible_railtype_list:       ["NAAN","NABE","NABN","NBAN","RAIL","KDS_","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG"];
+        powered_railtype_list:          ["NAAN","NABE","NABN","NBAN","RAIL","KDS_","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG"];
+    }
+
+    graphics {
+        gui:                            set_LOW_SPEED_gui;
+        track_overlay:                  sw_Narrow_dAAN_track_overlay;
+        underlay:                       sw_Narrow_dAAN_track_underlay;
+        tunnels:                        sw_Narrow_dAAN_track_tunnel_underlay;
+        depots:                         set_Narrow_dAAN_track_depot;
+        bridge_surfaces:                set_Narrow_dAAN_track_bridge;
+        level_crossings:                sw_Narrow_dAAN_track_level_crossing;
+        fences:                         set_fences1_narrow;
+    }
+}
+
+/*--------------------------------------------------------------------
+협궤 전기선로
+--------------------------------------------------------------------*/
 item(FEAT_RAILTYPES, track_NABE, 26) {
     property {
         label:                          "NABE";
@@ -64,9 +149,9 @@ item(FEAT_RAILTYPES, track_NABE, 26) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
-        alternative_railtype_list:      ["NABE","NACE","NADE","NAEE","IHE_","NAA*","NAB*","NAC*","NAD*","NAE*","ELNG","ENHI","IHG_"];
-        compatible_railtype_list:       ["NAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI"];
-        powered_railtype_list:          ["NAAN","NABE","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ELNG","ENHI"];
+        alternative_railtype_list:      ["NAAN","NABE","NABN","NACE","NADE","NAEE","IHE_","NAA*","NAB*","NAC*","NAD*","NAE*","ELNG","ENHI","ENHG","IHG_","dAAE"];
+        compatible_railtype_list:       ["NAAN","NABE","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ELNG","ENHI","ENHG"];
+        powered_railtype_list:          ["NABE","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ELNG","ENHI","ENHG"];
     }
 
     graphics {
@@ -83,6 +168,92 @@ item(FEAT_RAILTYPES, track_NABE, 26) {
     }
 }
 
+/*--------------------------------------------------------------------
+협궤 개량선 전기 선로
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_ELNG, 29) {
+    property {
+        label:                          "ELNG";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_ELNG_NAME);
+        menu_text:                      string(STR_TRACK_ELNG_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_ELNG_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_ELNG_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_ELNG_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_ELNG_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    160 km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
+        alternative_railtype_list:      ["NAAN","NABE","NABN","ELNG","NACN","dAAE","NADN", "NAEN", "IHD_","ENHI","ENHG"];
+        compatible_railtype_list:       ["NAAN","NABE","NABN","ELNG","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG"];
+        powered_railtype_list:          ["NAAN","NABE","NABN","ELNG","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG"];
+    }
+
+    graphics {
+        gui:                            set_MAIN_LINE_Elec_gui;
+        track_overlay:                  sw_Narrow_NABN_track_overlay;
+        underlay:                       sw_Narrow_NABN_track_underlay;
+        tunnels:                        sw_Narrow_NABN_track_tunnel_underlay;
+        depots:                         sw_Narrow_NABN_track_depot;
+        bridge_surfaces:                set_Narrow_NABN_track_bridge;
+        level_crossings:                sw_Narrow_NABN_track_level_crossing;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences1_narrow;
+    }
+}
+
+/*--------------------------------------------------------------------
+협궤 + 표준 듀얼 전기 선로
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_dAAE, 32) {
+    property {
+        label:                          "dAAE";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_dAAE_NAME);
+        menu_text:                      string(STR_TRACK_dAAE_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_dAAE_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_dAAE_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_dAAE_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_dAAE_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    para_speed_MAIN_LINE km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
+        alternative_railtype_list:      ["NAAN","NABE","NABN","ELNG","NACN","dAAE","NADN", "NAEN", "IHD_","ENHI","ENHG","KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","KSUB","HSUB","VHSU"];
+        compatible_railtype_list:       ["NAAN","NABE","NABN","ELNG","NBAN","dAAE","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG","KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","KSUB","HSUB","VHSU"];
+        powered_railtype_list:          ["NAAN","NABE","NABN","ELNG","NBAN","dAAE","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG","KLSE","KLSU","ELRL","KDSU","KSSU","KHS_","KMTR","KHST","KTHS","KSUB","HSUB","VHSU"];
+    }
+
+    graphics {
+        gui:                            set_MAIN_LINE_Elec_gui;
+        track_overlay:                  sw_Narrow_NABN_track_overlay;
+        underlay:                       sw_Narrow_NABN_track_underlay;
+        tunnels:                        sw_Narrow_NABN_track_tunnel_underlay;
+        depots:                         sw_Narrow_NABN_track_depot;
+        bridge_surfaces:                set_Narrow_NABN_track_bridge;
+        level_crossings:                sw_Narrow_NABN_track_level_crossing;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences1_narrow;
+    }
+}
+
+
+/*--------------------------------------------------------------------
+협궤 도시 전기선로
+--------------------------------------------------------------------*/
 item(FEAT_RAILTYPES, track_ENHI, 27) {
     property {
         label:                          "ENHI";
@@ -102,9 +273,9 @@ item(FEAT_RAILTYPES, track_ENHI, 27) {
         sort_order:                     04;
 
         railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
-        alternative_railtype_list:      ["NABE", "NACE", "NADE", "NAEE", "IHE_", "NAA*", "NAB*", "NAC*", "NAD*", "NAE*", "ELNG","ENHI", "IHG_"];
-        compatible_railtype_list:       ["NAAN","NBAN","NCAN","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI"];
-        powered_railtype_list:          ["NAAN","NABE","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ELNG","ENHI"];
+        alternative_railtype_list:      ["NAAN","NABE","NABN","NACE","NADE","dAAE","NAEE", "IHE_", "NAA*", "NAB*", "NAC*", "NAD*", "NAE*", "ELNG","ENHI","ENHG","IHG_"];
+        compatible_railtype_list:       ["NAAN","NABE","NBAN","NCAN","ELNG","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG"];
+        powered_railtype_list:          ["NABE","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ELNG","ENHI","ENHG"];
     }
 
     graphics {
@@ -112,12 +283,54 @@ item(FEAT_RAILTYPES, track_ENHI, 27) {
         track_overlay:                  sw_Narrow_ENHI_track_overlay;
         underlay:                       sw_Narrow_ENHI_track_underlay;
         tunnels:                        sw_Narrow_ENHI_track_tunnel_underlay;
-        tunnel_overlay:                 set_Narrow_ENHI_track_tunnel_overlay;
+        tunnel_overlay:                 sw_Narrow_ENHI_track_tunnel_overlay;
         depots:                         set_Narrow_ENHI_track_depot;
         bridge_surfaces:                set_Narrow_ENHI_track_bridge;
         level_crossings:                sw_Narrow_ENHI_track_level_crossing;
         catenary_wire:                  set_Wire_catenary;
         catenary_pylons:                set_Pylons_catenary;
         fences:                         set_fences2;
+    }
+}
+
+/*--------------------------------------------------------------------
+협궤 개량선 도시 전기선로
+--------------------------------------------------------------------*/
+item(FEAT_RAILTYPES, track_ENHG, 30) {
+    property {
+        label:                          "ENHG";
+        introduction_date:              date(0001, 1, 1);               
+        name:                           string(STR_TRACK_ENHG_NAME);
+        menu_text:                      string(STR_TRACK_ENHG_DROPDOWN_MENU);
+        toolbar_caption:                string(STR_TRACK_ENHG_TOOLBAR_CAPTION);
+        build_window_caption:           string(STR_TRACK_ENHG_BUILD_VEHICLE_CAPTION);
+        new_engine_text:                string(STR_TRACK_ENHG_NEW_ENGINE);
+        autoreplace_text:               string(STR_TRACK_ENHG_AUTOREPLACE);
+
+        station_graphics:               RAILTYPE_STATION_NORMAL;
+        acceleration_model:             ACC_MODEL_RAIL;
+        speed_limit:                    160 km/h;
+        construction_cost:              12;
+        maintenance_cost:               18;
+        sort_order:                     04;
+
+        railtype_flags:                 bitmask(RAILTYPE_FLAG_CATENARY);
+        alternative_railtype_list:      ["NAAN","NABE","NABN","NACE","NADE","dAAE","NAEE", "IHE_", "NAA*", "NAB*", "NAC*", "NAD*", "NAE*", "ELNG","ENHI","ENHG","IHG_"];
+        compatible_railtype_list:       ["NAAN","NABE","NBAN","NCAN","ELNG","NDAN","NEAN","NFAN","NGAN","NHAN","dAAN","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ENHI","ENHG"];
+        powered_railtype_list:          ["NABE","_AAE","_BAE","NAAD","NBAD","NCAD","NAAA","NBAA","NCAA","NAAE","NBAE","NCAE","NDAE","NEAE","NFAE","NGAE","NHAE","dAAE","dBAE","ELNG","ENHI","ENHG"];
+    }
+
+    graphics {
+        gui:                            set_MAIN_LINE_Elec_gui;
+        track_overlay:                  sw_Narrow_ENHG_track_overlay;
+        underlay:                       sw_Narrow_ENHG_track_underlay;
+        tunnels:                        sw_Narrow_ENHG_track_tunnel_underlay;
+        tunnel_overlay:                 sw_Narrow_ENHG_track_tunnel_overlay;
+        depots:                         sw_Narrow_ENHG_track_depot;
+        bridge_surfaces:                set_Narrow_ENHG_track_bridge;
+        level_crossings:                sw_Narrow_ENHG_track_level_crossing;
+        catenary_wire:                  set_Wire_catenary;
+        catenary_pylons:                set_Pylons_catenary;
+        fences:                         set_fences2_narrow;
     }
 }

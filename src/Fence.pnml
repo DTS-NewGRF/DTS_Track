@@ -6,13 +6,25 @@ spriteset(set_fences1, "src/Graphics/Fence.png") {
     tmpl_fence (0, 0)
 }
 
+spriteset(set_fences1_narrow, "src/Graphics/Fence_Narrow.png") {
+    tmpl_fence (0, 0)
+}
+
 // 울타리2
 spriteset(set_fences2, "src/Graphics/Fence.png") {
     tmpl_fence (0, 44)
 }
 
+spriteset(set_fences2_narrow, "src/Graphics/Fence_Narrow.png") {
+    tmpl_fence (0, 44)
+}
+
 // 울타리3
 spriteset(set_fences3, "src/Graphics/Fence.png") {
+    tmpl_fence (0, 88)
+}
+
+spriteset(set_fences3_narrow, "src/Graphics/Fence_Narrow.png") {
     tmpl_fence (0, 88)
 }
 

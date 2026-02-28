@@ -131,6 +131,20 @@ STR_TRACK_NAAN_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Nomal S
 STR_TRACK_NAAN_NEW_ENGINE                              :Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
 STR_TRACK_NAAN_AUTOREPLACE                             :Narrow gauge Nomal Speed Tracks (1067mm) Vehicles
 
+STR_TRACK_NABN_NAME                                    :Narrow gauge Main Tracks (1067mm)
+STR_TRACK_NABN_DROPDOWN_MENU                           :Narrow gauge Main Tracks (1067mm) Construction
+STR_TRACK_NABN_TOOLBAR_CAPTION                         :Narrow gauge Main Tracks (1067mm) Construction
+STR_TRACK_NABN_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Main Tracks (1067mm) Vehicles
+STR_TRACK_NABN_NEW_ENGINE                              :Narrow gauge Main Tracks (1067mm) Vehicles
+STR_TRACK_NABN_AUTOREPLACE                             :Narrow gauge Main Tracks (1067mm) Vehicles
+
+STR_TRACK_dAAN_NAME                                    :Dual gauge Main Tracks (1067mm+1435mm)
+STR_TRACK_dAAN_DROPDOWN_MENU                           :Dual gauge Main Tracks (1067mm+1435mm) Construction
+STR_TRACK_dAAN_TOOLBAR_CAPTION                         :Dual gauge Main Tracks (1067mm+1435mm) Construction
+STR_TRACK_dAAN_BUILD_VEHICLE_CAPTION                   :New Dual gauge Main Tracks (1067mm+1435mm) Vehicles
+STR_TRACK_dAAN_NEW_ENGINE                              :Dual gauge Main Tracks (1067mm+1435mm) Vehicles
+STR_TRACK_dAAN_AUTOREPLACE                             :Dual gauge Main Tracks (1067mm+1435mm) Vehicles
+
 STR_TRACK_NABE_NAME                                    :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm)
 STR_TRACK_NABE_DROPDOWN_MENU                           :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) Construction
 STR_TRACK_NABE_TOOLBAR_CAPTION                         :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) Construction
@@ -138,12 +152,33 @@ STR_TRACK_NABE_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Nomal S
 STR_TRACK_NABE_NEW_ENGINE                              :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) Vehicles
 STR_TRACK_NABE_AUTOREPLACE                             :Narrow gauge Nomal Speed Tracks (Electrified, 1067mm) Vehicles
 
+STR_TRACK_ELNG_NAME                                    :Narrow gauge Main Tracks (Electrified, 1067mm)
+STR_TRACK_ELNG_DROPDOWN_MENU                           :Narrow gauge Main Tracks (Electrified, 1067mm) Construction
+STR_TRACK_ELNG_TOOLBAR_CAPTION                         :Narrow gauge Main Tracks (Electrified, 1067mm) Construction
+STR_TRACK_ELNG_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Main Tracks (Electrified, 1067mm) Vehicles
+STR_TRACK_ELNG_NEW_ENGINE                              :Narrow gauge Main Tracks (Electrified, 1067mm) Vehicles
+STR_TRACK_ELNG_AUTOREPLACE                             :Narrow gauge Main Tracks (Electrified, 1067mm) Vehicles
+
+STR_TRACK_dAAE_NAME                                    :Dual gauge Main Tracks (Electrified, 1067mm+1435mm)
+STR_TRACK_dAAE_DROPDOWN_MENU                           :Dual gauge Main Tracks (Electrified, 1067mm+1435mm) Construction
+STR_TRACK_dAAE_TOOLBAR_CAPTION                         :Dual gauge Main Tracks (Electrified, 1067mm+1435mm) Construction
+STR_TRACK_dAAE_BUILD_VEHICLE_CAPTION                   :New Dual gauge Main Tracks (Electrified, 1067mm+1435mm) Vehicles
+STR_TRACK_dAAE_NEW_ENGINE                              :Dual gauge Main Tracks (Electrified, 1067mm+1435mm) Vehicles
+STR_TRACK_dAAE_AUTOREPLACE                             :Dual gauge Main Tracks (Electrified, 1067mm+1435mm) Vehicles
+
 STR_TRACK_ENHI_NAME                                    :Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm)
 STR_TRACK_ENHI_DROPDOWN_MENU                           :Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) Construction
 STR_TRACK_ENHI_TOOLBAR_CAPTION                         :Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) Construction
 STR_TRACK_ENHI_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) Vehicles
 STR_TRACK_ENHI_NEW_ENGINE                              :Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) Vehicles
 STR_TRACK_ENHI_AUTOREPLACE                             :Narrow gauge Nomal Speed Tracks (Urban, Electrified, 1067mm) Vehicles
+
+STR_TRACK_ENHG_NAME                                    :Narrow gauge Main Tracks (Urban, Electrified, 1067mm)
+STR_TRACK_ENHG_DROPDOWN_MENU                           :Narrow gauge Main Tracks (Urban, Electrified, 1067mm) Construction
+STR_TRACK_ENHG_TOOLBAR_CAPTION                         :Narrow gauge Main Tracks (Urban, Electrified, 1067mm) Construction
+STR_TRACK_ENHG_BUILD_VEHICLE_CAPTION                   :New Narrow gauge Main Tracks (Urban, Electrified, 1067mm) Vehicles
+STR_TRACK_ENHG_NEW_ENGINE                              :Narrow gauge Main Tracks (Urban, Electrified, 1067mm) Vehicles
+STR_TRACK_ENHG_AUTOREPLACE                             :Narrow gauge Main Tracks (Urban, Electrified, 1067mm) Vehicles
 
 # 3LIM
 STR_TRACK_3LIM_NAME                                    :LIM Third rail current collector

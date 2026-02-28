@@ -6,7 +6,16 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Track/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.05] 곧 등록시작합니다. <br>
+[1.05] 2026.02.28 <br>
+[이슈작업]
+* [선로추가] 협궤 개량선 선로 (1067mm) / Narrow gauge Main Tracks (1067mm) ([#53](https://github.com/DTS-NewGRF/DTS/issues/53)) (2026.02.27)
+* [선로추가] 협궤 개량선 전기선로 (1067mm) / Narrow gauge Main Tracks (Electrified, 1067mm) ([#54](https://github.com/DTS-NewGRF/DTS/issues/54)) (2026.02.27)
+* [선로추가] 협궤 개량선 도심전기선로 (1067mm) / Narrow gauge Main Tracks (Urban, Electrified, 1067mm) ([#55](https://github.com/DTS-NewGRF/DTS/issues/55)) (2026.02.27)
+  * [버그] 협궤 개량선 도심전기선로 터널 그래픽의 눈 오버레이 그래픽 문제 ([#58](https://github.com/DTS-NewGRF/DTS/issues/58)) (2026.02.28)
+* [버그] 협궤 일반선 선로에서 전기열차가 나옴 ([#56](https://github.com/DTS-NewGRF/DTS/issues/56)) (2026.02.27)
+* [버그] 협궤 기존선 도심전기선로 터널 그래픽에 눈 오버레이가 적용되어 있지 않음 ([#59](https://github.com/DTS-NewGRF/DTS/issues/59)) (2026.02.28)
+* [선로추가] 듀얼게이지 일반선 선로 (1067mm+1435mm) / Dual gauge Main Tracks (1067mm+1435mm) ([#60](https://github.com/DTS-NewGRF/DTS/issues/60)) (2026.02.28)
+* [선로추가] 듀얼게이지 일반선 전기선로 (1067mm+1435mm) / Dual gauge Main Tracks (Electrified, 1067mm+1435mm) ([#61](https://github.com/DTS-NewGRF/DTS/issues/61)) (2026.02.28)
 
 ## 인게임 등록
 [1.04] 2026.02.25 <br>

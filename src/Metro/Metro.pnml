@@ -74,6 +74,8 @@ item(FEAT_RAILTYPES, track_METRO_Underground, 18) {
         gui:                            set_METRO_Underground_gui;
         track_overlay:                  sw_METRO_overlay;
         underlay:                       sw_METRO_underlay;
+        tunnels:                        sw_METRO_tunnel_underlay;
+        tunnel_overlay:                 sw_METRO_tunnel_overlay;
         depots:                         set_METRO_Underground_depot;
         catenary_wire:                  set_Underground_catenary;
         catenary_pylons:                set_No_catenary;

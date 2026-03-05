@@ -238,12 +238,12 @@ item(FEAT_RAILTYPES, track_dAAE, 32) {
 
     graphics {
         gui:                            set_MAIN_LINE_Elec_gui;
-        track_overlay:                  sw_Narrow_NABN_track_overlay;
-        underlay:                       sw_Narrow_NABN_track_underlay;
-        tunnels:                        sw_Narrow_NABN_track_tunnel_underlay;
-        depots:                         sw_Narrow_NABN_track_depot;
-        bridge_surfaces:                set_Narrow_NABN_track_bridge;
-        level_crossings:                sw_Narrow_NABN_track_level_crossing;
+        track_overlay:                  sw_Narrow_dAAE_track_overlay;
+        underlay:                       sw_Narrow_dAAE_track_underlay;
+        tunnels:                        sw_Narrow_dAAE_track_tunnel_underlay;
+        depots:                         sw_Narrow_dAAE_track_depot;
+        bridge_surfaces:                set_Narrow_dAAE_track_bridge;
+        level_crossings:                sw_Narrow_dAAE_track_level_crossing;
         catenary_wire:                  set_Wire_catenary;
         catenary_pylons:                set_Pylons_catenary;
         fences:                         set_fences1_narrow;

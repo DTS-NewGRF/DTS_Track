@@ -6,7 +6,7 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Track/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.05] 2026.03.05 <br>
+[1.05] 2026.03.16 <br>
 [이슈작업]
 * [선로추가] 협궤 개량선 선로 (1067mm) / Narrow gauge Main Tracks (1067mm) ([#53](https://github.com/DTS-NewGRF/DTS/issues/53)) (2026.02.27)
 * [선로추가] 협궤 개량선 전기선로 (1067mm) / Narrow gauge Main Tracks (Electrified, 1067mm) ([#54](https://github.com/DTS-NewGRF/DTS/issues/54)) (2026.02.27)
@@ -17,6 +17,9 @@
 * [선로추가] 듀얼게이지 일반선 선로 (1067mm+1435mm) / Dual gauge Main Tracks (1067mm+1435mm) ([#60](https://github.com/DTS-NewGRF/DTS/issues/60)) (2026.02.28)
 * [선로추가] 듀얼게이지 일반선 전기선로 (1067mm+1435mm) / Dual gauge Main Tracks (Electrified, 1067mm+1435mm) ([#61](https://github.com/DTS-NewGRF/DTS/issues/61)) (2026.02.28)
 * [버그] 표준궤 지하 도시철도 선로 터널 그래픽이 없음 ([#62](https://github.com/DTS-NewGRF/DTS/issues/62)) (2026.03.05)
+* [선로변경] 3궤조 LIM 차량기지 그래픽 변경 ([#64](https://github.com/DTS-NewGRF/DTS/issues/64)) (2026.03.16)
+* [선로변경] 3궤조 일반선 차량기지 그래픽 변경 ([#65](https://github.com/DTS-NewGRF/DTS/issues/65)) (2026.03.16)
+* [선로변경] 협궤 개량선 도심전기선로 차량기지 그래픽 변경 ([#66](https://github.com/DTS-NewGRF/DTS/issues/66)) (2026.03.16)
 
 ## 인게임 등록
 [1.04] 2026.02.25 <br>

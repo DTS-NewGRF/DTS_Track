@@ -19,7 +19,9 @@
 * [버그] 표준궤 지하 도시철도 선로 터널 그래픽이 없음 ([#62](https://github.com/DTS-NewGRF/DTS/issues/62)) (2026.03.05)
 * [선로변경] 3궤조 LIM 차량기지 그래픽 변경 ([#64](https://github.com/DTS-NewGRF/DTS/issues/64)) (2026.03.16)
 * [선로변경] 3궤조 일반선 차량기지 그래픽 변경 ([#65](https://github.com/DTS-NewGRF/DTS/issues/65)) (2026.03.16)
+  * [버그] 3궤조 LIM 차량기지 눈 그래픽 문제 ([#67](https://github.com/DTS-NewGRF/DTS/issues/67)) (2026.03.16)
 * [선로변경] 협궤 개량선 도심전기선로 차량기지 그래픽 변경 ([#66](https://github.com/DTS-NewGRF/DTS/issues/66)) (2026.03.16)
+  * [버그] 협궤 개량선 도심전기선로 차량기지 그래픽이 어긋나있던 문제 ([#68](https://github.com/DTS-NewGRF/DTS/issues/68)) (2026.03.16)
 
 ## 인게임 등록
 [1.04] 2026.02.25 <br>

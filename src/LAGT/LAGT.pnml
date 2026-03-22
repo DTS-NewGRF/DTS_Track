@@ -70,7 +70,7 @@ item(FEAT_RAILTYPES, track_RBUB, 23) {
     }
 
     graphics {
-        gui:                            set_RBUB_gui;
+        gui:                            set_AGUB_gui;
         track_overlay:                  set_RBUB_overlay;
         underlay:                       set_RBUB_track_underlay;
         tunnels:                        sw_RBUB_track_tunnel_underlay;

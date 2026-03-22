@@ -9,6 +9,7 @@
 [1.06] 2026.03.22 <br>
 * [버그] 3궤조 LIM 차량기지 눈 그래픽 문제 2차 수정 ([#69](https://github.com/DTS-NewGRF/DTS/issues/69)) (2026.03.22)
 * [버그] 협궤 개량선 도심전기선로 차량기지 눈 그래픽 수정 ([#70](https://github.com/DTS-NewGRF/DTS/issues/70)) (2026.03.22)
+* [선로변경] 고무차륜 지하 GUI ([#72](https://github.com/DTS-NewGRF/DTS/issues/72)) (2026.03.22)
 
 ## 인게임 등록
 [1.05] 2026.03.16 <br>

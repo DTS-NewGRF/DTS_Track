@@ -6,7 +6,7 @@ spriteset(set_AGT_gui, "src/Graphics/GUI/GUI_LAGT.png") {
     tmpl_gui (0, 0) 
 }
 
-spriteset(set_RBUB_gui, "src/Graphics/GUI/GUI_RBUB.png") {
+spriteset(set_AGUB_gui, "src/Graphics/GUI/GUI_AGUB.png") {
     tmpl_underground_gui (0, 0) 
 }
 

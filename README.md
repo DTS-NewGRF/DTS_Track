@@ -6,10 +6,12 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Track/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.06] 2026.03.22 <br>
+[1.06]<br>
 * [버그] 3궤조 LIM 차량기지 눈 그래픽 문제 2차 수정 ([#69](https://github.com/DTS-NewGRF/DTS/issues/69)) (2026.03.22)
 * [버그] 협궤 개량선 도심전기선로 차량기지 눈 그래픽 수정 ([#70](https://github.com/DTS-NewGRF/DTS/issues/70)) (2026.03.22)
 * [선로변경] 고무차륜 지하 GUI ([#72](https://github.com/DTS-NewGRF/DTS/issues/72)) (2026.03.22)
+* [버그] 3궤조 LIM 차량기지 기본 그래픽 수정 ([#73](https://github.com/DTS-NewGRF/DTS/issues/73)) (2026.03.29)
+* [선로변경] 협궤 개량선 선로, 협궤 개량선 전기선로 그래픽 변경 ([#74](https://github.com/DTS-NewGRF/DTS/issues/74)) (2026.03.29)
 
 ## 인게임 등록
 [1.05] 2026.03.16 <br>

@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------------
+건널목
+--------------------------------------------------------------------*/
+// 기본
+spriteset(set_crossing_close, "src/Graphics/Crossing.png") {
+    tmpl_level_crossing_type_close (0, 0)
+}
+
+spriteset(set_crossing_close_snow, "src/Graphics/Crossing.png") {
+    tmpl_level_crossing_type_close (0, 336)
+}
+
+spriteset(set_crossing_open, "src/Graphics/Crossing.png") {
+    tmpl_level_crossing_type_open (0, 336)
+}
+
+spriteset(set_crossing_open_snow, "src/Graphics/Crossing.png") {
+    tmpl_level_crossing_type_open (0, 336)
+}
